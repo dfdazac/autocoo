@@ -15,7 +15,7 @@ It can be downloaded from [this link](https://drive.google.com/file/d/1zoMuw8QrL
 
 
 
-### Manual ontologies
+### Manual construction
 
 They can be found (to be confirmed) here:
 
