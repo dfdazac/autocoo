@@ -44,15 +44,35 @@ The steps for reproducing this pipeline are:
 
 
 
-**3.** Build the ontology with the detected terms.
+**3.** Build the ontology manually with the detected terms.
 
-**Reproducible:** Yes, in principle.
+**Reproducible:** :white_check_mark: At least in principle.
 
-**Comments:** Once step 2 is completed, the diagnostic procedure entities are manually examined. They are classified into one of 1) biomarkers, 2) diabetic diseases, 3) endpoint scores, 4) outcome measurement tools, and 5) questionnaires. Definitions are added using external databases, and synonyms are added as well.
-
-
+**Comments:** Once step 2 is completed, the diagnostic procedure entities are manually examined by a person. They are classified into one of 1) biomarkers, 2) diabetic diseases, 3) endpoint scores, 4) outcome measurement tools, and 5) questionnaires. Definitions are added using external databases, and synonyms are added as well.
 
 
 
 
 ### Automatic construction
+
+The steps for reproducing this pipeline are:
+
+**1.** Preprocess the clinical trials.
+**Reproducible?** :x:
+
+**Comments:** This step removes everything after the first period or comma in descriptions of outcome measures, keeping nouns only, and removing measures endind with "and" and "is". It's not clear how the initial XML files were processed until getting only outcome measure fields, and the code for achieving this is not provided.
+
+
+
+**2.** Extract concepts with GPT-3.5
+
+**Reproducible?** :x:
+
+GPT is used to do some curation of the terms from the previous step. The code for executing this step is not available. However, it seems from the thesis that this step could be skipped, because "the language model considered the form of the outcome measures at this stage to be already satisfactory" (Michael Becker's thesis, section 4.2).
+
+
+
+**3.** Clustering outcome measures
+
+**Reproducible?** 
+
