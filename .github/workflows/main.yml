@@ -22,6 +22,6 @@ jobs:
           python-version: '3.9'
           
       - name: OQuaRE module
-        uses: kai-vu/oquare-metrics
+        uses: kai-vu/oquare-metrics@v3.0
         with:
           ontology-folders: ontologies
