@@ -9,8 +9,6 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:webprotege="http://webprotege.stanford.edu/">
     <owl:Ontology rdf:about="urn:webprotege:ontology:75d9f904-421a-4585-ab77-96e5fc3d5fb3"/>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
