@@ -1,9 +1,13 @@
 on: [push]
 
+# If repository allows actions write by default, this is not needed.
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Evaluate ontologies - release mode
+    name: Evaluate ontologies
     steps:
       - uses: actions/checkout@v4
       # Configuration
@@ -13,12 +17,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       # Python setup
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.9'
           
       - name: OQuaRE module
-        uses: tecnomod-um/oquare-metrics@v3.0
+        uses: kai-vu/oquare-metrics@v3.0
         with:
           ontology-folders: ontologies
-          release: true
