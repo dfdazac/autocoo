@@ -1,0 +1,21 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: OQuaRE-metrics-test
+    steps:
+      - uses: actions/checkout@v4
+      # Configuration
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - name: Basic testing
+        uses: ./
+        with:
+          ontology-folders: ontologies ontologies/imports
