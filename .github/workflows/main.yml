@@ -1,21 +1,24 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  build:
     runs-on: ubuntu-latest
-    name: OQuaRE-metrics-test
+    name: Evaluate ontologies - release mode
     steps:
       - uses: actions/checkout@v4
       # Configuration
+      # Java setup
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-      - uses: actions/setup-python@v5
+      # Python setup
+      - uses: actions/setup-python@v3
         with:
           python-version: '3.9'
-          cache: 'pip'
-      - name: Basic testing
-        uses: ./
+          
+      - name: OQuaRE module
+        uses: tecnomod-um/oquare-metrics@v3.0
         with:
-          ontology-folders: ontologies ontologies/imports
+          ontology-folders: ontologies
+          release: true
