@@ -1,7 +1,7 @@
 # Project specific
-engineering/automatic
-engineering/semi-automatic
-evaluation
+engineering/automatic/
+engineering/semi-automatic/
+evaluation/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
