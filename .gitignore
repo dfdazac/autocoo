@@ -1,6 +1,6 @@
 # Project specific
-engineering/automatic/
-engineering/semi-automatic/
+automatic/
+semi-automatic/
 evaluation/
 
 # Byte-compiled / optimized / DLL files
