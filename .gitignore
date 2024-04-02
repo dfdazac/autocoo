@@ -1,7 +1,8 @@
 # Project specific
-automatic/
-semi-automatic/
+engineering/automatic/
+engineering/semi-automatic/
 evaluation/
+ontologies/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
