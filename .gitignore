@@ -2,7 +2,8 @@
 engineering/automatic/
 engineering/semi-automatic/
 evaluation/
-ontologies/
+ontologies/diabetes_*
+ontologies/gi_cancer_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
