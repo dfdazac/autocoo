@@ -1,0 +1,1422 @@
+,entity_group,value,score,from,nct_id
+0,Diagnostic_procedure,MTD MTD,0.7978639006614685,primary,NCT04752215
+1,Lab_value,than 25,0.7924315929412842,primary,NCT04752215
+2,Diagnostic_procedure,DLT,0.7534502148628235,primary,NCT04752215
+3,Lab_value,equal,0.589031994342804,primary,NCT04752215
+4,Lab_value,above 33 percent percent,0.9963799118995667,primary,NCT04752215
+5,Duration,Up tolerated toxicity to to 33 3 weeks,0.9994527697563171,primary,NCT04752215
+6,Sign_symptom,toxicities,0.7044885754585266,primary,NCT04752215
+7,Disease_disorder,DLTs,0.8585972189903259,primary,NCT04752215
+8,Duration,Up toxicities tolerated to 3 weeks,0.9974732398986816,primary,NCT04752215
+9,Diagnostic_procedure,BI,0.999915361404419,secondary,NCT04752215
+10,Lab_value,765049,0.9869318008422852,secondary,NCT04752215
+11,Duration,Up to 36 months,0.9874582290649414,secondary,NCT04752215
+12,Diagnostic_procedure,concentration-time curve,0.9678789377212524,secondary,NCT04752215
+13,Diagnostic_procedure,BI,0.9998101592063904,secondary,NCT04752215
+14,Lab_value,765049,0.9106761813163757,secondary,NCT04752215
+15,Lab_value,uniform,0.8990684747695923,secondary,NCT04752215
+16,Diagnostic_procedure,AUCτ,0.9960175156593323,secondary,NCT04752215
+17,Duration,Up to 36 months,0.9994684457778931,secondary,NCT04752215
+18,Diagnostic_procedure,Solid Tumors,0.9834784865379333,secondary,NCT04752215
+19,Diagnostic_procedure,RECIST,0.9732485413551331,secondary,NCT04752215
+20,Duration,Up to 36 months,0.9963485598564148,secondary,NCT04752215
+21,Disease_disorder,CRC CRC,0.8960586786270142,primary,NCT00632515
+22,Clinical_event,communication,0.9168915748596191,primary,NCT00632515
+23,Disease_disorder,FDRs,0.4048347771167755,primary,NCT00632515
+24,Subject,FDRs,0.2891823649406433,primary,NCT00632515
+25,Duration,2 Years,0.9991880655288696,primary,NCT00632515
+26,Clinical_event,follow-up follow-up,0.9945648908615112,primary,NCT04823715
+27,Biological_structure,liver,0.5333848595619202,primary,NCT04823715
+28,Therapeutic_procedure,transplant transplantation.,0.9421439170837402,primary,NCT04823715
+29,Date,10 years after after,0.9988293051719666,primary,NCT04823715
+30,Sign_symptom,complication complications,0.994256317615509,primary,NCT02464215
+31,Disease_disorder,complication complications,0.7948709726333618,primary,NCT02464215
+32,Disease_disorder,Surgical complications,0.7845079302787781,primary,NCT02464215
+33,Date,within 30 30 days days after,0.9990679025650024,primary,NCT02464215
+34,Date,30 30 days days,0.9996516704559326,primary,NCT02464215
+35,Duration,3-year 3-year 3,0.9901707768440247,secondary,NCT02464215
+36,Duration,3-year 3-year years,0.5142731666564941,secondary,NCT02464215
+37,Duration,3-year 3-year 3 years,0.9951753616333008,secondary,NCT02464215
+38,Lab_value,adenoma adenomas,0.8696695566177368,primary,NCT02812550
+39,Sign_symptom,detection,0.4140815734863281,primary,NCT02812550
+40,Diagnostic_procedure,rate,0.9237483739852905,primary,NCT02812550
+41,Lab_value,number number,0.7520927786827087,primary,NCT02812550
+42,Diagnostic_procedure,colonoscopies colonoscopies colonoscopies,0.9996507167816162,primary,NCT02812550
+43,Diagnostic_procedure,wich,0.9632958769798279,primary,NCT02812550
+44,Lab_value,one one,0.8752358555793762,primary,NCT02812550
+45,Lab_value,more,0.5805886387825012,primary,NCT02812550
+46,Disease_disorder,adenoma adenomas,0.9994217157363892,primary,NCT02812550
+47,Disease_disorder,adenomas,0.980833888053894,primary,NCT02812550
+48,Date,one one week,0.9990764260292053,primary,NCT02812550
+49,Biological_structure,caecal,0.9809793829917908,secondary,NCT02812550
+50,Therapeutic_procedure,intubation,0.6421149969100952,secondary,NCT02812550
+51,Date,one week,0.9997801780700684,secondary,NCT02812550
+52,Date,one week,0.9997860789299011,secondary,NCT02812550
+53,Duration,one week,0.7666881084442139,secondary,NCT02812550
+54,Diagnostic_procedure,advance adenoma,0.6822049617767334,secondary,NCT02812550
+55,Disease_disorder,adenoma,0.8733362555503845,secondary,NCT02812550
+56,Diagnostic_procedure,rate,0.9568078517913818,secondary,NCT02812550
+57,Distance,10mm,0.9431119561195374,secondary,NCT02812550
+58,Severity,high,0.8652370572090149,secondary,NCT02812550
+59,Date,component one week,0.9835467338562012,secondary,NCT02812550
+60,Diagnostic_procedure,polyp detection rate,0.9925202131271362,secondary,NCT02812550
+61,Detailed_description,left,0.6591312885284424,secondary,NCT02812550
+62,Biological_structure,colon,0.9695926308631897,secondary,NCT02812550
+63,Date,one week,0.8132284879684448,secondary,NCT02812550
+64,Diagnostic_procedure,polyp polyps retrieval rate,0.9990026354789734,secondary,NCT02812550
+65,Sign_symptom,polyps,0.7121782302856445,secondary,NCT02812550
+66,Date,one week,0.9721572995185852,secondary,NCT02812550
+67,Detailed_description,caecal caecum,0.9630313515663147,secondary,NCT02812550
+68,Diagnostic_procedure,intubation,0.49908578395843506,secondary,NCT02812550
+69,Biological_structure,terminal ileum,0.9981086254119873,secondary,NCT02812550
+70,Date,one week,0.999545693397522,secondary,NCT02812550
+71,Diagnostic_procedure,colonoscopy,0.9216330647468567,secondary,NCT02812550
+72,Therapeutic_procedure,withdrawal withdraw,0.6297149658203125,secondary,NCT02812550
+73,Diagnostic_procedure,colonoscope,0.9986801147460938,secondary,NCT02812550
+74,Biological_structure,caecal pole,0.9890478253364563,secondary,NCT02812550
+75,Biological_structure,anus.,0.998237133026123,secondary,NCT02812550
+76,Date,one week,0.9892177581787109,secondary,NCT02812550
+77,Diagnostic_procedure,Health-related,0.6304265260696411,primary,NCT00867750
+78,Diagnostic_procedure,quality of life,0.9895511269569397,primary,NCT00867750
+79,Diagnostic_procedure,HRQL,0.5155563354492188,primary,NCT00867750
+80,Duration,9 months,0.9995725154876709,primary,NCT00867750
+81,Detailed_description,Progression,0.587032675743103,secondary,NCT00867750
+82,Sign_symptom,disease progression,0.4611094892024994,secondary,NCT00867750
+83,Detailed_description,Morphological,0.9852868318557739,secondary,NCT00867750
+84,Sign_symptom,tumour,0.9361553192138672,secondary,NCT00867750
+85,Disease_disorder,disease progression,0.8023592233657837,secondary,NCT00867750
+86,Disease_disorder,disease progression,0.9746960997581482,secondary,NCT00867750
+87,Diagnostic_procedure,Survival,0.9885502457618713,secondary,NCT00867750
+88,Date,6 6 and and 12 12 months months,0.9975988268852234,secondary,NCT00867750
+89,Therapeutic_procedure,treatment,0.9897443652153015,secondary,NCT00867750
+90,Outcome,death,0.8867558240890503,secondary,NCT00867750
+91,Biological_structure,portal,0.9999572038650513,secondary,NCT00867750
+92,Sign_symptom,disease progression,0.9570498466491699,secondary,NCT00867750
+93,Biological_structure,extra-hepatic the,0.9419458508491516,secondary,NCT00867750
+94,Biological_structure,extra-hepatic,0.8735949397087097,secondary,NCT00867750
+95,Sign_symptom,disease disease progression,0.9663769006729126,secondary,NCT00867750
+96,Duration,9 months,0.9991758465766907,secondary,NCT00867750
+97,Lab_value,≥ grade 2 2015,0.9996731877326965,primary,NCT01164150
+98,Detailed_description,acute,0.9998123049736023,primary,NCT01164150
+99,Diagnostic_procedure,genitourinary,0.6922659277915955,primary,NCT01164150
+100,Detailed_description,genitourinary,0.30262356996536255,primary,NCT01164150
+101,Diagnostic_procedure,GU,0.9716008901596069,primary,NCT01164150
+102,Biological_structure,gastrointestinal,0.9143232703208923,primary,NCT01164150
+103,Diagnostic_procedure,( (,0.6270109415054321,primary,NCT01164150
+104,Diagnostic_procedure,GI,0.5806331634521484,primary,NCT01164150
+105,Sign_symptom,toxicity,0.9997877478599548,primary,NCT01164150
+106,Diagnostic_procedure,CTCAE,0.9013957977294922,primary,NCT01164150
+107,Date,2015,0.927605152130127,primary,NCT01164150
+108,Detailed_description,late,0.9767632484436035,secondary,NCT01164150
+109,Disease_disorder,GI,0.7466873526573181,secondary,NCT01164150
+110,Disease_disorder,GU,0.6228585839271545,secondary,NCT01164150
+111,Sign_symptom,toxicity,0.7799708247184753,secondary,NCT01164150
+112,Diagnostic_procedure,CTCAE,0.9997938275337219,secondary,NCT01164150
+113,Date,2015,0.9692434072494507,secondary,NCT01164150
+114,Biological_structure,pelvic,0.7996239066123962,secondary,NCT01164150
+115,Therapeutic_procedure,nodal irradiation,0.9577900171279907,secondary,NCT01164150
+116,Detailed_description,intensity-modulated,0.9998397827148438,secondary,NCT01164150
+117,Therapeutic_procedure,radiotherapy,0.992446780204773,secondary,NCT01164150
+118,Biological_structure,implementing using gynecological,0.9709500074386597,secondary,NCT01164150
+119,Biological_structure,gynecological,0.9946050047874451,secondary,NCT01164150
+120,Date,2015,0.9921838641166687,secondary,NCT01164150
+121,Detailed_description,image-guided pathway,0.9998106956481934,secondary,NCT01164150
+122,Therapeutic_procedure,radiotherapy,0.9980334639549255,secondary,NCT01164150
+123,Date,2015,0.992989182472229,secondary,NCT01164150
+124,Detailed_description,loco-regional,0.8898345232009888,secondary,NCT01164150
+125,Diagnostic_procedure,CT,0.9998118281364441,secondary,NCT01164150
+126,Diagnostic_procedure,biopsy,0.9998431205749512,secondary,NCT01164150
+127,Date,2015,0.961192786693573,secondary,NCT01164150
+128,Diagnostic_procedure,Quality of life,0.9974215626716614,secondary,NCT01164150
+129,Diagnostic_procedure,EORTC EORTC,0.9850935935974121,secondary,NCT01164150
+130,Detailed_description,QLQ-C30 QLQ,0.9798926711082458,secondary,NCT01164150
+131,Detailed_description,QLQ-C30,0.8715457320213318,secondary,NCT01164150
+132,Detailed_description,Cervical Cancer,0.7100477814674377,secondary,NCT01164150
+133,Detailed_description,Module EORTC QLQ-C30 EORTC Cervical Cancer CX,0.8558030128479004,secondary,NCT01164150
+134,Date,2015,0.9898290038108826,secondary,NCT01164150
+135,Lab_value,2015,0.7570445537567139,secondary,NCT01164150
+136,Diagnostic_procedure,survival rate,0.9979088306427002,secondary,NCT01164150
+137,Lab_value,2015,0.8027705550193787,secondary,NCT01164150
+138,Duration,One year year year,0.8833725452423096,primary,NCT03959150
+139,Sign_symptom,metastasis,0.9999252557754517,primary,NCT03959150
+140,Outcome,death,0.951969563961029,primary,NCT03959150
+141,Date,1 1 year year year after,0.9985383152961731,primary,NCT03959150
+142,Date,1 1 year year year,0.9994690418243408,primary,NCT03959150
+143,Diagnostic_procedure,Survival,0.49177786707878113,secondary,NCT03959150
+144,Coreference,surgery,0.7274836301803589,secondary,NCT03959150
+145,Outcome,death,0.566125750541687,secondary,NCT03959150
+146,Date,5 year,0.9965485334396362,secondary,NCT03959150
+147,Coreference,tumor,0.4974231719970703,secondary,NCT03959150
+148,Date,1 year,0.9991514682769775,secondary,NCT03959150
+149,Disease_disorder,AEs AE,0.9998664855957031,secondary,NCT03959150
+150,Disease_disorder,Hand Hand and and foot syndrome,0.9433432817459106,secondary,NCT03959150
+151,Detailed_description,treatment,0.7459197044372559,secondary,NCT03959150
+152,Date,5 year,0.8975220918655396,secondary,NCT03959150
+153,Detailed_description,metronome,0.8068528771400452,secondary,NCT03959150
+154,Medication,chemotherapy,0.9998118281364441,secondary,NCT03959150
+155,Diagnostic_procedure,TAMs,0.8192246556282043,secondary,NCT03959150
+156,Dosage,1,0.9550797939300537,secondary,NCT03959150
+157,Detailed_description,yaer,0.41471606492996216,secondary,NCT03959150
+158,Diagnostic_procedure,health-related,0.9779531359672546,primary,NCT00372450
+159,Diagnostic_procedure,quality of life,0.9988648891448975,primary,NCT00372450
+160,Detailed_description,baseline,0.7760855555534363,primary,NCT00372450
+161,Duration,30 days,0.9856470227241516,primary,NCT00372450
+162,Date,30 3,0.9937407374382019,primary,NCT00372450
+163,Duration,months,0.5770455598831177,primary,NCT00372450
+164,Detailed_description,self-expanding self-expanding,0.9267207980155945,primary,NCT00372450
+165,Therapeutic_procedure,plastic stent stent,0.9965429306030273,primary,NCT00372450
+166,Therapeutic_procedure,metal stent stent placement,0.999564528465271,primary,NCT00372450
+167,Diagnostic_procedure,Cost,0.5210426449775696,secondary,NCT00372450
+168,Therapeutic_procedure,stent,0.8107377886772156,secondary,NCT00372450
+169,Sign_symptom,and duration dysphagia,0.9999606609344482,secondary,NCT00372450
+170,Sign_symptom,dysphagia,0.9999233484268188,secondary,NCT00372450
+171,Disease_disorder,Stent-related,0.8057205677032471,secondary,NCT00372450
+172,Detailed_description,Stent-related,0.636135995388031,secondary,NCT00372450
+173,Sign_symptom,morbidities,0.7245227694511414,secondary,NCT00372450
+174,Detailed_description,Time,0.5763621926307678,secondary,NCT00372450
+175,Diagnostic_procedure,rate of mortality,0.9997895359992981,secondary,NCT00372450
+176,Detailed_description,Progression,0.999930739402771,primary,NCT01088815
+177,Detailed_description,Free Survival,0.725215494632721,primary,NCT01088815
+178,Medication,GDC-0449,0.9890502095222473,primary,NCT01088815
+179,Medication,Gemcitabine,0.999906063079834,primary,NCT01088815
+180,Medication,Nab-paclitaxel.,0.9998644590377808,primary,NCT01088815
+181,Duration,Number of of months,0.9849333763122559,primary,NCT01088815
+182,Medication,therapy,0.9604417681694031,primary,NCT01088815
+183,Duration,6 years,0.9990416169166565,primary,NCT01088815
+184,Therapeutic_procedure,Combination Therapy,0.9935970306396484,primary,NCT01088815
+185,Detailed_description,Metastatic,0.999935507774353,primary,NCT01088815
+186,Disease_disorder,Adenocarcinoma,0.9253238439559937,primary,NCT01088815
+187,Biological_structure,Pancreas,0.9998696446418762,primary,NCT01088815
+188,Lab_value,Grade 3 3,0.8970807790756226,primary,NCT01088815
+189,Lab_value,grade 3 3,0.9958863258361816,primary,NCT01088815
+190,Lab_value,4 4 v4.0,0.8722473978996277,primary,NCT01088815
+191,Sign_symptom,adverse events,0.9777541160583496,primary,NCT01088815
+192,Diagnostic_procedure,Institute,0.5631135702133179,primary,NCT01088815
+193,Detailed_description,Common,0.7172361612319946,primary,NCT01088815
+194,Sign_symptom,Adverse Adverse Events Events,0.9991040229797363,primary,NCT01088815
+195,Duration,after,0.8891979455947876,primary,NCT01088815
+196,Duration,"Cycle 2 , , , Day 1 , , , 6 years",0.8756682276725769,primary,NCT01088815
+197,Medication,GDC-0449,0.9105653762817383,secondary,NCT01088815
+198,Medication,Gemcitabine,0.9999105930328369,secondary,NCT01088815
+199,Medication,Nab-Paclitaxel,0.8792363405227661,secondary,NCT01088815
+200,Duration,months,0.7715509533882141,secondary,NCT01088815
+201,Duration,6 years,0.9993661642074585,secondary,NCT01088815
+202,Medication,GDC-0449,0.9132186770439148,secondary,NCT01088815
+203,Medication,Gemcitabine,0.9999110698699951,secondary,NCT01088815
+204,Medication,Nab-Paclitaxel,0.9998414516448975,secondary,NCT01088815
+205,Duration,6 years,0.8064665794372559,secondary,NCT01088815
+206,Medication,GDC-0449,0.9685462117195129,secondary,NCT01088815
+207,Medication,Gemcitabine,0.9999032020568848,secondary,NCT01088815
+208,Medication,Nab-Paclitaxel,0.9998095631599426,secondary,NCT01088815
+209,Lab_value,Changes Change,0.5165579319000244,secondary,NCT01088815
+210,Detailed_description,tissue tissue,0.9268810153007507,secondary,NCT01088815
+211,Biological_structure,peripheral peripheral blood blood.,0.8862629532814026,secondary,NCT01088815
+212,Diagnostic_procedure,biopsy,0.7695374488830566,secondary,NCT01088815
+213,Biological_structure,peripheral peripheral,0.6425904631614685,secondary,NCT01088815
+214,Duration,6 years,0.9995111227035522,secondary,NCT01088815
+215,Medication,GDC-0449,0.6582306027412415,secondary,NCT01088815
+216,Medication,Gemcitabine,0.9998979568481445,secondary,NCT01088815
+217,Medication,Nab-Paclitaxel,0.999755322933197,secondary,NCT01088815
+218,Diagnostic_procedure,Hedgehog Hedgehog,0.9566816091537476,secondary,NCT01088815
+219,Diagnostic_procedure,signaling pathway,0.7933944463729858,secondary,NCT01088815
+220,Diagnostic_procedure,Gli-1,0.9981297254562378,secondary,NCT01088815
+221,Date,6 years,0.8977009654045105,secondary,NCT01088815
+222,Sign_symptom,genetic genetic mutations mutations,0.8236347436904907,primary,NCT05513716
+223,Disease_disorder,colorectal cancer,0.9993811249732971,primary,NCT05513716
+224,Biological_structure,peritoneal,0.9912007451057434,primary,NCT05513716
+225,Sign_symptom,metastases,0.9879201650619507,primary,NCT05513716
+226,Diagnostic_procedure,concordance,0.8258745670318604,primary,NCT05513716
+227,Lab_value,concordance discordance,0.45456215739250183,primary,NCT05513716
+228,Duration,24 months,0.9993497133255005,primary,NCT05513716
+229,Diagnostic_procedure,genetic genetic,0.9873135685920715,secondary,NCT05513716
+230,Sign_symptom,mutations mutations mutations,0.761033296585083,secondary,NCT05513716
+231,Detailed_description,primary,0.9991586208343506,secondary,NCT05513716
+232,Sign_symptom,colorectal colorectal,0.4452945291996002,secondary,NCT05513716
+233,Coreference,tumours,0.6926819086074829,secondary,NCT05513716
+234,Sign_symptom,differences mutations descriptive mutations tumours mutations metastases,0.5026943683624268,secondary,NCT05513716
+235,Disease_disorder,colorectal colorectal cancer,0.9383139610290527,secondary,NCT05513716
+236,Biological_structure,peritoneal,0.8092473149299622,secondary,NCT05513716
+237,Duration,24,0.7901478409767151,secondary,NCT05513716
+238,Date,months,0.983690083026886,secondary,NCT05513716
+239,Diagnostic_procedure,genetic tests,0.996547281742096,secondary,NCT05513716
+240,Disease_disorder,genetic,0.8250734806060791,secondary,NCT05513716
+241,Sign_symptom,mutations,0.6241560578346252,secondary,NCT05513716
+242,Duration,24 months,0.8150602579116821,secondary,NCT05513716
+243,Sign_symptom,molecular molecular subtypes subtypes,0.8254454135894775,secondary,NCT05513716
+244,Sign_symptom,subtypes subtypes,0.38783299922943115,secondary,NCT05513716
+245,Diagnostic_procedure,Fisher,0.4958835542201996,secondary,NCT05513716
+246,Detailed_description,exact,0.6017225980758667,secondary,NCT05513716
+247,Sign_symptom,Associations with continuous,0.5581877827644348,secondary,NCT05513716
+248,Detailed_description,variables,0.6138970255851746,secondary,NCT05513716
+249,Diagnostic_procedure,Kruskal-Wallis,0.9998980760574341,secondary,NCT05513716
+250,Diagnostic_procedure,Kruskal-Wallis tests,0.9591728448867798,secondary,NCT05513716
+251,Detailed_description,Kaplan-Meier,0.9911212921142578,secondary,NCT05513716
+252,Detailed_description,Univariate,0.8875647783279419,secondary,NCT05513716
+253,Detailed_description,multivariate,0.996957540512085,secondary,NCT05513716
+254,Detailed_description,cox,0.98715740442276,secondary,NCT05513716
+255,Diagnostic_procedure,proportional hazard regression,0.9680400490760803,secondary,NCT05513716
+256,Coreference,tumour,0.9387308955192566,secondary,NCT05513716
+257,Lab_value,p-value,0.9924828410148621,secondary,NCT05513716
+258,Lab_value,<,0.9950714111328125,secondary,NCT05513716
+259,Lab_value,0.05,0.9702973365783691,secondary,NCT05513716
+260,Date,24 months,0.9997836351394653,secondary,NCT05513716
+261,Lab_value,complete complete response response,0.8157445192337036,primary,NCT01269216
+262,Detailed_description,response response resectable,0.999955415725708,primary,NCT01269216
+263,Detailed_description,resectable,0.9300779104232788,primary,NCT01269216
+264,Biological_structure,rectal,0.9989966154098511,primary,NCT01269216
+265,Disease_disorder,cancer,0.8369790315628052,primary,NCT01269216
+266,Detailed_description,neoadjuvant,0.9999815225601196,primary,NCT01269216
+267,Detailed_description,neoadjuvant adjuvant,0.9963739514350891,primary,NCT01269216
+268,Therapeutic_procedure,chemoradiotherapy,0.9987022280693054,primary,NCT01269216
+269,Medication,5-FU/leucovorin,0.7631900906562805,primary,NCT01269216
+270,Dosage,5-FU/leucovorin TS-1/Irinotecan TS-1/irinotecan,0.5223636031150818,primary,NCT01269216
+271,Medication,complete complete resectable 5-FU/leucovorin,0.9998010993003845,primary,NCT01269216
+272,Medication,TS-1/Irinotecan TS-1/irinotecan,0.5693103671073914,primary,NCT01269216
+273,Medication,TS-1/Irinotecan,0.7413672208786011,primary,NCT01269216
+274,Detailed_description,surgery,0.8555089831352234,primary,NCT01269216
+275,Detailed_description,fluoropyrimidine,0.9998123049736023,primary,NCT01269216
+276,Detailed_description,neoadjuvant chemoradiotherapy adjuvant,0.9998685121536255,primary,NCT01269216
+277,Frequency,every every 4 weeks weeks,0.9972869753837585,primary,NCT01269216
+278,Detailed_description,FL FL,0.5393705368041992,primary,NCT01269216
+279,Frequency,every every 2 weeks weeks,0.9936572909355164,primary,NCT01269216
+280,Detailed_description,TS-1/Irinotecan TS-1/irinotecan,0.7850669026374817,primary,NCT01269216
+281,Medication,TS-1/irinotecan,0.9987488985061646,primary,NCT01269216
+282,Medication,cancer neoadjuvant TS-1/Irinotecan and adjuvant TS-1/irinotecan,0.6673881411552429,primary,NCT01269216
+283,Detailed_description,group group,0.9453898668289185,primary,NCT01269216
+284,Detailed_description,logrank,0.8532626032829285,primary,NCT00002968
+285,Duration,up,0.9098467826843262,primary,NCT00002968
+286,Duration,5 years,0.9985776543617249,primary,NCT00002968
+287,Biological_structure,colon cancer,0.7388107776641846,secondary,NCT00002968
+288,Sign_symptom,recurrence recurrence,0.9967071413993835,secondary,NCT00002968
+289,Outcome,deaths,0.5401913523674011,secondary,NCT00002968
+290,Duration,up to to 5 years,0.9747487306594849,secondary,NCT00002968
+291,Detailed_description,logrank,0.4906306862831116,secondary,NCT00002968
+292,Biological_structure,colon,0.9998743534088135,secondary,NCT00002968
+293,Sign_symptom,recurrence,0.9838430881500244,secondary,NCT00002968
+294,Outcome,death,0.9920571446418762,secondary,NCT00002968
+295,Duration,up to to 5 years,0.9966839551925659,secondary,NCT00002968
+296,Sign_symptom,Adverse,0.9459731578826904,primary,NCT04819516
+297,Date,3,0.6048606634140015,primary,NCT04819516
+298,Duration,months,0.6254025101661682,primary,NCT04819516
+299,Detailed_description,baseline,0.9767111539840698,primary,NCT04819516
+300,Sign_symptom,Adverse,0.9528093934059143,primary,NCT04819516
+301,Duration,6 months,0.9486791491508484,primary,NCT04819516
+302,Detailed_description,baseline,0.9910832643508911,primary,NCT04819516
+303,Sign_symptom,Adverse,0.9267393350601196,primary,NCT04819516
+304,Duration,9 months,0.9652006030082703,primary,NCT04819516
+305,Detailed_description,baseline,0.996256947517395,primary,NCT04819516
+306,Sign_symptom,Adverse,0.9805660247802734,primary,NCT04819516
+307,Duration,12 months,0.7124147415161133,primary,NCT04819516
+308,Detailed_description,baseline,0.99333655834198,primary,NCT04819516
+309,Lab_value,Abnormal,0.999500036239624,primary,NCT04819516
+310,Diagnostic_procedure,Laboratory,0.999277651309967,primary,NCT04819516
+311,Date,3 months,0.9543678760528564,primary,NCT04819516
+312,Lab_value,Abnormal,0.9995601773262024,primary,NCT04819516
+313,Diagnostic_procedure,Laboratory,0.9992756247520447,primary,NCT04819516
+314,Lab_value,6,0.6561028361320496,primary,NCT04819516
+315,Date,months,0.46511197090148926,primary,NCT04819516
+316,Lab_value,Abnormal,0.9994896650314331,primary,NCT04819516
+317,Diagnostic_procedure,Laboratory,0.9995701909065247,primary,NCT04819516
+318,Lab_value,9 months,0.8185032606124878,primary,NCT04819516
+319,Detailed_description,baseline,0.37908920645713806,primary,NCT04819516
+320,Lab_value,Abnormal,0.999567449092865,primary,NCT04819516
+321,Diagnostic_procedure,Laboratory,0.9994983673095703,primary,NCT04819516
+322,Date,12 months,0.919367790222168,primary,NCT04819516
+323,Detailed_description,Abnormal,0.9999226331710815,secondary,NCT04819516
+324,Sign_symptom,Tumor,0.8970263004302979,secondary,NCT04819516
+325,Date,12 months,0.8839641809463501,secondary,NCT04819516
+326,Detailed_description,baseline,0.5092753767967224,secondary,NCT04819516
+327,Detailed_description,Abnormal,0.9999129772186279,secondary,NCT04819516
+328,Sign_symptom,Tumor,0.9154745936393738,secondary,NCT04819516
+329,Date,3 months,0.956497311592102,secondary,NCT04819516
+330,Detailed_description,Abnormal,0.9999213218688965,secondary,NCT04819516
+331,Sign_symptom,Tumor,0.9270622730255127,secondary,NCT04819516
+332,Duration,6 months,0.6915884017944336,secondary,NCT04819516
+333,Detailed_description,Abnormal,0.9999452829360962,secondary,NCT04819516
+334,Sign_symptom,Tumor,0.9585962891578674,secondary,NCT04819516
+335,Duration,9 months,0.6102429032325745,secondary,NCT04819516
+336,Detailed_description,baseline,0.44846415519714355,secondary,NCT04819516
+337,Duration,60 months,0.9992976784706116,secondary,NCT04819516
+338,Detailed_description,Progression,0.9994237422943115,secondary,NCT04819516
+339,Duration,60 months,0.9990032911300659,secondary,NCT04819516
+340,Diagnostic_procedure,Quality Quality,0.9985983967781067,secondary,NCT04819516
+341,Diagnostic_procedure,life,0.9928713440895081,secondary,NCT04819516
+342,Diagnostic_procedure,Organization,0.48559388518333435,secondary,NCT04819516
+343,Diagnostic_procedure,Research,0.9290500283241272,secondary,NCT04819516
+344,Diagnostic_procedure,Treatment of of of,0.7555501461029053,secondary,NCT04819516
+345,Disease_disorder,Cancer,0.9458522796630859,secondary,NCT04819516
+346,Disease_disorder,European EORTC,0.6861221790313721,secondary,NCT04819516
+347,Disease_disorder,EORTC,0.6020649075508118,secondary,NCT04819516
+348,Diagnostic_procedure,Life,0.8060361742973328,secondary,NCT04819516
+349,Date,12 months,0.9995958805084229,secondary,NCT04819516
+350,Detailed_description,baseline,0.8999717831611633,secondary,NCT04819516
+351,Diagnostic_procedure,Numeric Numerical,0.7656772136688232,secondary,NCT04819516
+352,Diagnostic_procedure,Numerical Rating Scale,0.9307190775871277,secondary,NCT04819516
+353,Sign_symptom,pain pain pain,0.9764330983161926,secondary,NCT04819516
+354,Detailed_description,unbearable,0.9994115829467773,secondary,NCT04819516
+355,Detailed_description,physical,0.9860007166862488,secondary,NCT04819516
+356,Date,12,0.534410834312439,secondary,NCT04819516
+357,Duration,months,0.8098001480102539,secondary,NCT04819516
+358,Detailed_description,from baseline,0.992539644241333,secondary,NCT04819516
+359,Lab_value,Positive,0.9998588562011719,primary,NCT01104116
+360,Lab_value,Negative,0.9911477565765381,primary,NCT01104116
+361,Diagnostic_procedure,PET PET,0.9999338388442993,primary,NCT01104116
+362,Disease_disorder,IPMN IPMN,0.9997449517250061,primary,NCT01104116
+363,Detailed_description,-FDG,0.4898037314414978,primary,NCT01104116
+364,Detailed_description,malignant,0.9733033776283264,primary,NCT01104116
+365,Disease_disorder,Malignant IPMN IPMN,0.9968578815460205,primary,NCT01104116
+366,Sign_symptom,lesions,0.998961329460144,primary,NCT01104116
+367,Detailed_description,mean,0.7190663814544678,primary,NCT01104116
+368,Disease_disorder,IPMN,0.9984605312347412,primary,NCT01104116
+369,Lab_value,benign,0.7110325694084167,primary,NCT01104116
+370,Lab_value,malignant,0.5630040168762207,primary,NCT01104116
+371,Detailed_description,invasive,0.9104816317558289,primary,NCT01104116
+372,Diagnostic_procedure,PET,0.9999675750732422,primary,NCT01104116
+373,Diagnostic_procedure,imaging,0.6056351065635681,primary,NCT01104116
+374,Lab_value,negative,0.5276582837104797,primary,NCT01104116
+375,Detailed_description,focal,0.9898566007614136,primary,NCT01104116
+376,Diagnostic_procedure,FDG,0.6531167030334473,primary,NCT01104116
+377,Biological_structure,pancreatic,0.9999319314956665,primary,NCT01104116
+378,Sign_symptom,lesions lesion.,0.5449598431587219,primary,NCT01104116
+379,Duration,1,0.7553168535232544,primary,NCT01104116
+380,Date,month,0.6300269365310669,primary,NCT01104116
+381,Sign_symptom,Lesion,0.9998385906219482,secondary,NCT01104116
+382,Diagnostic_procedure,PET PET,0.9980173110961914,secondary,NCT01104116
+383,Diagnostic_procedure,EUS,0.9865952730178833,secondary,NCT01104116
+384,Biological_structure,IPMN,0.9872940182685852,secondary,NCT01104116
+385,Disease_disorder,IPMN,0.692014753818512,secondary,NCT01104116
+386,Sign_symptom,lesion,0.9996985197067261,secondary,NCT01104116
+387,Sign_symptom,location lesion,0.9996315240859985,secondary,NCT01104116
+388,Diagnostic_procedure,PET,0.9993610978126526,secondary,NCT01104116
+389,Date,1 month,0.9994854927062988,secondary,NCT01104116
+390,Sign_symptom,toxicity toxicity,0.9431944489479065,primary,NCT00844168
+391,Disease_disorder,DLT,0.44679683446884155,primary,NCT00844168
+392,Sign_symptom,Events,0.3435900807380676,primary,NCT00844168
+393,Lab_value,\ > = 3 3,0.9203646779060364,primary,NCT00844168
+394,Detailed_description,nonhematologic/hematologic,0.5952582359313965,primary,NCT00844168
+395,Duration,28 days,0.9004054069519043,primary,NCT00844168
+396,Clinical_event,follow-up.,0.701958954334259,primary,NCT03475615
+397,Date,10 months,0.9967700242996216,primary,NCT03475615
+398,Lab_value,Grade 3/4 3/4,0.9991547465324402,primary,NCT00748215
+399,Sign_symptom,Diarrhea,0.9888684749603271,primary,NCT00748215
+400,Lab_value,One,0.5303780436515808,primary,NCT00748215
+401,Medication,CASAD CASAD,0.8642326593399048,primary,NCT00748215
+402,Medication,placebo,0.9525001049041748,primary,NCT00748215
+403,Coreference,arms,0.3310187757015228,primary,NCT00748215
+404,Lab_value,grade 3/4 3/4,0.9991588592529297,primary,NCT00748215
+405,Sign_symptom,diarrhea,0.9970821142196655,primary,NCT00748215
+406,Sign_symptom,Diarrhea diarrhea,0.5686508417129517,primary,NCT00748215
+407,Date,within 6 weeks,0.9971238970756531,primary,NCT00748215
+408,Biological_structure,arms arm,0.9617444276809692,primary,NCT00748215
+409,Diagnostic_procedure,Bayesian futility futility monitoring,0.9970142245292664,primary,NCT00748215
+410,Disease_disorder,CASAD CASAD,0.5690611600875854,primary,NCT00748215
+411,Date,6 weeks,0.9935276508331299,primary,NCT00748215
+412,Medication,PLACEBO,0.995324969291687,primary,NCT00748215
+413,Detailed_description,Progression Progression,0.9982098340988159,primary,NCT05745415
+414,Coreference,disease disease disease,0.4728914797306061,primary,NCT05745415
+415,Duration,100,0.9561650156974792,primary,NCT05745415
+416,History,pancreatic,0.40221264958381653,secondary,NCT05745415
+417,Outcome,death,0.9593950510025024,secondary,NCT05745415
+418,Clinical_event,follow-up,0.998295247554779,secondary,NCT05745415
+419,Duration,100,0.549358069896698,secondary,NCT05745415
+420,Disease_disorder,HPV HPV,0.592653751373291,primary,NCT03346915
+421,Medication,HPV HPV,0.6090896725654602,primary,NCT03346915
+422,Dosage,three-dose,0.9591820240020752,primary,NCT03346915
+423,Dosage,dose three-dose two-dose,0.7349265217781067,primary,NCT03346915
+424,Dosage,two-dose,0.9219709634780884,primary,NCT03346915
+425,Medication,vaccine vaccine,0.8953354954719543,primary,NCT03346915
+426,Date,within six months months,0.9968655109405518,primary,NCT03346915
+427,Diagnostic_procedure,EMR,0.9878022074699402,primary,NCT03346915
+428,Date,6 months months,0.9876164197921753,primary,NCT03346915
+429,Disease_disorder,HPV HPV HPV HPV,0.8686462044715881,secondary,NCT03346915
+430,Biological_structure,Cervical,0.995739221572876,secondary,NCT03346915
+431,Biological_structure,cervical,0.9992480874061584,secondary,NCT03346915
+432,Therapeutic_procedure,intervention,0.775652289390564,secondary,NCT03346915
+433,Lab_value,changes,0.9336307644844055,secondary,NCT03346915
+434,Diagnostic_procedure,responses,0.9586289525032043,secondary,NCT03346915
+435,Date,6-12 months,0.9996016025543213,secondary,NCT03346915
+436,Clinical_event,communication,0.894465446472168,secondary,NCT03346915
+437,Disease_disorder,HPV HPV,0.8679251670837402,secondary,NCT03346915
+438,Biological_structure,cervical cervical,0.8625960946083069,secondary,NCT03346915
+439,Disease_disorder,HPV,0.7355578541755676,secondary,NCT03346915
+440,Medication,HPV,0.5582281351089478,secondary,NCT03346915
+441,Disease_disorder,cervical cancer,0.987268328666687,secondary,NCT03346915
+442,Detailed_description,short,0.9989470839500427,secondary,NCT03346915
+443,Other_event,questions questionnaire,0.31053751707077026,secondary,NCT03346915
+444,Detailed_description,questionnaire,0.953212559223175,secondary,NCT03346915
+445,Lab_value,5 5= point,0.9787193536758423,secondary,NCT03346915
+446,Diagnostic_procedure,likert scale,0.7010194659233093,secondary,NCT03346915
+447,Lab_value,1=completely,0.997927188873291,secondary,NCT03346915
+448,Lab_value,5 5=,0.9025799632072449,secondary,NCT03346915
+449,Lab_value,not,0.8996840119361877,secondary,NCT03346915
+450,Lab_value,Lower,0.9993728995323181,secondary,NCT03346915
+451,Date,one week after,0.9996479153633118,secondary,NCT03346915
+452,Nonbiological_location,provider,0.9140045046806335,secondary,NCT03346915
+453,Clinical_event,visit,0.9105753302574158,secondary,NCT03346915
+454,Duration,study,0.7886345386505127,secondary,NCT03346915
+455,Coreference,WoW WoW WoW WoW,0.39599573612213135,secondary,NCT03346915
+456,Detailed_description,short questionnaire,0.9680814146995544,secondary,NCT03346915
+457,Duration,6 months,0.9994510412216187,secondary,NCT03346915
+458,Coreference,WoW WoW WoW WoW,0.35741978883743286,secondary,NCT03346915
+459,Detailed_description,short questionnaire,0.9675903916358948,secondary,NCT03346915
+460,Duration,12 months,0.9990597367286682,secondary,NCT03346915
+461,Lab_value,Partial,0.5133377909660339,primary,NCT00320515
+462,Lab_value,Response=30 % % decrease,0.9093410968780518,primary,NCT00320515
+463,Disease_disorder,Progressive Disease=20 Disease=small,0.7854037880897522,primary,NCT00320515
+464,Lab_value,Disease=20 % %,0.999305009841919,primary,NCT00320515
+465,Lab_value,Stable,0.9998303651809692,primary,NCT00320515
+466,Disease_disorder,progressive disease disease,0.9944576025009155,primary,NCT00320515
+467,Sign_symptom,Tumor,0.9937533736228943,primary,NCT00320515
+468,Frequency,every Disease=20 2 12 cycles,0.998134434223175,primary,NCT00320515
+469,Duration,6-8,0.7132562398910522,primary,NCT00320515
+470,Frequency,6-8 weeks,0.892879843711853,primary,NCT00320515
+471,Duration,12 months,0.9785508513450623,primary,NCT00320515
+472,Diagnostic_procedure,CR CR,0.6253830194473267,secondary,NCT00320515
+473,Diagnostic_procedure,PR PR,0.9975835084915161,secondary,NCT00320515
+474,Sign_symptom,progression progression,0.5482434630393982,secondary,NCT00320515
+475,Outcome,death death,0.966420590877533,secondary,NCT00320515
+476,Disease_disorder,progressive,0.9492136240005493,secondary,NCT00320515
+477,Disease_disorder,disease disease,0.33555442094802856,secondary,NCT00320515
+478,Disease_disorder,death death,0.6085548400878906,secondary,NCT00320515
+479,Coreference,Tumor,0.37855979800224304,secondary,NCT00320515
+480,Frequency,every 2 12 cycles,0.9986324310302734,secondary,NCT00320515
+481,Duration,6-8,0.930760383605957,secondary,NCT00320515
+482,Frequency,6-8,0.6448717713356018,secondary,NCT00320515
+483,Duration,weeks,0.5110995173454285,secondary,NCT00320515
+484,Duration,12 months,0.9788693189620972,secondary,NCT00320515
+485,Coreference,progression progression,0.40260007977485657,secondary,NCT00320515
+486,Outcome,death death,0.7670316696166992,secondary,NCT00320515
+487,Detailed_description,baseline,0.9779301881790161,secondary,NCT00320515
+488,Sign_symptom,Tumor,0.824114203453064,secondary,NCT00320515
+489,Frequency,every 2 12 cycles,0.993380069732666,secondary,NCT00320515
+490,Duration,6-8,0.9130421876907349,secondary,NCT00320515
+491,Frequency,6-8 weeks,0.7452061176300049,secondary,NCT00320515
+492,Duration,12 months,0.8135340213775635,secondary,NCT00320515
+493,Diagnostic_procedure,survival,0.6766502857208252,secondary,NCT00320515
+494,Outcome,death death,0.6748664975166321,secondary,NCT00320515
+495,Frequency,every every 2 12 cycles,0.9985666275024414,secondary,NCT00320515
+496,Frequency,every every 3 months months,0.9982067942619324,secondary,NCT00320515
+497,Therapeutic_procedure,therapy post-therapy,0.39102524518966675,secondary,NCT00320515
+498,Duration,months months,0.8030052781105042,secondary,NCT00320515
+499,Lab_value,survival,0.5723820924758911,primary,NCT00182715
+500,Duration,2,0.9363436102867126,primary,NCT00182715
+501,Date,years,0.690467894077301,primary,NCT00182715
+502,Lab_value,Progression-free,0.9934644103050232,secondary,NCT00182715
+503,Lab_value,Progression-free survival,0.7551645040512085,secondary,NCT00182715
+504,Date,2 years,0.9563503265380859,secondary,NCT00182715
+505,Lab_value,Failure-free,0.9832483530044556,secondary,NCT00182715
+506,Sign_symptom,Failure-free survival,0.7504661679267883,secondary,NCT00182715
+507,Duration,2,0.5344761610031128,secondary,NCT00182715
+508,Date,years,0.959494411945343,secondary,NCT00182715
+509,Diagnostic_procedure,RECIST,0.9999247789382935,secondary,NCT00182715
+510,Diagnostic_procedure,RECIST criteria,0.9609634280204773,secondary,NCT00182715
+511,Date,12 and 24 weeks,0.8303095698356628,secondary,NCT00182715
+512,Sign_symptom,Toxicity Toxicity,0.7827643752098083,secondary,NCT00182715
+513,Diagnostic_procedure,NCI,0.9963738918304443,secondary,NCT00182715
+514,Lab_value,3,0.9886407852172852,secondary,NCT00182715
+515,Clinical_event,follow-up,0.9423300623893738,secondary,NCT00182715
+516,Date,2 years,0.7947598099708557,secondary,NCT00182715
+517,Disease_disorder,DLTs DLT,0.9961777925491333,primary,NCT00925015
+518,Sign_symptom,adverse,0.9802283644676208,primary,NCT00925015
+519,Disease_disorder,DLTs,0.950676679611206,primary,NCT00925015
+520,Detailed_description,adverse,0.6134380102157593,primary,NCT00925015
+521,Lab_value,Grade Grade Grade Grade Grade 4 4 4 4,0.8777973651885986,primary,NCT00925015
+522,Sign_symptom,neutropenia neutropenia,0.9999544620513916,primary,NCT00925015
+523,Lab_value,Grade Grade Grade Grade Grade 3 38.5°C 3,0.9803221225738525,primary,NCT00925015
+524,Lab_value,4 4 4 4,0.7709826827049255,primary,NCT00925015
+525,Sign_symptom,fever,0.9999489784240723,primary,NCT00925015
+526,Lab_value,38.5°C,0.8063935041427612,primary,NCT00925015
+527,Lab_value,Grade Grade Grade Grade Grade,0.5613596439361572,primary,NCT00925015
+528,Sign_symptom,therapy the the with thrombocytopenia,0.9951747059822083,primary,NCT00925015
+529,Sign_symptom,thrombocytopenia,0.8779177665710449,primary,NCT00925015
+530,Detailed_description,inadequately,0.9190196394920349,primary,NCT00925015
+531,Detailed_description,treated,0.5429069399833679,primary,NCT00925015
+532,Sign_symptom,diarrhea,0.9902751445770264,primary,NCT00925015
+533,Sign_symptom,nausea,0.9999158382415771,primary,NCT00925015
+534,Sign_symptom,hyperglycemia,0.5727530121803284,primary,NCT00925015
+535,Detailed_description,transient,0.9999411106109619,primary,NCT00925015
+536,Lab_value,abnormality,0.8237652778625488,primary,NCT00925015
+537,History,infusion,0.6211625337600708,primary,NCT00925015
+538,History,adverse experiences,0.744269847869873,primary,NCT00925015
+539,Activity,study,0.3178938329219818,primary,NCT00925015
+540,History,therapy,0.8046689629554749,primary,NCT00925015
+541,Duration,Four weeks,0.9824576377868652,primary,NCT00925015
+542,Detailed_description,Cycle 1,0.8328056335449219,primary,NCT00925015
+543,Duration,28,0.771929144859314,primary,NCT00925015
+544,Disease_disorder,Adverse,0.953544557094574,primary,NCT00925015
+545,Disease_disorder,AE AE,0.9991045594215393,primary,NCT00925015
+546,Sign_symptom,adverse change,0.9988218545913696,primary,NCT00925015
+547,Sign_symptom,preexisting condition,0.8228855729103088,primary,NCT00925015
+548,Date,4 weeks after,0.9381523132324219,primary,NCT00925015
+549,Diagnostic_procedure,Human Anti-Human Anti-Human Antibody,0.9997860193252563,secondary,NCT00925015
+550,Diagnostic_procedure,HAHA,0.9967895150184631,secondary,NCT00925015
+551,Diagnostic_procedure,Sera,0.9994439482688904,secondary,NCT00925015
+552,Frequency,every 6 weeks weeks weeks weeks,0.9992333054542542,secondary,NCT00925015
+553,Frequency,4,0.5291493535041809,secondary,NCT00925015
+554,Duration,weeks weeks weeks weeks,0.8361616134643555,secondary,NCT00925015
+555,Duration,8 weeks weeks weeks weeks,0.795519232749939,secondary,NCT00925015
+556,Duration,12 weeks weeks weeks weeks,0.9401283860206604,secondary,NCT00925015
+557,Detailed_description,sandwich format enzyme-linked immunosorbent,0.9121406078338623,secondary,NCT00925015
+558,Diagnostic_procedure,immunosorbent assay,0.8966001868247986,secondary,NCT00925015
+559,Diagnostic_procedure,ELISA,0.9981011748313904,secondary,NCT00925015
+560,Disease_disorder,HAHA,0.9968690276145935,secondary,NCT00925015
+561,Duration,to to to 12 weeks,0.6708285212516785,secondary,NCT00925015
+562,Date,after,0.6259766817092896,secondary,NCT00925015
+563,Medication,dalotuzumab,0.9998601675033569,secondary,NCT00925015
+564,Duration,349 days,0.9957011342048645,secondary,NCT00925015
+565,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9740443825721741,secondary,NCT00925015
+566,Dosage,10 10 mg/kg mg/kg,0.9969730377197266,secondary,NCT00925015
+567,Medication,Cetuximab,0.9998315572738647,secondary,NCT00925015
+568,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9972162246704102,secondary,NCT00925015
+569,Medication,Maximum Cetuximab,0.90156489610672,secondary,NCT00925015
+570,Medication,Irinotecan,0.9998331069946289,secondary,NCT00925015
+571,Dosage,10 1 1 10,0.9552057385444641,secondary,NCT00925015
+572,Administration,intravenous,0.9995183944702148,secondary,NCT00925015
+573,Administration,intravenous infusion,0.907066822052002,secondary,NCT00925015
+574,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+575,Detailed_description,plasma,0.9998151659965515,secondary,NCT00925015
+576,Medication,Dalotuzumab,0.9317405819892883,secondary,NCT00925015
+577,Medication,cetuximab/irinotecan,0.9998732805252075,secondary,NCT00925015
+578,Medication,Tmax plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9987607002258301,secondary,NCT00925015
+579,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.9238681197166443,secondary,NCT00925015
+580,Date,Day Day Day Day 22. 22,0.986485481262207,secondary,NCT00925015
+581,Time,0.5 The with h h,0.9855520129203796,secondary,NCT00925015
+582,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9925374388694763,secondary,NCT00925015
+583,Administration,infusion infusion infusion,0.986860454082489,secondary,NCT00925015
+584,Other_entity,0.5 5,0.3496469259262085,secondary,NCT00925015
+585,Dosage,", , , , , , , , , , 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , , 96 and and and",0.46233466267585754,secondary,NCT00925015
+586,Detailed_description,168,0.19296033680438995,secondary,NCT00925015
+587,Time,The with h h after after,0.4616294503211975,secondary,NCT00925015
+588,Medication,dalotuzumab,0.967454731464386,secondary,NCT00925015
+589,Therapeutic_procedure,Infusion In,0.5142237544059753,secondary,NCT00925015
+590,Administration,Infusion infusion,0.8644148111343384,secondary,NCT00925015
+591,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9493635296821594,secondary,NCT00925015
+592,Dosage,10 10 mg/kg mg/kg,0.9989064931869507,secondary,NCT00925015
+593,Medication,Ceoi Cetuximab,0.9996484518051147,secondary,NCT00925015
+594,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9982008934020996,secondary,NCT00925015
+595,Medication,Cetuximab,0.7677269577980042,secondary,NCT00925015
+596,Medication,Irinotecan,0.9998107552528381,secondary,NCT00925015
+597,Dosage,10 1 1 10,0.97573322057724,secondary,NCT00925015
+598,Administration,intravenous,0.9993768334388733,secondary,NCT00925015
+599,Administration,infusion,0.8147087097167969,secondary,NCT00925015
+600,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+601,Detailed_description,plasma,0.9998983144760132,secondary,NCT00925015
+602,Medication,Dalotuzumab,0.8252314329147339,secondary,NCT00925015
+603,Medication,cetuximab/irinotecan,0.9998687505722046,secondary,NCT00925015
+604,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9983653426170349,secondary,NCT00925015
+605,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.8174824714660645,secondary,NCT00925015
+606,Frequency,Day Day Day Day,0.42681989073753357,secondary,NCT00925015
+607,Date,Day Day Day Day 22. 22,0.9748910665512085,secondary,NCT00925015
+608,Time,0.5 The with h h,0.985186755657196,secondary,NCT00925015
+609,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9921277761459351,secondary,NCT00925015
+610,Administration,infusion infusion infusion,0.9882773756980896,secondary,NCT00925015
+611,Other_entity,0.5 5,0.29675790667533875,secondary,NCT00925015
+612,Dosage,", , , , , , , , , , 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , , 96 and and and 168 The with h h",0.4840203821659088,secondary,NCT00925015
+613,Time,after after,0.6526840925216675,secondary,NCT00925015
+614,Medication,dalotuzumab,0.9678376913070679,secondary,NCT00925015
+615,Diagnostic_procedure,Cmax,0.6914991140365601,secondary,NCT00925015
+616,Disease_disorder,Maximum Cmax,0.5237962007522583,secondary,NCT00925015
+617,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9451186656951904,secondary,NCT00925015
+618,Dosage,10 10 mg/kg mg/kg,0.9990618228912354,secondary,NCT00925015
+619,Medication,Cetuximab,0.9998651742935181,secondary,NCT00925015
+620,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.998233437538147,secondary,NCT00925015
+621,Medication,Maximum Cetuximab,0.7142302393913269,secondary,NCT00925015
+622,Medication,Cmax Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9982572197914124,secondary,NCT00925015
+623,Medication,Dalotuzumab Dalotuzumab Combination Cetuximab Dalotuzumab,0.7045160531997681,secondary,NCT00925015
+624,Medication,Irinotecan,0.999850869178772,secondary,NCT00925015
+625,Dosage,10 1 1 10,0.784699559211731,secondary,NCT00925015
+626,Date,10 1 1 10,0.6485846638679504,secondary,NCT00925015
+627,Administration,intravenous,0.9993288516998291,secondary,NCT00925015
+628,Administration,intravenous infusion,0.880273163318634,secondary,NCT00925015
+629,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+630,Detailed_description,plasma,0.9999161958694458,secondary,NCT00925015
+631,Medication,Dalotuzumab,0.8948721885681152,secondary,NCT00925015
+632,Medication,cetuximab/irinotecan,0.9998753070831299,secondary,NCT00925015
+633,Medication,Cmax plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9986922144889832,secondary,NCT00925015
+634,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.9436415433883667,secondary,NCT00925015
+635,Frequency,Day Day Day Day,0.3624125123023987,secondary,NCT00925015
+636,Date,Day Day Day Day 22. 22,0.9893602132797241,secondary,NCT00925015
+637,Time,0.5 The with h h,0.9861042499542236,secondary,NCT00925015
+638,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.994187593460083,secondary,NCT00925015
+639,Administration,infusion infusion infusion,0.9876613616943359,secondary,NCT00925015
+640,Other_entity,0.5 5,0.3626311421394348,secondary,NCT00925015
+641,Dosage,", , , , , , , , , , 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , ,",0.45582860708236694,secondary,NCT00925015
+642,Frequency,96,0.3600476086139679,secondary,NCT00925015
+643,Dosage,and and and,0.2383027821779251,secondary,NCT00925015
+644,Detailed_description,168,0.17844903469085693,secondary,NCT00925015
+645,Time,The with h h after after,0.4718555808067322,secondary,NCT00925015
+646,Medication,dalotuzumab,0.9477521777153015,secondary,NCT00925015
+647,Lab_value,Terminal,0.901742160320282,secondary,NCT00925015
+648,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.8752077221870422,secondary,NCT00925015
+649,Dosage,10 10 mg/kg mg/kg,0.9979914426803589,secondary,NCT00925015
+650,Medication,Cetuximab,0.9997401833534241,secondary,NCT00925015
+651,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9984142780303955,secondary,NCT00925015
+652,Medication,Irinotecan,0.9997814297676086,secondary,NCT00925015
+653,Dosage,T1/2 10 1 1 10,0.9555873274803162,secondary,NCT00925015
+654,Date,T1/2 10 1 1 10,0.5204406380653381,secondary,NCT00925015
+655,Date,22,0.693179190158844,secondary,NCT00925015
+656,Administration,intravenous,0.9994489550590515,secondary,NCT00925015
+657,Administration,infusion,0.8356074690818787,secondary,NCT00925015
+658,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+659,Lab_value,T1/2,0.9743351340293884,secondary,NCT00925015
+660,Detailed_description,plasma,0.9998942613601685,secondary,NCT00925015
+661,Medication,Dalotuzumab,0.9133179187774658,secondary,NCT00925015
+662,Medication,cetuximab/irinotecan,0.999876856803894,secondary,NCT00925015
+663,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9979957342147827,secondary,NCT00925015
+664,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.9793518781661987,secondary,NCT00925015
+665,Date,Day Day Day Day 22. 22,0.7522395253181458,secondary,NCT00925015
+666,Time,0.5 The with h h,0.9616812467575073,secondary,NCT00925015
+667,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9954094290733337,secondary,NCT00925015
+668,Administration,infusion infusion infusion,0.9836733341217041,secondary,NCT00925015
+669,Other_entity,0.5 5,0.21825261414051056,secondary,NCT00925015
+670,Detailed_description,", , , , , , , , , ,",0.3069503903388977,secondary,NCT00925015
+671,Dosage,"8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30",0.39886191487312317,secondary,NCT00925015
+672,Detailed_description,", , , , , , , , , , 48 , , , , , , , , , , 96 and and and 168",0.5398107767105103,secondary,NCT00925015
+673,Time,The with h h after after,0.38263824582099915,secondary,NCT00925015
+674,Medication,dalotuzumab,0.8944902420043945,secondary,NCT00925015
+675,Therapeutic_procedure,Plasma,0.5011630654335022,secondary,NCT00925015
+676,Therapeutic_procedure,CL,0.35222965478897095,secondary,NCT00925015
+677,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9588403105735779,secondary,NCT00925015
+678,Dosage,10 10 mg/kg mg/kg,0.9991766810417175,secondary,NCT00925015
+679,Medication,Cetuximab,0.9998617172241211,secondary,NCT00925015
+680,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9981704950332642,secondary,NCT00925015
+681,Medication,Irinotecan,0.9998593330383301,secondary,NCT00925015
+682,Dosage,10 1 1 10,0.7105198502540588,secondary,NCT00925015
+683,Date,10 1 1 10,0.7307016849517822,secondary,NCT00925015
+684,Administration,intravenous,0.9994043111801147,secondary,NCT00925015
+685,Administration,intravenous infusion,0.8511000275611877,secondary,NCT00925015
+686,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+687,Detailed_description,plasma,0.999907374382019,secondary,NCT00925015
+688,Medication,Dalotuzumab,0.8758859634399414,secondary,NCT00925015
+689,Medication,cetuximab/irinotecan,0.999869704246521,secondary,NCT00925015
+690,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9991344809532166,secondary,NCT00925015
+691,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.924091637134552,secondary,NCT00925015
+692,Frequency,Day Day Day Day,0.35704943537712097,secondary,NCT00925015
+693,Date,Day Day Day Day 22. 22,0.9537593126296997,secondary,NCT00925015
+694,Administration,predose,0.6069420576095581,secondary,NCT00925015
+695,Time,0.5 The with h h,0.9869037866592407,secondary,NCT00925015
+696,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9968320727348328,secondary,NCT00925015
+697,Administration,infusion infusion infusion,0.9913433790206909,secondary,NCT00925015
+698,Other_entity,0.5 5,0.30729910731315613,secondary,NCT00925015
+699,Dosage,", , , , , , , , , , 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , , 96 and and and 168",0.4799439013004303,secondary,NCT00925015
+700,Time,The with h h after after,0.4260100722312927,secondary,NCT00925015
+701,Medication,dalotuzumab,0.919145941734314,secondary,NCT00925015
+702,Detailed_description,Steady-state,0.6495693325996399,secondary,NCT00925015
+703,Diagnostic_procedure,Steady-state,0.5855361223220825,secondary,NCT00925015
+704,Diagnostic_procedure,Distribution,0.9876403212547302,secondary,NCT00925015
+705,Diagnostic_procedure,Vss,0.9599462151527405,secondary,NCT00925015
+706,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9328382015228271,secondary,NCT00925015
+707,Dosage,10 10 mg/kg mg/kg,0.9980671405792236,secondary,NCT00925015
+708,Medication,Cetuximab,0.9997822642326355,secondary,NCT00925015
+709,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9979008436203003,secondary,NCT00925015
+710,Medication,Irinotecan,0.9998393058776855,secondary,NCT00925015
+711,Dosage,10 1 1 10,0.42497316002845764,secondary,NCT00925015
+712,Date,22,0.5081561803817749,secondary,NCT00925015
+713,Administration,intravenous,0.9994789958000183,secondary,NCT00925015
+714,Administration,intravenous infusion,0.825728714466095,secondary,NCT00925015
+715,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+716,Detailed_description,plasma,0.9999098777770996,secondary,NCT00925015
+717,Medication,Dalotuzumab,0.970231294631958,secondary,NCT00925015
+718,Medication,cetuximab/irinotecan,0.9998698234558105,secondary,NCT00925015
+719,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9988253712654114,secondary,NCT00925015
+720,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.8820669054985046,secondary,NCT00925015
+721,Date,Day Day Day Day 22. 22,0.9826494455337524,secondary,NCT00925015
+722,Time,0.5 The with h h,0.9833077192306519,secondary,NCT00925015
+723,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9945173859596252,secondary,NCT00925015
+724,Administration,infusion infusion infusion,0.9891921877861023,secondary,NCT00925015
+725,Other_entity,0.5 5,0.340597540140152,secondary,NCT00925015
+726,Dosage,", , , , , , , , , , 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , ,",0.43377697467803955,secondary,NCT00925015
+727,Frequency,96,0.31592363119125366,secondary,NCT00925015
+728,Dosage,and and and,0.20311543345451355,secondary,NCT00925015
+729,Detailed_description,168,0.23334766924381256,secondary,NCT00925015
+730,Time,The with h h after after,0.4275897741317749,secondary,NCT00925015
+731,Medication,dalotuzumab,0.9618628621101379,secondary,NCT00925015
+732,Time,0-24 AUC0-24 Hours,0.986627995967865,secondary,NCT00925015
+733,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.9037310481071472,secondary,NCT00925015
+734,Dosage,10 10 mg/kg mg/kg,0.9935311079025269,secondary,NCT00925015
+735,Medication,Cetuximab,0.9998283386230469,secondary,NCT00925015
+736,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9906213283538818,secondary,NCT00925015
+737,Medication,Irinotecan,0.9998281002044678,secondary,NCT00925015
+738,Dosage,10 1 1 10,0.9844506978988647,secondary,NCT00925015
+739,Duration,Days 10 1 1 10,0.6848354935646057,secondary,NCT00925015
+740,Administration,intravenous,0.9992395639419556,secondary,NCT00925015
+741,Administration,intravenous infusion,0.8904969096183777,secondary,NCT00925015
+742,Dosage,10 10,0.9994601607322693,secondary,NCT00925015
+743,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+744,Diagnostic_procedure,AUC0-24,0.8286631107330322,secondary,NCT00925015
+745,Detailed_description,AUC0-24,0.8564994931221008,secondary,NCT00925015
+746,Detailed_description,plasma,0.9998981952667236,secondary,NCT00925015
+747,Medication,Dalotuzumab,0.9998311996459961,secondary,NCT00925015
+748,Medication,Dalotuzumab dalotuzumab,0.8352522850036621,secondary,NCT00925015
+749,Medication,cetuximab/irinotecan,0.9998757839202881,secondary,NCT00925015
+750,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9981789588928223,secondary,NCT00925015
+751,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.897853672504425,secondary,NCT00925015
+752,Date,Day Day Day Day 22. 22,0.8304669260978699,secondary,NCT00925015
+753,Time,0.5 The with h h,0.9525860548019409,secondary,NCT00925015
+754,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9954191446304321,secondary,NCT00925015
+755,Administration,infusion infusion infusion,0.964970588684082,secondary,NCT00925015
+756,Frequency,", , , , , , 8 and and and AUC0-24 24 The with h h",0.5841838121414185,secondary,NCT00925015
+757,Time,after after,0.43216902017593384,secondary,NCT00925015
+758,Medication,dalotuzumab,0.9871994853019714,secondary,NCT00925015
+759,Dosage,0-168 AUC0-168 10 10,0.7543787956237793,secondary,NCT00925015
+760,Time,Concentration-time 0-168 Post-dose AUC0-168,0.28251028060913086,secondary,NCT00925015
+761,Quantitative_concept,0-168 AUC0-168,0.36206483840942383,secondary,NCT00925015
+762,Time,Hours,0.3612917959690094,secondary,NCT00925015
+763,Medication,Dalotuzumab Dalotuzumab Dalotuzumab,0.8937307596206665,secondary,NCT00925015
+764,Dosage,10 10 mg/kg mg/kg,0.9923340082168579,secondary,NCT00925015
+765,Medication,Cetuximab,0.9998300075531006,secondary,NCT00925015
+766,Medication,Dalotuzumab Dalotuzumab Cetuximab Dalotuzumab,0.9906563758850098,secondary,NCT00925015
+767,Medication,Irinotecan,0.9998327493667603,secondary,NCT00925015
+768,Dosage,0-168 AUC0-168 10 1 1 10,0.9664775729179382,secondary,NCT00925015
+769,Duration,Days 0-168 AUC0-168 10 1 1 10,0.7210991382598877,secondary,NCT00925015
+770,Administration,intravenous,0.9992427825927734,secondary,NCT00925015
+771,Administration,intravenous infusion,0.8902248740196228,secondary,NCT00925015
+772,Dosage,10 10,0.99941086769104,secondary,NCT00925015
+773,Dosage,1 15,0.9955862760543823,secondary,NCT00925015
+774,Diagnostic_procedure,AUC0-168,0.9535454511642456,secondary,NCT00925015
+775,Lab_value,AUC0-168 168,0.9875498414039612,secondary,NCT00925015
+776,Detailed_description,plasma,0.9999110698699951,secondary,NCT00925015
+777,Medication,Dalotuzumab,0.9538941979408264,secondary,NCT00925015
+778,Medication,cetuximab/irinotecan,0.9998781681060791,secondary,NCT00925015
+779,Medication,plasma Dalotuzumab cetuximab/irinotecan dalotuzumab,0.9977850914001465,secondary,NCT00925015
+780,Medication,Dalotuzumab combination cetuximab/irinotecan dalotuzumab,0.9191791415214539,secondary,NCT00925015
+781,Date,Day Day Day Day 22. 22,0.7915898561477661,secondary,NCT00925015
+782,Time,0.5 The with h h,0.9669419527053833,secondary,NCT00925015
+783,Administration,determined in combination cetuximab/irinotecan infusion infusion initiation infusion,0.9947383999824524,secondary,NCT00925015
+784,Administration,infusion infusion infusion,0.9618632793426514,secondary,NCT00925015
+785,Dosage,"0.5 5 , , , , , , , , , , AUC0-168 8 48 168 , , , , , , , , , , 24 , , , , , , , , , , 30 , , , , , , , , , , 48 , , , , , , , , , , 96 and and and",0.488783597946167,secondary,NCT00925015
+786,Detailed_description,AUC0-168 168,0.374555766582489,secondary,NCT00925015
+787,Dosage,The with h h,0.34925803542137146,secondary,NCT00925015
+788,Medication,dalotuzumab,0.9755542874336243,secondary,NCT00925015
+789,Medication,Tmax,0.9709734916687012,secondary,NCT00925015
+790,Medication,Cetuximab Cetuximab Cetuximab,0.9994744658470154,secondary,NCT00925015
+791,Medication,Cetuximab Cetuximab Dalotuzumab Cetuximab,0.9907627701759338,secondary,NCT00925015
+792,Medication,Irinotecan,0.9998589754104614,secondary,NCT00925015
+793,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9961698055267334,secondary,NCT00925015
+794,Medication,Dalotuzumab,0.9998828172683716,secondary,NCT00925015
+795,Detailed_description,10 1 15,0.9609389901161194,secondary,NCT00925015
+796,Administration,intravenous intravenous,0.998272180557251,secondary,NCT00925015
+797,Administration,infusion infusions,0.8143131732940674,secondary,NCT00925015
+798,Dosage,400 mg/m\^2 mg/m\^2,0.999265730381012,secondary,NCT00925015
+799,Dosage,mg/m\^2 mg/m\^2,0.9398975372314453,secondary,NCT00925015
+800,Dosage,once weekly,0.9987432956695557,secondary,NCT00925015
+801,Administration,intravenous intravenous infusion infusions,0.7328896522521973,secondary,NCT00925015
+802,Dosage,250 mg/m\^2 mg/m\^2,0.9990648031234741,secondary,NCT00925015
+803,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+804,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+805,Detailed_description,plasma,0.9999417066574097,secondary,NCT00925015
+806,Medication,Cetuximab,0.996436357498169,secondary,NCT00925015
+807,Medication,Cetuximab cetuximab,0.9237506985664368,secondary,NCT00925015
+808,Date,Day Day Day Day 15 15,0.9903906583786011,secondary,NCT00925015
+809,Medication,dalotuzumab,0.9998321533203125,secondary,NCT00925015
+810,Date,Day Day Day Day 29. 29,0.9990503787994385,secondary,NCT00925015
+811,Medication,predose,0.2829175889492035,secondary,NCT00925015
+812,Detailed_description,predose,0.6803557872772217,secondary,NCT00925015
+813,Detailed_description,"29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96 and and and",0.8694973587989807,secondary,NCT00925015
+814,Detailed_description,168 The with h after,0.6283136010169983,secondary,NCT00925015
+815,Medication,cetuximab,0.9997972846031189,secondary,NCT00925015
+816,Medication,Cetuximab dalotuzumab cetuximab,0.998829185962677,secondary,NCT00925015
+817,Administration,infusion,0.9558972120285034,secondary,NCT00925015
+818,Medication,Cmax,0.9990135431289673,secondary,NCT00925015
+819,Medication,Cetuximab Cetuximab Cetuximab,0.9994968175888062,secondary,NCT00925015
+820,Medication,Irinotecan,0.9998559951782227,secondary,NCT00925015
+821,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9960704445838928,secondary,NCT00925015
+822,Medication,Dalotuzumab,0.9998857975006104,secondary,NCT00925015
+823,Detailed_description,Cycle 10 1 15,0.7852363586425781,secondary,NCT00925015
+824,Administration,intravenous intravenous,0.9983859062194824,secondary,NCT00925015
+825,Administration,infusion infusions,0.8370927572250366,secondary,NCT00925015
+826,Dosage,400 mg/m\^2 mg/m\^2,0.9992478489875793,secondary,NCT00925015
+827,Dosage,mg/m\^2 mg/m\^2,0.9287886619567871,secondary,NCT00925015
+828,Dosage,once weekly,0.9986269474029541,secondary,NCT00925015
+829,Administration,intravenous intravenous infusion infusions,0.748950183391571,secondary,NCT00925015
+830,Dosage,250 mg/m\^2 mg/m\^2,0.9990402460098267,secondary,NCT00925015
+831,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+832,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+833,Diagnostic_procedure,Cmax,0.9762268662452698,secondary,NCT00925015
+834,Detailed_description,plasma,0.9998098015785217,secondary,NCT00925015
+835,Medication,Cetuximab,0.9055483937263489,secondary,NCT00925015
+836,Date,Day Day Day Day 15 15,0.9910748600959778,secondary,NCT00925015
+837,Medication,dalotuzumab,0.9998346567153931,secondary,NCT00925015
+838,Date,Day Day Day Day 29. 29,0.999011754989624,secondary,NCT00925015
+839,Detailed_description,predose,0.5592453479766846,secondary,NCT00925015
+840,Detailed_description,", , , , , , , 29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96 and and and",0.877349317073822,secondary,NCT00925015
+841,Detailed_description,168 The with h after,0.6200157999992371,secondary,NCT00925015
+842,Medication,cetuximab,0.9997994303703308,secondary,NCT00925015
+843,Medication,Cetuximab dalotuzumab cetuximab,0.9981642365455627,secondary,NCT00925015
+844,Medication,Cetuximab cetuximab,0.9458765387535095,secondary,NCT00925015
+845,Administration,infusion,0.946997880935669,secondary,NCT00925015
+846,Dosage,T1/2,0.6467692852020264,secondary,NCT00925015
+847,Medication,Cetuximab Cetuximab Cetuximab,0.9996672868728638,secondary,NCT00925015
+848,Medication,Cetuximab Cetuximab Dalotuzumab Cetuximab,0.9922539591789246,secondary,NCT00925015
+849,Medication,Irinotecan,0.9998522996902466,secondary,NCT00925015
+850,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.995904266834259,secondary,NCT00925015
+851,Medication,Dalotuzumab,0.999887228012085,secondary,NCT00925015
+852,Detailed_description,Cycle T1/2 10 1 15,0.8562206029891968,secondary,NCT00925015
+853,Administration,intravenous intravenous,0.9985719919204712,secondary,NCT00925015
+854,Administration,infusion infusions,0.8661388158798218,secondary,NCT00925015
+855,Dosage,400 mg/m\^2 mg/m\^2,0.9993307590484619,secondary,NCT00925015
+856,Dosage,mg/m\^2 mg/m\^2,0.9446644186973572,secondary,NCT00925015
+857,Dosage,once weekly,0.9985800385475159,secondary,NCT00925015
+858,Administration,intravenous intravenous infusion infusions,0.7692398428916931,secondary,NCT00925015
+859,Dosage,250 mg/m\^2 mg/m\^2,0.9994165301322937,secondary,NCT00925015
+860,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+861,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+862,Lab_value,T1/2,0.9984222650527954,secondary,NCT00925015
+863,Detailed_description,plasma,0.9999414682388306,secondary,NCT00925015
+864,Medication,Cetuximab,0.9994353652000427,secondary,NCT00925015
+865,Medication,Cetuximab cetuximab,0.904628336429596,secondary,NCT00925015
+866,Date,Day Day Day Day 15 15,0.996026873588562,secondary,NCT00925015
+867,Medication,dalotuzumab,0.9998337030410767,secondary,NCT00925015
+868,Date,Day Day Day Day 29. 29,0.9984337091445923,secondary,NCT00925015
+869,Medication,predose,0.2650538980960846,secondary,NCT00925015
+870,Detailed_description,predose,0.6340197920799255,secondary,NCT00925015
+871,Detailed_description,", , , , , , , T1/2 29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96",0.9306582808494568,secondary,NCT00925015
+872,Detailed_description,168 The with h,0.5837830305099487,secondary,NCT00925015
+873,Medication,cetuximab,0.999845027923584,secondary,NCT00925015
+874,Medication,Cetuximab dalotuzumab cetuximab,0.9753643274307251,secondary,NCT00925015
+875,Administration,infusion,0.9632728695869446,secondary,NCT00925015
+876,Medication,CL,0.9806275963783264,secondary,NCT00925015
+877,Medication,Cetuximab Cetuximab Cetuximab,0.9997137188911438,secondary,NCT00925015
+878,Medication,Irinotecan,0.9998657703399658,secondary,NCT00925015
+879,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9898363947868347,secondary,NCT00925015
+880,Medication,Dalotuzumab,0.9998807907104492,secondary,NCT00925015
+881,Detailed_description,Cycle 10 1 15,0.7591427564620972,secondary,NCT00925015
+882,Administration,intravenous intravenous,0.9986975193023682,secondary,NCT00925015
+883,Administration,intravenous intravenous infusion infusions,0.6971109509468079,secondary,NCT00925015
+884,Dosage,400 mg/m\^2 mg/m\^2,0.999083399772644,secondary,NCT00925015
+885,Dosage,mg/m\^2 mg/m\^2,0.8447520136833191,secondary,NCT00925015
+886,Dosage,once weekly,0.9988066554069519,secondary,NCT00925015
+887,Administration,infusion infusions,0.8042569160461426,secondary,NCT00925015
+888,Dosage,250 mg/m\^2 mg/m\^2,0.9991955757141113,secondary,NCT00925015
+889,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+890,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+891,Detailed_description,plasma,0.9998941421508789,secondary,NCT00925015
+892,Medication,Cetuximab,0.9955477714538574,secondary,NCT00925015
+893,Medication,Cetuximab cetuximab,0.9768968224525452,secondary,NCT00925015
+894,Date,Day Day Day Day 15 15,0.9757176637649536,secondary,NCT00925015
+895,Medication,dalotuzumab,0.9998493194580078,secondary,NCT00925015
+896,Date,Day Day Day Day 29. 29,0.9988216161727905,secondary,NCT00925015
+897,Medication,predose,0.4878028929233551,secondary,NCT00925015
+898,Detailed_description,predose,0.6890544295310974,secondary,NCT00925015
+899,Detailed_description,"29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96",0.8223251104354858,secondary,NCT00925015
+900,Detailed_description,168,0.6876253485679626,secondary,NCT00925015
+901,Time,The with h,0.2695300877094269,secondary,NCT00925015
+902,Detailed_description,after,0.4749037027359009,secondary,NCT00925015
+903,Medication,cetuximab,0.999826967716217,secondary,NCT00925015
+904,Medication,Cetuximab dalotuzumab cetuximab,0.9980892539024353,secondary,NCT00925015
+905,Administration,infusion,0.9458904266357422,secondary,NCT00925015
+906,Medication,Cetuximab Cetuximab Cetuximab,0.9997419714927673,secondary,NCT00925015
+907,Medication,Cetuximab Cetuximab Dalotuzumab Cetuximab,0.9883217215538025,secondary,NCT00925015
+908,Medication,Irinotecan,0.9998623132705688,secondary,NCT00925015
+909,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9952219128608704,secondary,NCT00925015
+910,Medication,Dalotuzumab,0.9998824596405029,secondary,NCT00925015
+911,Detailed_description,Cycle 10 1 15,0.7519522905349731,secondary,NCT00925015
+912,Administration,intravenous intravenous,0.9983653426170349,secondary,NCT00925015
+913,Administration,infusion infusions,0.8060011863708496,secondary,NCT00925015
+914,Dosage,400 mg/m\^2 mg/m\^2,0.9992135763168335,secondary,NCT00925015
+915,Dosage,mg/m\^2 mg/m\^2,0.8979209065437317,secondary,NCT00925015
+916,Dosage,once weekly,0.9986799955368042,secondary,NCT00925015
+917,Administration,intravenous intravenous infusion infusions,0.7278909087181091,secondary,NCT00925015
+918,Dosage,250 mg/m\^2 mg/m\^2,0.9989275336265564,secondary,NCT00925015
+919,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+920,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+921,Diagnostic_procedure,Vss,0.537234902381897,secondary,NCT00925015
+922,Detailed_description,plasma,0.9997386336326599,secondary,NCT00925015
+923,Medication,Cetuximab,0.9907007217407227,secondary,NCT00925015
+924,Medication,Cetuximab cetuximab,0.8646345138549805,secondary,NCT00925015
+925,Date,Day Day Day Day 15 15,0.9790991544723511,secondary,NCT00925015
+926,Medication,dalotuzumab,0.9998347759246826,secondary,NCT00925015
+927,Date,Day Day Day Day 29. 29,0.998934805393219,secondary,NCT00925015
+928,Detailed_description,predose,0.48543286323547363,secondary,NCT00925015
+929,Detailed_description,", , , , , , , 29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96",0.8978111147880554,secondary,NCT00925015
+930,Detailed_description,168 The with h after,0.6278740763664246,secondary,NCT00925015
+931,Medication,cetuximab,0.9998053908348083,secondary,NCT00925015
+932,Medication,Cetuximab dalotuzumab cetuximab,0.9985253214836121,secondary,NCT00925015
+933,Administration,infusion,0.9470841884613037,secondary,NCT00925015
+934,Diagnostic_procedure,AUC0-24,0.8243955969810486,secondary,NCT00925015
+935,Lab_value,AUC0-24,0.7228328585624695,secondary,NCT00925015
+936,Medication,Cetuximab Cetuximab Cetuximab,0.999777615070343,secondary,NCT00925015
+937,Medication,Irinotecan,0.9998584985733032,secondary,NCT00925015
+938,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9985052943229675,secondary,NCT00925015
+939,Medication,Dalotuzumab,0.9998875856399536,secondary,NCT00925015
+940,Detailed_description,Cycle 10 1 15,0.9707379341125488,secondary,NCT00925015
+941,Administration,intravenous intravenous,0.9968744516372681,secondary,NCT00925015
+942,Administration,infusion infusions,0.9088627099990845,secondary,NCT00925015
+943,Dosage,400 mg/m\^2 mg/m\^2,0.9992430210113525,secondary,NCT00925015
+944,Dosage,mg/m\^2 mg/m\^2,0.9440810680389404,secondary,NCT00925015
+945,Dosage,once weekly,0.997288703918457,secondary,NCT00925015
+946,Administration,intravenous intravenous infusion infusions,0.7746328711509705,secondary,NCT00925015
+947,Dosage,250 mg/m\^2 mg/m\^2,0.9992761611938477,secondary,NCT00925015
+948,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+949,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+950,Detailed_description,AUC0-24,0.7005808353424072,secondary,NCT00925015
+951,Detailed_description,plasma,0.9999409914016724,secondary,NCT00925015
+952,Medication,Cetuximab,0.9995137453079224,secondary,NCT00925015
+953,Medication,Cetuximab cetuximab,0.8227300047874451,secondary,NCT00925015
+954,Date,Day Day Day Day 15 15,0.9949988126754761,secondary,NCT00925015
+955,Medication,dalotuzumab,0.9998262524604797,secondary,NCT00925015
+956,Date,Day Day Day Day 29. 29,0.9977810382843018,secondary,NCT00925015
+957,Administration,predose,0.2790879011154175,secondary,NCT00925015
+958,Detailed_description,predose,0.7266902923583984,secondary,NCT00925015
+959,Detailed_description,"AUC0-24 29. 29 2 24 , , , , 15 15 5 , , , , 8",0.8138350248336792,secondary,NCT00925015
+960,Time,and and and,0.3151521384716034,secondary,NCT00925015
+961,Time,AUC0-24 24 The with h,0.8547252416610718,secondary,NCT00925015
+962,Medication,cetuximab,0.8391890525817871,secondary,NCT00925015
+963,Medication,Cetuximab dalotuzumab cetuximab,0.9687744975090027,secondary,NCT00925015
+964,Administration,infusion,0.922735333442688,secondary,NCT00925015
+965,Diagnostic_procedure,AUC0-168,0.9055171012878418,secondary,NCT00925015
+966,Lab_value,AUC0-168,0.9970114231109619,secondary,NCT00925015
+967,Medication,Cetuximab Cetuximab Cetuximab,0.999789297580719,secondary,NCT00925015
+968,Medication,Irinotecan,0.9998588562011719,secondary,NCT00925015
+969,Dosage,10 mg/kg mg/m\^2 mg/m\^2,0.9983808398246765,secondary,NCT00925015
+970,Medication,Dalotuzumab,0.9998871088027954,secondary,NCT00925015
+971,Detailed_description,Cycle AUC0-168 10 1 15,0.9799534678459167,secondary,NCT00925015
+972,Administration,intravenous intravenous,0.9969843029975891,secondary,NCT00925015
+973,Administration,infusion infusions,0.9086222648620605,secondary,NCT00925015
+974,Dosage,400 mg/m\^2 mg/m\^2,0.9992114901542664,secondary,NCT00925015
+975,Dosage,mg/m\^2 mg/m\^2,0.948019802570343,secondary,NCT00925015
+976,Dosage,once weekly,0.9973741769790649,secondary,NCT00925015
+977,Administration,intravenous intravenous infusion infusions,0.7789974212646484,secondary,NCT00925015
+978,Dosage,250 mg/m\^2 mg/m\^2,0.9992461204528809,secondary,NCT00925015
+979,Dosage,1 10 1,0.9983065128326416,secondary,NCT00925015
+980,Dosage,10 mg/kg,0.9995276927947998,secondary,NCT00925015
+981,Lab_value,AUC0-168 168,0.9969387054443359,secondary,NCT00925015
+982,Detailed_description,plasma,0.9999257326126099,secondary,NCT00925015
+983,Medication,Cetuximab,0.9355961084365845,secondary,NCT00925015
+984,Date,Day Day Day Day 15 15,0.9108607769012451,secondary,NCT00925015
+985,Medication,dalotuzumab,0.9998445510864258,secondary,NCT00925015
+986,Date,Day Day Day Day 29. 29,0.9977322816848755,secondary,NCT00925015
+987,Detailed_description,predose,0.6984189748764038,secondary,NCT00925015
+988,Detailed_description,", , , , , , , 29. 29 2 24 , , , , , , , 15 15 5 , , , , , , , AUC0-168 8 48 168 , , , , , , , 24 , , , , , , , 48 , , , , , , , 96",0.9502775073051453,secondary,NCT00925015
+989,Detailed_description,AUC0-168 168 The with h,0.7296199798583984,secondary,NCT00925015
+990,Medication,cetuximab,0.9998550415039062,secondary,NCT00925015
+991,Medication,Cetuximab cetuximab,0.9409654140472412,secondary,NCT00925015
+992,Medication,Cetuximab dalotuzumab cetuximab,0.987115740776062,secondary,NCT00925015
+993,Administration,infusion,0.9385988116264343,secondary,NCT00925015
+994,Medication,Tmax,0.9587122797966003,secondary,NCT00925015
+995,Medication,Irinotecan Irinotecan Irinotecan,0.9722437858581543,secondary,NCT00925015
+996,Medication,Cetuximab,0.9998648166656494,secondary,NCT00925015
+997,Dosage,10 mg/kg mg/m\^2,0.9947602152824402,secondary,NCT00925015
+998,Medication,Dalotuzumab,0.9998866319656372,secondary,NCT00925015
+999,Detailed_description,Cycle,0.9961627721786499,secondary,NCT00925015
+1000,Dosage,10 1 150 1 15,0.5926417112350464,secondary,NCT00925015
+1001,Administration,intravenous,0.9988037347793579,secondary,NCT00925015
+1002,Administration,intravenous infusion,0.8939220309257507,secondary,NCT00925015
+1003,Dosage,150 mg/m\^2,0.9983572959899902,secondary,NCT00925015
+1004,Medication,mg/m\^2,0.3698563277721405,secondary,NCT00925015
+1005,Dosage,mg/m\^2,0.901802122592926,secondary,NCT00925015
+1006,Frequency,once,0.9961949586868286,secondary,NCT00925015
+1007,Frequency,every other week,0.9711220860481262,secondary,NCT00925015
+1008,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1009,Dosage,10 mg/kg,0.9993879795074463,secondary,NCT00925015
+1010,Detailed_description,plasma,0.9998997449874878,secondary,NCT00925015
+1011,Medication,Irinotecan Irinotecan,0.9899979829788208,secondary,NCT00925015
+1012,Date,Day Day Day Day 15 15,0.9955718517303467,secondary,NCT00925015
+1013,Medication,dalotuzumab,0.9998867511749268,secondary,NCT00925015
+1014,Date,Day Day Day Day 29. 29,0.9991393089294434,secondary,NCT00925015
+1015,Medication,predose,0.7080832719802856,secondary,NCT00925015
+1016,Detailed_description,predose,0.3524499833583832,secondary,NCT00925015
+1017,Detailed_description,"15 1 15 1 , , , , , , 15 15 5 , , , , , , 8 48 , , , , , , 24",0.687110424041748,secondary,NCT00925015
+1018,Administration,", , , , , ,",0.12869615852832794,secondary,NCT00925015
+1019,Time,and and and,0.24691979587078094,secondary,NCT00925015
+1020,Date,48,0.9480981826782227,secondary,NCT00925015
+1021,Time,The with h,0.7865826487541199,secondary,NCT00925015
+1022,Date,after,0.9721439480781555,secondary,NCT00925015
+1023,Administration,infusion,0.5538336038589478,secondary,NCT00925015
+1024,Medication,Cmax,0.9971054196357727,secondary,NCT00925015
+1025,Medication,Irinotecan Irinotecan Irinotecan,0.9683175683021545,secondary,NCT00925015
+1026,Medication,Cetuximab,0.999866247177124,secondary,NCT00925015
+1027,Dosage,10 mg/kg mg/m\^2,0.994791567325592,secondary,NCT00925015
+1028,Medication,Dalotuzumab,0.9998891353607178,secondary,NCT00925015
+1029,Detailed_description,Cycle 10 1 150 1 15,0.8011140823364258,secondary,NCT00925015
+1030,Administration,intravenous,0.9988425374031067,secondary,NCT00925015
+1031,Administration,intravenous infusion,0.899886429309845,secondary,NCT00925015
+1032,Dosage,150 mg/m\^2,0.9984986186027527,secondary,NCT00925015
+1033,Dosage,mg/m\^2,0.7280250191688538,secondary,NCT00925015
+1034,Frequency,once,0.9963597655296326,secondary,NCT00925015
+1035,Frequency,every other week,0.9725790023803711,secondary,NCT00925015
+1036,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1037,Dosage,10 mg/kg,0.9993879795074463,secondary,NCT00925015
+1038,Diagnostic_procedure,Cmax,0.858730137348175,secondary,NCT00925015
+1039,Detailed_description,plasma,0.9999200105667114,secondary,NCT00925015
+1040,Medication,Irinotecan Irinotecan,0.9783256649971008,secondary,NCT00925015
+1041,Date,Day Day Day Day 15 15,0.9948427677154541,secondary,NCT00925015
+1042,Medication,dalotuzumab,0.9998904466629028,secondary,NCT00925015
+1043,Date,Day Day Day Day 29. 29,0.9991327524185181,secondary,NCT00925015
+1044,Medication,predose,0.7459198832511902,secondary,NCT00925015
+1045,Detailed_description,predose,0.40476953983306885,secondary,NCT00925015
+1046,Detailed_description,"15 1 15 1 , , , , , , 15 15 5 , , , , , , 8 48 , , , , , , 24",0.7071895003318787,secondary,NCT00925015
+1047,Administration,", , , , , ,",0.12432773411273956,secondary,NCT00925015
+1048,Time,and and and,0.2310134619474411,secondary,NCT00925015
+1049,Date,48,0.9648333787918091,secondary,NCT00925015
+1050,Time,The with h,0.7038695216178894,secondary,NCT00925015
+1051,Date,after,0.9641664624214172,secondary,NCT00925015
+1052,Administration,infusion,0.5640626549720764,secondary,NCT00925015
+1053,Dosage,T1/2,0.8961080312728882,secondary,NCT00925015
+1054,Medication,Irinotecan Irinotecan Irinotecan,0.9998218417167664,secondary,NCT00925015
+1055,Medication,Cetuximab,0.9998763799667358,secondary,NCT00925015
+1056,Dosage,10 mg/kg mg/m\^2,0.997349739074707,secondary,NCT00925015
+1057,Medication,Dalotuzumab,0.9998937845230103,secondary,NCT00925015
+1058,Dosage,T1/2 10 1 150 1 15,0.9258669018745422,secondary,NCT00925015
+1059,Administration,intravenous,0.9989703893661499,secondary,NCT00925015
+1060,Administration,intravenous infusion,0.8253350257873535,secondary,NCT00925015
+1061,Dosage,150 mg/m\^2,0.9987741112709045,secondary,NCT00925015
+1062,Medication,mg/m\^2,0.3736501634120941,secondary,NCT00925015
+1063,Dosage,mg/m\^2,0.4856179356575012,secondary,NCT00925015
+1064,Detailed_description,T1/2 mg/m\^2 29,0.6786954402923584,secondary,NCT00925015
+1065,Frequency,once,0.9936257600784302,secondary,NCT00925015
+1066,Frequency,every other week,0.9612699151039124,secondary,NCT00925015
+1067,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1068,Dosage,10 mg/kg,0.9993879795074463,secondary,NCT00925015
+1069,Lab_value,T1/2,0.9976798295974731,secondary,NCT00925015
+1070,Detailed_description,plasma,0.9999393224716187,secondary,NCT00925015
+1071,Medication,Irinotecan Irinotecan,0.9489891529083252,secondary,NCT00925015
+1072,Medication,Irinotecan and and and Irinotecan,0.9920269846916199,secondary,NCT00925015
+1073,Date,Day Day Day Day 15 15,0.9972296953201294,secondary,NCT00925015
+1074,Medication,dalotuzumab,0.9998863935470581,secondary,NCT00925015
+1075,Date,Day Day Day Day 29 29,0.9984194040298462,secondary,NCT00925015
+1076,Medication,predose,0.4745742678642273,secondary,NCT00925015
+1077,Detailed_description,predose,0.2783186733722687,secondary,NCT00925015
+1078,Detailed_description,", , , , , , T1/2 15 1 15 1 , , , , , , 15 15 5 , , , , , , 8 48 , , , , , , 24",0.7945029735565186,secondary,NCT00925015
+1079,Administration,", , , , , ,",0.11514309048652649,secondary,NCT00925015
+1080,Frequency,and and and,0.283895343542099,secondary,NCT00925015
+1081,Date,48 The with h after,0.8833291530609131,secondary,NCT00925015
+1082,Administration,infusion,0.5766139030456543,secondary,NCT00925015
+1083,Medication,CL,0.947430431842804,secondary,NCT00925015
+1084,Medication,Irinotecan Irinotecan Irinotecan,0.9803125858306885,secondary,NCT00925015
+1085,Medication,Cetuximab,0.9998651742935181,secondary,NCT00925015
+1086,Dosage,10 mg/kg,0.9085283279418945,secondary,NCT00925015
+1087,Medication,Dalotuzumab,0.9998682737350464,secondary,NCT00925015
+1088,Detailed_description,Cycle,0.998862624168396,secondary,NCT00925015
+1089,Dosage,10 1 150 1 15,0.9050456881523132,secondary,NCT00925015
+1090,Administration,intravenous,0.9988784193992615,secondary,NCT00925015
+1091,Administration,intravenous infusion,0.8968310952186584,secondary,NCT00925015
+1092,Dosage,150 mg/m\^2,0.9983110427856445,secondary,NCT00925015
+1093,Dosage,mg/m\^2,0.7586230635643005,secondary,NCT00925015
+1094,Frequency,once,0.9890430569648743,secondary,NCT00925015
+1095,Frequency,every other week,0.8855101466178894,secondary,NCT00925015
+1096,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1097,Lab_value,CL,0.6427358984947205,secondary,NCT00925015
+1098,Detailed_description,plasma,0.9999009370803833,secondary,NCT00925015
+1099,Medication,Irinotecan Irinotecan,0.9900842308998108,secondary,NCT00925015
+1100,Medication,Irinotecan and and and Irinotecan,0.9828502535820007,secondary,NCT00925015
+1101,Date,Day Day Day Day 15 15,0.9631513953208923,secondary,NCT00925015
+1102,Medication,dalotuzumab,0.9998834133148193,secondary,NCT00925015
+1103,Date,Day Day Day Day 29. 29,0.9989782571792603,secondary,NCT00925015
+1104,Medication,predose,0.7756816744804382,secondary,NCT00925015
+1105,Detailed_description,predose,0.2830331325531006,secondary,NCT00925015
+1106,Detailed_description,", , , , , , 15 1 15 1 , , , , , , 15 15 5 , , , , , , 8 48 , , , , , , 24",0.6985061168670654,secondary,NCT00925015
+1107,Administration,", , , , , ,",0.14308558404445648,secondary,NCT00925015
+1108,Time,and and and,0.2672196924686432,secondary,NCT00925015
+1109,Date,48,0.8961132764816284,secondary,NCT00925015
+1110,Time,The with h,0.6829670667648315,secondary,NCT00925015
+1111,Date,after,0.9750677347183228,secondary,NCT00925015
+1112,Administration,infusion,0.6016172766685486,secondary,NCT00925015
+1113,Disease_disorder,Vss,0.4690207242965698,secondary,NCT00925015
+1114,Medication,Irinotecan Irinotecan Irinotecan,0.9998202919960022,secondary,NCT00925015
+1115,Medication,Cetuximab,0.9998598098754883,secondary,NCT00925015
+1116,Dosage,10 mg/kg mg/m\^2,0.9934633374214172,secondary,NCT00925015
+1117,Medication,Dalotuzumab,0.9998877048492432,secondary,NCT00925015
+1118,Detailed_description,Cycle 10 1 150 1 15,0.7506966590881348,secondary,NCT00925015
+1119,Administration,intravenous,0.9988553524017334,secondary,NCT00925015
+1120,Administration,intravenous infusion,0.9001603722572327,secondary,NCT00925015
+1121,Dosage,150 mg/m\^2,0.9982020854949951,secondary,NCT00925015
+1122,Medication,mg/m\^2,0.4931058883666992,secondary,NCT00925015
+1123,Dosage,mg/m\^2,0.8604094982147217,secondary,NCT00925015
+1124,Frequency,once,0.9968026876449585,secondary,NCT00925015
+1125,Frequency,every other week,0.9773368239402771,secondary,NCT00925015
+1126,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1127,Dosage,10 mg/kg,0.9993879795074463,secondary,NCT00925015
+1128,Diagnostic_procedure,Vss,0.9859748482704163,secondary,NCT00925015
+1129,Detailed_description,plasma,0.9999265670776367,secondary,NCT00925015
+1130,Medication,Irinotecan Irinotecan,0.9606640338897705,secondary,NCT00925015
+1131,Date,Day Day Day Day 15 15,0.9895358085632324,secondary,NCT00925015
+1132,Medication,dalotuzumab,0.9998856782913208,secondary,NCT00925015
+1133,Date,Day Day Day Day 29. 29,0.9990262985229492,secondary,NCT00925015
+1134,Medication,predose,0.5613013505935669,secondary,NCT00925015
+1135,Detailed_description,predose,0.36568769812583923,secondary,NCT00925015
+1136,Detailed_description,"15 1 15 1 , , , , , , 15 15 5 , , , , , , 8 48 , , , , , , 24",0.7674352526664734,secondary,NCT00925015
+1137,Administration,", , , , , ,",0.12493317574262619,secondary,NCT00925015
+1138,Date,and and and 48,0.6027815341949463,secondary,NCT00925015
+1139,Time,The with h,0.670113205909729,secondary,NCT00925015
+1140,Date,after,0.9060884118080139,secondary,NCT00925015
+1141,Administration,infusion,0.4785690903663635,secondary,NCT00925015
+1142,Medication,AUC0-24,0.5728983283042908,secondary,NCT00925015
+1143,Lab_value,AUC0-24,0.4540385901927948,secondary,NCT00925015
+1144,Medication,Irinotecan Irinotecan Irinotecan,0.9997373223304749,secondary,NCT00925015
+1145,Medication,Cetuximab,0.999870777130127,secondary,NCT00925015
+1146,Dosage,10 mg/kg mg/m\^2,0.9910554885864258,secondary,NCT00925015
+1147,Medication,Dalotuzumab,0.9998871088027954,secondary,NCT00925015
+1148,Dosage,10 1 150 1 15,0.9758432507514954,secondary,NCT00925015
+1149,Administration,intravenous,0.9990082383155823,secondary,NCT00925015
+1150,Administration,intravenous infusion,0.834629237651825,secondary,NCT00925015
+1151,Dosage,150 mg/m\^2,0.9980648756027222,secondary,NCT00925015
+1152,Dosage,mg/m\^2,0.7134941220283508,secondary,NCT00925015
+1153,Frequency,once,0.97493976354599,secondary,NCT00925015
+1154,Frequency,every other week,0.9558013081550598,secondary,NCT00925015
+1155,Dosage,1 10 1 15,0.9933871626853943,secondary,NCT00925015
+1156,Dosage,10 mg/kg,0.9993879795074463,secondary,NCT00925015
+1157,Diagnostic_procedure,AUC0-24,0.8032518029212952,secondary,NCT00925015
+1158,Detailed_description,AUC0-24,0.9720761179924011,secondary,NCT00925015
+1159,Detailed_description,plasma,0.9999314546585083,secondary,NCT00925015
+1160,Medication,Irinotecan Irinotecan,0.9845144748687744,secondary,NCT00925015
+1161,Medication,Irinotecan and and and Irinotecan,0.9966243505477905,secondary,NCT00925015
+1162,Date,Day Day Day Day 15 15,0.9978834390640259,secondary,NCT00925015
+1163,Medication,dalotuzumab,0.9998956918716431,secondary,NCT00925015
+1164,Date,Day Day Day Day 29. 29,0.9973763823509216,secondary,NCT00925015
+1165,Medication,predose,0.9559682607650757,secondary,NCT00925015
+1166,Detailed_description,predose,0.3210259974002838,secondary,NCT00925015
+1167,Detailed_description,"15 1 15 1 , , , , 15 15 5 , , , ,",0.7113943696022034,secondary,NCT00925015
+1168,Frequency,8 and and and,0.45568573474884033,secondary,NCT00925015
+1169,Time,AUC0-24 24 The with h,0.6504775285720825,secondary,NCT00925015
+1170,Administration,infusion,0.7279413938522339,secondary,NCT00925015
+1171,Lab_value,delayed,0.9953256845474243,primary,NCT03150615
+1172,Biological_structure,DGE,0.974299430847168,primary,NCT03150615
+1173,Coreference,DGE,0.7228478193283081,primary,NCT03150615
+1174,Detailed_description,standard,0.9967394471168518,primary,NCT03150615
+1175,Therapeutic_procedure,diet,0.9907634854316711,primary,NCT03150615
+1176,Date,end of of of the the the the first postoperative week,0.9991195797920227,primary,NCT03150615
+1177,Lab_value,prolonged,0.996343195438385,primary,NCT03150615
+1178,Biological_structure,nasogastric,0.9997573494911194,primary,NCT03150615
+1179,Lab_value,Three,0.876478910446167,primary,NCT03150615
+1180,Detailed_description,different,0.9658883213996887,primary,NCT03150615
+1181,Therapeutic_procedure,postoperative,0.755763053894043,primary,NCT03150615
+1182,Therapeutic_procedure,postoperative management,0.7432969212532043,primary,NCT03150615
+1183,Therapeutic_procedure,ISGPS.,0.49974364042282104,primary,NCT03150615
+1184,Date,30 days,0.9936162233352661,primary,NCT03150615
+1185,Therapeutic_procedure,hospital,0.2848030626773834,secondary,NCT03150615
+1186,Duration,60 days,0.9995786547660828,secondary,NCT03150615
+1187,Diagnostic_procedure,morbidity,0.9998390674591064,secondary,NCT03150615
+1188,Date,30 days,0.9990706443786621,secondary,NCT03150615
+1189,Diagnostic_procedure,mortality,0.9131650328636169,secondary,NCT03150615
+1190,Date,30 days,0.9991421699523926,secondary,NCT03150615
+1191,Date,60 days,0.8950594663619995,secondary,NCT03150615
+1192,Detailed_description,Infectious,0.9713312387466431,secondary,NCT03150615
+1193,Duration,30 days,0.9589072465896606,secondary,NCT03150615
+1194,Date,30 days,0.9994722604751587,secondary,NCT03150615
+1195,Biological_structure,Pancreatic,0.9934043288230896,secondary,NCT03150615
+1196,Disease_disorder,fistulas fistulas,0.9387518167495728,secondary,NCT03150615
+1197,Biological_structure,pancreatic,0.9754987359046936,secondary,NCT03150615
+1198,Coreference,fistulas fistulas,0.5107920169830322,secondary,NCT03150615
+1199,Lab_value,grade,0.9517098069190979,secondary,NCT03150615
+1200,Date,30 days,0.9413247108459473,secondary,NCT03150615
+1201,Detailed_description,Hemorrhagic,0.8796935081481934,secondary,NCT03150615
+1202,Detailed_description,hemorrhagic,0.9582699537277222,secondary,NCT03150615
+1203,Lab_value,grade,0.8147831559181213,secondary,NCT03150615
+1204,Date,30 days,0.9802260398864746,secondary,NCT03150615
+1205,Diagnostic_procedure,Plasma Concentration,0.9997459650039673,secondary,NCT03150615
+1206,Detailed_description,fasting,0.9997846484184265,secondary,NCT03150615
+1207,Diagnostic_procedure,plasma plasma,0.950925886631012,secondary,NCT03150615
+1208,Diagnostic_procedure,GLP-1 GLP-1,0.6639600992202759,secondary,NCT03150615
+1209,Detailed_description,Fasting,0.9938727617263794,secondary,NCT03150615
+1210,Diagnostic_procedure,plasma plasma concentration,0.8988163471221924,secondary,NCT03150615
+1211,Date,day day day day,0.6275553107261658,secondary,NCT03150615
+1212,Date,day day day day 7,0.9910925626754761,secondary,NCT03150615
+1213,Diagnostic_procedure,Workbook,0.6594340801239014,primary,NCT04978350
+1214,Detailed_description,Likert,0.981981635093689,primary,NCT04978350
+1215,Coreference,workbook,0.6697707176208496,primary,NCT04978350
+1216,Lab_value,7,0.9684569835662842,primary,NCT04978350
+1217,Lab_value,1,0.9533640146255493,primary,NCT04978350
+1218,Lab_value,5,0.998089611530304,primary,NCT04978350
+1219,Lab_value,80 %,0.9996278285980225,primary,NCT04978350
+1220,Lab_value,higher,0.9914281964302063,primary,NCT04978350
+1221,Duration,4 Weeks,0.8996707201004028,primary,NCT04978350
+1222,Clinical_event,Workbook,0.5676547884941101,primary,NCT04978350
+1223,Activity,Use,0.3825061619281769,primary,NCT04978350
+1224,Diagnostic_procedure,Genetic Genetic Counselor,0.6777487397193909,primary,NCT04978350
+1225,Detailed_description,Likert,0.7856677174568176,primary,NCT04978350
+1226,Diagnostic_procedure,Genetic Genetic,0.8352363109588623,primary,NCT04978350
+1227,Coreference,counselors,0.4970042109489441,primary,NCT04978350
+1228,Coreference,workbook,0.7947592735290527,primary,NCT04978350
+1229,Lab_value,6,0.8445897102355957,primary,NCT04978350
+1230,Lab_value,1,0.9504877924919128,primary,NCT04978350
+1231,Detailed_description,6,0.6589323282241821,primary,NCT04978350
+1232,Lab_value,80 %,0.9996278285980225,primary,NCT04978350
+1233,Lab_value,higher,0.9914281964302063,primary,NCT04978350
+1234,Diagnostic_procedure,Genetic counselor,0.9782285690307617,primary,NCT04978350
+1235,Subject,genetic counselors,0.8364625573158264,primary,NCT04978350
+1236,Detailed_description,qualitative,0.6124510765075684,primary,NCT04978350
+1237,Duration,4 Weeks,0.8009982109069824,primary,NCT04978350
+1238,Disease_disorder,Lynch Lynch Lynch Syndrome Syndrome Syndrome,0.8119590878486633,primary,NCT04978350
+1239,Disease_disorder,Lynch Lynch Lynch,0.9638388752937317,primary,NCT04978350
+1240,Family_history,Syndrome Syndrome Syndrome,0.5191091895103455,primary,NCT04978350
+1241,Subject,relatives,0.5310118794441223,primary,NCT04978350
+1242,Detailed_description,qualitative,0.34216564893722534,primary,NCT04978350
+1243,Diagnostic_procedure,interviews,0.5458182692527771,primary,NCT04978350
+1244,Diagnostic_procedure,Numbers,0.8086857199668884,primary,NCT04978350
+1245,Date,4 Weeks,0.736088752746582,primary,NCT04978350
+1246,Clinical_event,Workbook,0.9709761738777161,primary,NCT04978350
+1247,Clinical_event,Use,0.8525572419166565,primary,NCT04978350
+1248,Diagnostic_procedure,Genetic Genetic Testing Testing,0.9999195337295532,primary,NCT04978350
+1249,Subject,Family Family,0.813216507434845,primary,NCT04978350
+1250,Subject,relatives,0.9452504515647888,primary,NCT04978350
+1251,Diagnostic_procedure,genetic testing,0.9451231360435486,primary,NCT04978350
+1252,Disease_disorder,Lynch,0.7155945301055908,primary,NCT04978350
+1253,Family_history,Syndrome,0.6660563349723816,primary,NCT04978350
+1254,Diagnostic_procedure,Genetic Testing,0.9997019171714783,primary,NCT04978350
+1255,Subject,Family Members,0.7281572222709656,primary,NCT04978350
+1256,Diagnostic_procedure,Numbers,0.8086857199668884,primary,NCT04978350
+1257,Date,4 Weeks,0.736088752746582,primary,NCT04978350
+1258,Clinical_event,Workbook,0.9709761738777161,primary,NCT04978350
+1259,Clinical_event,Use,0.8525572419166565,primary,NCT04978350
+1260,Disease_disorder,Lynch Lynch Syndrome Syndrome,0.9700583219528198,secondary,NCT04978350
+1261,Detailed_description,Multiple-Choice,0.9998422861099243,secondary,NCT04978350
+1262,Lab_value,7,0.9976062774658203,secondary,NCT04978350
+1263,Detailed_description,multiple choice questions,0.9383732676506042,secondary,NCT04978350
+1264,Lab_value,4 score or more correct more questions,0.9935795664787292,secondary,NCT04978350
+1265,Severity,moderate,0.6121391654014587,secondary,NCT04978350
+1266,Disease_disorder,Lynch,0.5464604496955872,secondary,NCT04978350
+1267,Duration,4 Weeks,0.9536337852478027,secondary,NCT04978350
+1268,Clinical_event,Workbook,0.7443233132362366,secondary,NCT04978350
+1269,Other_event,Use,0.21057988703250885,secondary,NCT04978350
+1270,Disease_disorder,Lynch Syndrome,0.9997093677520752,secondary,NCT04978350
+1271,Lab_value,1,0.9137943983078003,secondary,NCT04978350
+1272,Lab_value,5,0.9905125498771667,secondary,NCT04978350
+1273,Lab_value,21 score or higher,0.9142939448356628,secondary,NCT04978350
+1274,Severity,moderate,0.8897680640220642,secondary,NCT04978350
+1275,Duration,4 Weeks,0.9904941320419312,secondary,NCT04978350
+1276,Clinical_event,Workbook,0.6596473455429077,secondary,NCT04978350
+1277,Lab_value,Self-Efficacy,0.9809534549713135,secondary,NCT04978350
+1278,Disease_disorder,Lynch Lynch Syndrome Syndrome,0.9962450265884399,secondary,NCT04978350
+1279,Lab_value,5,0.9821895360946655,secondary,NCT04978350
+1280,Diagnostic_procedure,Scores,0.8245452642440796,secondary,NCT04978350
+1281,Lab_value,1,0.9996740818023682,secondary,NCT04978350
+1282,Lab_value,15,0.9997004270553589,secondary,NCT04978350
+1283,Therapeutic_procedure,Genetic counselor,0.5018638372421265,secondary,NCT04978350
+1284,Lab_value,self-efficacy,0.6792567372322083,secondary,NCT04978350
+1285,Disease_disorder,Lynch Syndrome,0.8603876829147339,secondary,NCT04978350
+1286,Date,4 Weeks,0.9642118215560913,secondary,NCT04978350
+1287,Clinical_event,Workbook,0.9283754229545593,secondary,NCT04978350
+1288,Clinical_event,Use,0.7272717356681824,secondary,NCT04978350
+1289,Diagnostic_procedure,Genetic Genetic,0.9782593250274658,secondary,NCT04978350
+1290,Coreference,Counselor,0.4652380049228668,secondary,NCT04978350
+1291,Disease_disorder,Lynch Lynch Syndrome Syndrome,0.8928775787353516,secondary,NCT04978350
+1292,Diagnostic_procedure,Genetic Genetic counselors,0.7288186550140381,secondary,NCT04978350
+1293,Lab_value,5,0.9898515939712524,secondary,NCT04978350
+1294,Diagnostic_procedure,Scores,0.8245452642440796,secondary,NCT04978350
+1295,Lab_value,1,0.9996740818023682,secondary,NCT04978350
+1296,Lab_value,15,0.9997020363807678,secondary,NCT04978350
+1297,Lab_value,higher,0.7210488319396973,secondary,NCT04978350
+1298,Lab_value,higher high,0.5344226360321045,secondary,NCT04978350
+1299,Coreference,cascade,0.9774340987205505,secondary,NCT04978350
+1300,Subject,Genetic,0.6934170722961426,secondary,NCT04978350
+1301,Clinical_event,counselor,0.2857973277568817,secondary,NCT04978350
+1302,Disease_disorder,Lynch Syndrome,0.7471503019332886,secondary,NCT04978350
+1303,Detailed_description,out-of-pocket,0.856152355670929,secondary,NCT04978350
+1304,Detailed_description,Non-monetary,0.9563252925872803,secondary,NCT04978350
+1305,Detailed_description,Average,0.8030226826667786,secondary,NCT04978350
+1306,Duration,4 Weeks,0.754692792892456,secondary,NCT04978350
+1307,Clinical_event,Workbook,0.640794575214386,secondary,NCT04978350
+1308,Coreference,Workbook workbook,0.6364977955818176,secondary,NCT04978350
+1309,History,Lynch Lynch Syndrome Syndrome,0.6716620922088623,secondary,NCT04978350
+1310,Clinical_event,discussed,0.9690264463424683,secondary,NCT04978350
+1311,Duration,4 Weeks,0.8009982109069824,secondary,NCT04978350
+1312,Subject,Genetic Genetic counselors,0.5487481951713562,secondary,NCT04978350
+1313,Biological_structure,Abdominal,0.9995850920677185,primary,NCT02052050
+1314,Detailed_description,Isometric endurance endurance endurance,0.9942646026611328,primary,NCT02052050
+1315,Detailed_description,trunk flexors,0.9983449578285217,primary,NCT02052050
+1316,Diagnostic_procedure,endurance endurance endurance,0.938224732875824,primary,NCT02052050
+1317,Biological_structure,abdominal,0.9876760244369507,primary,NCT02052050
+1318,Therapeutic_procedure,laid,0.7385085821151733,primary,NCT02052050
+1319,Detailed_description,maintaining,0.762154221534729,primary,NCT02052050
+1320,Biological_structure,hips,0.9548490047454834,primary,NCT02052050
+1321,Biological_structure,knees knees,0.9782076478004456,primary,NCT02052050
+1322,Detailed_description,bent,0.8724486827850342,primary,NCT02052050
+1323,Lab_value,90,0.9124457240104675,primary,NCT02052050
+1324,Detailed_description,"degrees , , feet flat",0.8681038618087769,primary,NCT02052050
+1325,Distance,30 inches,0.6190680861473083,primary,NCT02052050
+1326,Detailed_description,from the buttocks,0.6680425405502319,primary,NCT02052050
+1327,Detailed_description,hands,0.905014157295227,primary,NCT02052050
+1328,Detailed_description,knees knees,0.9787868857383728,primary,NCT02052050
+1329,Therapeutic_procedure,separate,0.931179940700531,primary,NCT02052050
+1330,Coreference,trunk,0.7330737709999084,primary,NCT02052050
+1331,Therapeutic_procedure,stretcher,0.600338876247406,primary,NCT02052050
+1332,Biological_structure,inferior angle of the the the the scapula,0.9992218017578125,primary,NCT02052050
+1333,Diagnostic_procedure,Time,0.999356210231781,primary,NCT02052050
+1334,Date,8 weeks,0.9821493625640869,primary,NCT02052050
+1335,Diagnostic_procedure,Fatigue Fatigue,0.6997254490852356,secondary,NCT02052050
+1336,Diagnostic_procedure,It,0.9779726266860962,secondary,NCT02052050
+1337,Lab_value,22 items,0.5475568771362305,secondary,NCT02052050
+1338,Detailed_description,four,0.8922888040542603,secondary,NCT02052050
+1339,Duration,8,0.6572756767272949,secondary,NCT02052050
+1340,Date,weeks,0.8026301264762878,secondary,NCT02052050
+1341,Diagnostic_procedure,bioelectrical impedance analysis,0.9999043345451355,secondary,NCT02052050
+1342,Duration,Baseline-,0.4357934892177582,secondary,NCT02052050
+1343,Duration,8 weeks,0.9824203252792358,secondary,NCT02052050
+1344,Coreference,Pain,0.6014243364334106,secondary,NCT02052050
+1345,Diagnostic_procedure,visual analogue scale,0.9999456405639648,secondary,NCT02052050
+1346,Biological_structure,lower-back,0.9974973797798157,secondary,NCT02052050
+1347,Biological_structure,abdominal,0.9999513626098633,secondary,NCT02052050
+1348,Sign_symptom,Pain,0.9998005032539368,secondary,NCT02052050
+1349,Diagnostic_procedure,BPI,0.9500092267990112,secondary,NCT02052050
+1350,Sign_symptom,pain.,0.9485296010971069,secondary,NCT02052050
+1351,Duration,8 weeks,0.996193528175354,secondary,NCT02052050
+1352,Detailed_description,Flamingo,0.8934438824653625,secondary,NCT02052050
+1353,Duration,8 weeks,0.9990924596786499,secondary,NCT02052050
+1354,Biological_structure,chair,0.8435223698616028,secondary,NCT02052050
+1355,Duration,8 weeks,0.9976177215576172,secondary,NCT02052050
+1356,Detailed_description,6-min,0.9416162371635437,secondary,NCT02052050
+1357,Diagnostic_procedure,walk test,0.9993233680725098,secondary,NCT02052050
+1358,Detailed_description,treadmill,0.9956036806106567,secondary,NCT02052050
+1359,Detailed_description,H-P-COSMOS,0.6734039783477783,secondary,NCT02052050
+1360,Detailed_description,Baseline-,0.973630428314209,secondary,NCT02052050
+1361,Duration,8 weeks,0.9886587858200073,secondary,NCT02052050
+1362,Diagnostic_procedure,Fitness Fitness,0.9951493144035339,secondary,NCT02052050
+1363,Diagnostic_procedure,International,0.9996733665466309,secondary,NCT02052050
+1364,Diagnostic_procedure,Fitness Fitness Scale,0.9830353260040283,secondary,NCT02052050
+1365,Diagnostic_procedure,IFIS,0.99915611743927,secondary,NCT02052050
+1366,Duration,8 weeks,0.8446058034896851,secondary,NCT02052050
+1367,Biological_structure,Lower back,0.9998986721038818,secondary,NCT02052050
+1368,Biological_structure,muscle,0.9997745156288147,secondary,NCT02052050
+1369,Diagnostic_procedure,dynamometer,0.9999555945396423,secondary,NCT02052050
+1370,Detailed_description,Baseline-,0.5103278160095215,secondary,NCT02052050
+1371,Duration,8 weeks,0.9978585243225098,secondary,NCT02052050
+1372,Diagnostic_procedure,Fatigue Fatigue,0.6997254490852356,other,NCT02052050
+1373,Diagnostic_procedure,It,0.9779726266860962,other,NCT02052050
+1374,Lab_value,22 items,0.5475568771362305,other,NCT02052050
+1375,Detailed_description,four,0.8922888040542603,other,NCT02052050
+1376,Duration,8,0.6572756767272949,other,NCT02052050
+1377,Date,weeks,0.8026301264762878,other,NCT02052050
+1378,Diagnostic_procedure,bioelectrical impedance analysis,0.9999043345451355,other,NCT02052050
+1379,Duration,Baseline-,0.4357934892177582,other,NCT02052050
+1380,Duration,8 weeks,0.9824203252792358,other,NCT02052050
+1381,Coreference,Pain,0.6014243364334106,other,NCT02052050
+1382,Diagnostic_procedure,visual analogue scale,0.9999456405639648,other,NCT02052050
+1383,Biological_structure,lower-back,0.9974973797798157,other,NCT02052050
+1384,Biological_structure,abdominal,0.9999513626098633,other,NCT02052050
+1385,Sign_symptom,Pain,0.9998005032539368,other,NCT02052050
+1386,Diagnostic_procedure,BPI,0.9500092267990112,other,NCT02052050
+1387,Sign_symptom,pain.,0.9485296010971069,other,NCT02052050
+1388,Duration,8 weeks,0.996193528175354,other,NCT02052050
+1389,Detailed_description,Flamingo,0.8934438824653625,other,NCT02052050
+1390,Duration,8 weeks,0.9990924596786499,other,NCT02052050
+1391,Biological_structure,chair,0.8435223698616028,other,NCT02052050
+1392,Duration,8 weeks,0.9976177215576172,other,NCT02052050
+1393,Detailed_description,6-min,0.9416162371635437,other,NCT02052050
+1394,Diagnostic_procedure,walk test,0.9993233680725098,other,NCT02052050
+1395,Detailed_description,treadmill,0.9956036806106567,other,NCT02052050
+1396,Detailed_description,H-P-COSMOS,0.6734039783477783,other,NCT02052050
+1397,Detailed_description,Baseline-,0.973630428314209,other,NCT02052050
+1398,Duration,8 weeks,0.9886587858200073,other,NCT02052050
+1399,Diagnostic_procedure,Fitness Fitness,0.9951493144035339,other,NCT02052050
+1400,Diagnostic_procedure,International,0.9996733665466309,other,NCT02052050
+1401,Diagnostic_procedure,Fitness Fitness Scale,0.9830353260040283,other,NCT02052050
+1402,Diagnostic_procedure,IFIS,0.99915611743927,other,NCT02052050
+1403,Duration,8 weeks,0.8446058034896851,other,NCT02052050
+1404,Biological_structure,Lower back,0.9998986721038818,other,NCT02052050
+1405,Biological_structure,muscle,0.9997745156288147,other,NCT02052050
+1406,Diagnostic_procedure,dynamometer,0.9999555945396423,other,NCT02052050
+1407,Detailed_description,Baseline-,0.5103278160095215,other,NCT02052050
+1408,Duration,8 weeks,0.9978585243225098,other,NCT02052050
+1409,Therapeutic_procedure,Radiotherapy,0.9988671541213989,primary,NCT04090450
+1410,Therapeutic_procedure,radiotherapy,0.9995687007904053,primary,NCT04090450
+1411,Duration,24,0.8979510068893433,primary,NCT04090450
+1412,Date,months,0.8609383702278137,primary,NCT04090450
+1413,Therapeutic_procedure,Radiotherapy Radiotherapy,0.931208610534668,primary,NCT04090450
+1414,Duration,24 months,0.9753737449645996,primary,NCT04090450
+1415,Diagnostic_procedure,MR,0.5925742387771606,primary,NCT04090450
+1416,Diagnostic_procedure,radiomics,0.9704749584197998,primary,NCT04090450
+1417,Detailed_description,Distinctive,0.986531674861908,primary,NCT04090450
+1418,Diagnostic_procedure,pixel features. features,0.37177765369415283,primary,NCT04090450
+1419,Detailed_description,radiomics radiological,0.674656867980957,primary,NCT04090450
+1420,Duration,24 months,0.9179482460021973,primary,NCT04090450
