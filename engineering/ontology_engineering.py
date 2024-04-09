@@ -38,7 +38,13 @@ labels_cancer = ["Measure of quality of life",
     "Measure of sexual function",
     "Measure of safety"]
 
-labels_default = []
+labels_default = ["Biomarker",
+                  "Disease activity",
+                  "Endpoint score",
+                  "Histological endpoint",
+                  "Outcome measurement tool",
+                  "Questainnaire",
+                  ]
 
 def main():
     parser = argparse.ArgumentParser()
@@ -59,44 +65,66 @@ def main():
                         help="hierarchical clustering cut-off value. 0 (default) means no hierarchichal clustering will be applied, 0.3 is the cutuff we used in our work in the automatic procedure. Ignored for semi.",
                         default=0.3)
 
+    parser.add_argument('--ner', 
+                        help="hierarchical clustering cut-off value. 0 (default) means no hierarchichal clustering will be applied, 0.3 is the cutuff we used in our work in the automatic procedure. Ignored for semi.",
+                        default=False)
+
+    parser.add_argument('--nerfile', 
+                        help="hierarchical clustering cut-off value. 0 (default) means no hierarchichal clustering will be applied, 0.3 is the cutuff we used in our work in the automatic procedure. Ignored for semi.",
+                        default="git/autocoo/data/debugging/NER_results.csv")
+    
+
     args = parser.parse_args()
 
-    # parse csv data
-    data = pd.read_csv(args.csv)
+    if args.ner:
+        ner_result = pd.read_csv(args.nerfile)
+    else:
+        # parse csv data
+        data = pd.read_csv(args.csv)
     
-    # run NER
-    ner_result = ner_on_df(data)
+        # run NER
+        ner_result = ner_on_df(data)
 
-    # save NER results
-    os.makedirs(args.resultfolder, exist_ok=True)
-    resfile = os.path.join(args.resultfolder,"NER_results.csv")
-    ner_result.to_csv(resfile)
+        # save NER results
+        os.makedirs(args.resultfolder, exist_ok=True)
+        resfile = os.path.join(args.resultfolder,"NER_results.csv")
+        ner_result.to_csv(resfile)
 
     # extract only the values that we want to put into the ontology in the automatic procedures
     outcome_measures = filter_ner_result(ner_result)
 
 
-    # run clustering
-    clustered = hierarchical_clustering(outcome_measures,cutoff=args.cutoff)
+    # run clustering for synonyms
+    synonyms = hierarchical_clustering(outcome_measures,cutoff=0.1)
+    # print(synonyms)
+    outcome_measures = synonym_categorization(synonyms)
+    outcome_measures = outcome_measures.drop(columns=['ID','Size'])
 
-    # run LDA
-    result = topic_categosization(outcome_measures,clustered)
+    # run clustering for categorisation
+    clustered = hierarchical_clustering(outcome_measures['Outcome Measure'], cutoff=args.cutoff)
+    clustered = outcome_measures.merge(clustered,on='Outcome Measure')
+
+    # print(clustered)
+
+    # # run LDA
+    result = topic_categorization(outcome_measures['Outcome Measure'],clustered)
     
-    # run engineering and save ontology
-    onto = ontology(result,args.resultfolder,args.cutoff)
+    # # run engineering and save ontology
+    onto = ontology(result,outcome_measures,args.resultfolder,args.cutoff)
 
 
 # iterates through a dataframe of outcome measure
 # takes hard-coded column names to retrieve the outcome measures and study id from dataframe 
 def ner_on_df(data):
+    print("Iterating through dataframe of clinical trial outcome measure text to extract entities.")
     result = pd.DataFrame(columns = ['entity_group', 'value', 'score', 'from','nct_id'])
 
     for i,row in data.iterrows():
         # print(row)
         out = pd.DataFrame(columns = ['entity_group', 'value', 'score', 'from'])
 
-        if isinstance(row['Primary Outcome Measures'],str):
-            for split in row['Primary Outcome Measures'].split('|'):
+        if isinstance(row['primaryOutcomes'],str):
+            for split in row['primaryOutcomes'].split('|'):
                 out1 = ner_prediction(corpus=split,compute='cpu') #pass compute='gpu' if using gpu
                 out1['from'] = 'primary'
                 # print(out1)
@@ -106,8 +134,8 @@ def ner_on_df(data):
             # print(out)
             # print(row['Primary Outcome Measures'])
         
-        if isinstance(row['Secondary Outcome Measures'],str):
-            for split in row['Secondary Outcome Measures'].split('|'):
+        if isinstance(row['secondaryOutcomes'],str):
+            for split in row['secondaryOutcomes'].split('|'):
                 out1 = ner_prediction(corpus=split,compute='cpu') #pass compute='gpu' if using gpu
                 out1['from'] = 'secondary'
                 # print(out1)
@@ -115,8 +143,8 @@ def ner_on_df(data):
             # print(row['Secondary Outcome Measures'])
         
         
-        if isinstance(row['Other Outcome Measures'],str):
-            for split in row['Secondary Outcome Measures'].split('|'):
+        if isinstance(row['otherOutcomes'],str):
+            for split in row['otherOutcomes'].split('|'):
                 out1 = ner_prediction(corpus=split,compute='cpu') #pass compute='gpu' if using gpu
                 out1['from'] = 'other'
                 # print(out1)
@@ -130,8 +158,9 @@ def ner_on_df(data):
     return result
 
 
-def hierarchical_clustering(outcome_measures,cutoff=0):
-    print(outcome_measures)
+def hierarchical_clustering(outcome_measures,cutoff=0.05):
+    print("Hierarchical clustering with cutoff",cutoff)
+    # print(outcome_measures)
     
     model = SentenceTransformer('bert-base-nli-mean-tokens')
     sentence_embeddings = model.encode(outcome_measures)
@@ -143,7 +172,30 @@ def hierarchical_clustering(outcome_measures,cutoff=0):
     return outcome_measures_clustered
 
 
-def topic_categosization(data,clusters):
+def synonym_categorization(data):
+    print("Synonym reformatting.")
+    # Merge the clusters using the pandas concat function
+    merged_clusters = pd.concat([data.groupby('Cluster')['Outcome Measure'].agg(list),  data.groupby('Cluster').size()], axis=1).reset_index()
+    merged_clusters.columns = ['ID', 'Synonyms', 'Size']
+    merged_clusters['Outcome Measure'] = ""
+    # print(merged_clusters)
+
+    # merged_clusters['Label'] = merged_clusters['Synonyms'][0]
+    for ind,id in enumerate(merged_clusters['ID']):
+        syn = merged_clusters[merged_clusters["ID"] == id]['Synonyms'].values[0]
+        # print(type(syn), syn[0])
+        merged_clusters.at[ind,'Outcome Measure'] = syn[0]
+        merged_clusters.at[ind,'Synonyms'] = list(set(syn))
+
+    # print(merged_clusters)
+
+    # Print the merged clusters
+    return merged_clusters
+    
+
+
+def topic_categorization(data,clusters):
+    print("Assigning topic category to outcome measures.")
     model = SentenceTransformer('bert-base-nli-mean-tokens')
     # return "not implemented"
     # Prepare data for LDA
@@ -212,9 +264,17 @@ def topic_categosization(data,clusters):
     return merged_clusters
 
 
-def ontology(data,folder,cutoff):
+def ontology(data,synonyms,folder,cutoff):
+    print("Building ontology.")
     # Create a new ontology
     ontology = get_ontology("http://example.com/ontology.owl")
+    obo = get_ontology('http://www.geneontology.org/formats/oboInOwl#')
+    with obo:
+        class hasExactSynonym(AnnotationProperty):
+            pass
+    
+    ontology.imported_ontologies.append(obo)
+
 
     desired_labels = labels_cancer
 
@@ -239,6 +299,12 @@ def ontology(data,folder,cutoff):
                     OutcomeClass = types.new_class(outcome_class_name, (LabelClass,))
                     # Append original outcome name as rdfs:label
                     OutcomeClass.label.append(outcome)
+                    # Append sysnonsyms of this outcome measure as ...
+                    synlist = synonyms[synonyms['Outcome Measure'] == outcome]['Synonyms'].values[0]
+                    
+                    for syn in synlist:
+                        # print(syn)
+                        OutcomeClass.hasExactSynonym.append(syn)
 
     # Save the ontology to an OWL file
     ontology.save(file = os.path.join(folder,"automatic_"+str(cutoff)+"_ontology.owl"), format = "rdfxml")

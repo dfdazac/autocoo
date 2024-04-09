@@ -4,9 +4,12 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xml:base="http://example.com/ontology.owl"
-         xmlns="http://example.com/ontology.owl#">
+         xmlns="http://example.com/ontology.owl#"
+         xmlns:oboI="http://www.geneontology.org/formats/oboInOwl#">
 
-<owl:Ontology rdf:about="http://example.com/ontology.owl"/>
+<owl:Ontology rdf:about="http://example.com/ontology.owl">
+  <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
+</owl:Ontology>
 
 <owl:Class rdf:about="#Measure_of_quality_of_life">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -18,34 +21,60 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of patient satisfaction</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#Human_Anti_Human_Antibody">
+<owl:Class rdf:about="#Steady_state">
   <rdfs:subClassOf rdf:resource="#Measure_of_patient_satisfaction"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Anti-Human Antibody</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#polyp_polyps_retrieval_rate">
-  <rdfs:subClassOf rdf:resource="#Measure_of_patient_satisfaction"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyp polyps retrieval rate</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#immunosorbent_assay">
-  <rdfs:subClassOf rdf:resource="#Measure_of_patient_satisfaction"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunosorbent assay</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#PET">
-  <rdfs:subClassOf rdf:resource="#Measure_of_patient_satisfaction"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steady-state</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steady-state</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#polyp_detection_rate">
   <rdfs:subClassOf rdf:resource="#Measure_of_patient_satisfaction"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyp detection rate</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyp detection rate</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyp polyps retrieval rate</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_tolerability">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of tolerability</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Life">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Quality_of_life">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of life</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of life</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of life</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Numeric_Numerical">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numeric Numerical</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numeric Numerical</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Numbers">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Numerical_Rating_Scale">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Rating Scale</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Rating Scale</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#radiomics">
+  <rdfs:subClassOf rdf:resource="#Measure_of_tolerability"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiomics</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiomics</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_adherence">
@@ -66,26 +95,88 @@
 <owl:Class rdf:about="#Hedgehog">
   <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#walk_test">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walk test</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walk test</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#rate_of_mortality">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate of mortality</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate of mortality</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#mortality">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Fatigue">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#morbidity">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbidity</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbidity</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#health_related">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health-related</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health-related</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health-related</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#colonoscopies">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscopies</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscopy</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscopies</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscope</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#genitourinary">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genitourinary</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genitourinary</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#intubation">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intubation</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intubation</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Sera">
+  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sera</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sera</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#signaling_pathway">
   <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Numerical_Rating_Scale">
+<owl:Class rdf:about="#interviews">
   <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numerical Rating Scale</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interviews</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interviews</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Numeric_Numerical">
+<owl:Class rdf:about="#immunosorbent_assay">
   <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numeric Numerical</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Numbers">
-  <rdfs:subClassOf rdf:resource="#Measure_of_efficacy"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunosorbent assay</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunosorbent assay</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_healthcare_resource_utilization">
@@ -98,29 +189,66 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of neurocognitive function</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#Bayesian_futility_monitoring">
+<owl:Class rdf:about="#Fitness">
   <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayesian futility monitoring</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitness</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitness</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitness Scale</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#health_related">
+<owl:Class rdf:about="#survival">
   <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health-related</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survival</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival rate</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Health_related">
+<owl:Class rdf:about="#endurance">
   <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health-related</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurance</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurance</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#proportional_hazard_regression">
+<owl:Class rdf:about="#Genetic">
   <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proportional hazard regression</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#radiomics">
+<owl:Class rdf:about="#Genetic_Testing">
   <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiomics</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Testing</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic tests</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Testing</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic testing</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Genetic_counselor">
+  <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic counselor</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic counselors</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Counselor</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic counselor</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Laboratory">
+  <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Research">
+  <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#biopsy">
+  <rdfs:subClassOf rdf:resource="#Measure_of_neurocognitive_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopsy</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopsy</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_nutritional_status">
@@ -138,319 +266,16 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of performance status</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#Distribution">
+<owl:Class rdf:about="#Kruskal_Wallis_tests">
   <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distribution</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis tests</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis tests</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#IFIS">
+<owl:Class rdf:about="#Kruskal_Wallis">
   <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFIS</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#survival">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#DLT">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLT</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#It">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#GU">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GU</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#life">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#CT">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Organization">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#RECIST_criteria">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RECIST criteria</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Institute">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#plasma_concentration">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma concentration</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#CR">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CR</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Fitness_Scale">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitness Scale</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#survival_rate">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival rate</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#BI">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BI</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Fisher">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#endurance">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endurance</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#TAMs">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAMs</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Plasma_Concentration">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma Concentration</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#visual_analogue_scale">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual analogue scale</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Steady_state">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steady-state</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Scores">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scores</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#rate">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Cost">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cost</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Life">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#plasma">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Time">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#EORTC">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EORTC</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#FDG">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDG</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#GI">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GI</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Fitness">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitness</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#PR">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#imaging">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#BPI">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPI</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#walk_test">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walk test</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Treatment_of">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Quality">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#pixel_features">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pixel features</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#likert_scale">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">likert scale</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#AUCτ">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUCτ</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#MR">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MR</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#AUC0_24">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-24</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#wich">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wich</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Solid_Tumors">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Tumors</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#International">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#NCI">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Quality_of_life">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of life</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#MTD">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTD</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Gli_1">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gli-1</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Cmax">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmax</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#quality_of_life">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of life</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#CTCAE">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTCAE</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Vss">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vss</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#GLP_1">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLP-1</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Survival">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survival</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HRQL">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HRQL</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#responses">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responses</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#EMR">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMR</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#AUC0_168">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-168</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#concordance">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concordance</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#HAHA">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAHA</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#RECIST">
-  <rdfs:subClassOf rdf:resource="#Measure_of_performance_status"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RECIST</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_sexual_function">
@@ -458,159 +283,341 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measure of sexual function</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#intubation">
+<owl:Class rdf:about="#Solid_Tumors">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intubation</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Tumors</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid Tumors</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Genetic_Testing">
+<owl:Class rdf:about="#PET">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Testing</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#biopsy">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopsy</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#mortality">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#colonoscopy">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscopy</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#advance_adenoma">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advance adenoma</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Workbook">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workbook</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workbook</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#genitourinary">
+<owl:Class rdf:about="#Plasma_Concentration">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genitourinary</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma Concentration</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma concentration</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma Concentration</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#rate_of_mortality">
+<owl:Class rdf:about="#plasma">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate of mortality</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Sera">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sera</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#concentration_time_curve">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-time curve</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#genetic_tests">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic tests</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Genetic">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#EUS">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUS</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Laboratory">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Genetic_counselors">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic counselors</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Kruskal_Wallis_tests">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis tests</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Genetic_Counselor">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Counselor</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Fatigue">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#colonoscopies">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscopies</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#colonoscope">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonoscope</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#Research">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#morbidity">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbidity</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#interviews">
-  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interviews</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#dynamometer">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamometer</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamometer</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Kruskal_Wallis">
+<owl:Class rdf:about="#Gli_1">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruskal-Wallis</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gli-1</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLP-1</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gli-1</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#AUC0_24">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-24</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-24</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#AUC0_168">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-168</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUC0-168</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#CTCAE">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTCAE</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTCAE</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#CT">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#BPI">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPI</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BPI</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#FDG">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDG</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDG</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#MTD">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTD</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTD</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Vss">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vss</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vss</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#BI">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BI</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BI</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#GU">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GU</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GU</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#AUCτ">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUCτ</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUCτ</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#HRQL">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HRQL</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HRQL</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Cmax">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmax</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmax</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#EORTC">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EORTC</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMR</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EORTC</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#IFIS">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFIS</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFIS</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Institute">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#NCI">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#GI">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GI</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GI</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#CR">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CR</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CR</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#It">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAHA</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wich</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#MR">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MR</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MR</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#responses">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responses</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responses</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#PR">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Time">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Cost">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cost</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cost</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Distribution">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distribution</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distribution</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#RECIST_criteria">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RECIST criteria</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RECIST</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RECIST criteria</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Treatment_of">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#DLT">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLT</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLT</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#TAMs">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAMs</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAMs</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#imaging">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#pixel_features">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pixel features</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pixel features</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#visual_analogue_scale">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual analogue scale</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual analogue scale</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#likert_scale">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">likert scale</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">likert scale</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Quality">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#concordance">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concordance</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concordance</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Organization">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Scores">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scores</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scores</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Fisher">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#International">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#EUS">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUS</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUS</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#ELISA">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#genetic_testing">
+<owl:Class rdf:about="#proportional_hazard_regression">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic testing</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proportional hazard regression</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proportional hazard regression</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#Bayesian_futility_monitoring">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayesian futility monitoring</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayesian futility monitoring</oboI:hasExactSynonym>
+</owl:Class>
+
+<owl:Class rdf:about="#concentration_time_curve">
+  <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-time curve</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-time curve</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#bioelectrical_impedance_analysis">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioelectrical impedance analysis</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioelectrical impedance analysis</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#Genetic_counselor">
+<owl:Class rdf:about="#Human_Anti_Human_Antibody">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic counselor</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Anti-Human Antibody</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Anti-Human Antibody</oboI:hasExactSynonym>
 </owl:Class>
 
-<owl:Class rdf:about="#genetic">
+<owl:Class rdf:about="#advance_adenoma">
   <rdfs:subClassOf rdf:resource="#Measure_of_sexual_function"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advance adenoma</rdfs:label>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advance adenoma</oboI:hasExactSynonym>
 </owl:Class>
 
 <owl:Class rdf:about="#Measure_of_safety">
