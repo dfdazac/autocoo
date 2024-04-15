@@ -58,7 +58,7 @@ def main():
                         default="git/autocoo/data/debuggin")
 
     parser.add_argument('--process', 
-                        help="one of [semi,auto]. Semi will return a list of entities detected in the csv file of clinical trials. Auto will return an ontology engineered from the csv file containing clinical trials.",
+                        help="one of [syn,semi,auto]. Semi will return a list of entities detected in the csv file of clinical trials. Auto will return an ontology engineered from the csv file containing clinical trials.",
                         default='auto')
     
     parser.add_argument('--cutoff', 
@@ -96,13 +96,20 @@ def main():
 
     # extract only the values that we want to put into the ontology in the automatic procedures
     outcome_measures = filter_ner_result(ner_result)
-
-
+    
+    
     # run clustering for synonyms
     synonyms = hierarchical_clustering(outcome_measures,cutoff=0.1)
     # print(synonyms)
     outcome_measures = synonym_categorization(synonyms)
     outcome_measures = outcome_measures.drop(columns=['ID','Size'])
+
+    if args.process == 'syn':
+        os.makedirs(args.resultfolder, exist_ok=True)
+        resfile = os.path.join(args.resultfolder,"synonyms_results.csv")
+        outcome_measures.to_csv(resfile)
+        return
+
 
     # run clustering for categorisation
     clustered = hierarchical_clustering(outcome_measures['Outcome Measure'], cutoff=args.cutoff)
