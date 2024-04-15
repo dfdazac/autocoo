@@ -24,7 +24,7 @@ import re
 import os
 
 
-labels_cancer = ["Measure of quality of life",
+labels_default = ["Measure of quality of life",
     "Measure of patient satisfaction",
     "Measure of tolerability",
     "Measure of adherence",
@@ -38,13 +38,13 @@ labels_cancer = ["Measure of quality of life",
     "Measure of sexual function",
     "Measure of safety"]
 
-labels_default = ["Biomarker",
-                  "Disease activity",
-                  "Endpoint score",
-                  "Histological endpoint",
-                  "Outcome measurement tool",
-                  "Questainnaire",
-                  ]
+# labels_default = ["Biomarker",
+#                   "Disease activity",
+#                   "Endpoint score",
+#                   "Histological endpoint",
+#                   "Outcome measurement tool",
+#                   "Questainnaire",
+#                   ]
 
 def main():
     parser = argparse.ArgumentParser()
@@ -78,6 +78,10 @@ def main():
 
     if args.ner:
         ner_result = pd.read_csv(args.nerfile)
+        print(len(ner_result))
+        if len(ner_result)<10:
+            print("something is wrong, stopping...")
+            return
     else:
         # parse csv data
         data = pd.read_csv(args.csv)
@@ -203,7 +207,7 @@ def topic_categorization(data,clusters):
     vectorizer_labels = CountVectorizer()
 
     X_outcome = vectorizer_outcome.fit_transform(data)
-    labels = labels_cancer
+    labels = labels_default
     X_labels = vectorizer_labels.fit_transform(labels)
 
     # Fit LDA models
@@ -266,6 +270,7 @@ def topic_categorization(data,clusters):
 
 def ontology(data,synonyms,folder,cutoff):
     print("Building ontology.")
+    print(data)
     # Create a new ontology
     ontology = get_ontology("http://example.com/ontology.owl")
     obo = get_ontology('http://www.geneontology.org/formats/oboInOwl#')
@@ -276,7 +281,7 @@ def ontology(data,synonyms,folder,cutoff):
     ontology.imported_ontologies.append(obo)
 
 
-    desired_labels = labels_cancer
+    desired_labels = labels_default
 
     with ontology:
         # For each desired label
@@ -307,7 +312,7 @@ def ontology(data,synonyms,folder,cutoff):
                         OutcomeClass.hasExactSynonym.append(syn)
 
     # Save the ontology to an OWL file
-    ontology.save(file = os.path.join(folder,"automatic_"+str(cutoff)+"_ontology.owl"), format = "rdfxml")
+    ontology.save(file = os.path.join(folder,"automatic_"+str(cutoff)+"_ontology_cl.owl"), format = "rdfxml")
 
 
 def filter_ner_result(ner_result):

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="http://example.com/ctg_cancer_cluster.owl" uri="old/diabetes_auto_cluster.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="duplicate:http://example.com/ontology.owl" uri="gi_cancer_automatic_0_ontology_v0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="duplicate:http://example.com/ontology.owl" uri="diabetes_automatic_0_ontology_v0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="duplicate:http://example.com/ontology.owl" uri="diabetes_automatic_0.3_ontology_v0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="duplicate:http://example.com/ontology.owl" uri="gi_cancer_automatic_0.3_ontology_v0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="http://example.com/ontology_noncluster.owl" uri="old/diabetes_auto_noncluster.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="http://purl.obolibrary.org/obo/ccto.owl" uri="gi_cancer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="urn:webprotege:ontology:75d9f904-421a-4585-ab77-96e5fc3d5fb3" uri="diabetes.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="urn:webprotege:ontology:84ce57ae-9d89-42e7-97a5-80257d5173b4" uri="old/diabetes_semi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1712659414050" name="urn:webprotege:ontology:ab7603ec-2f23-4431-b5ee-92101b5d27a4" uri="old/gi_cancer_semi.owl"/>
+    </group>
+</catalog>
