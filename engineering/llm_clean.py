@@ -50,11 +50,9 @@ def clean_synonyms_file(csv_file: str, prompt_file: str):
                                temperature=0.7,
                                top_k=50,
                                top_p=0.95,
-                               eos_token_id=terminators)
+                               eos_token_id=terminators,
+                               pad_token_id=pipeline.model.config.eos_token_id)
             outputs = outputs[0]['generated_text'].lower()
-
-            print(prompt)
-            print(outputs)
 
             if '[yes]' in outputs:
                 result.append(term)
