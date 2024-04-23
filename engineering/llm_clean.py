@@ -32,13 +32,13 @@ def clean_synonyms_file(csv_file: str, prompt_file: str):
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
 
-    def filter_row(row: pd.Series, prompt: str) -> list[str]:
+    def filter_row(row: pd.Series, prompt_prefix: str) -> list[str]:
         """Filter rows based on the response of an LLM to the prompt."""
         result = []
         for term in row[SYN_COL]:
             # Prompt LLM for relevance of the term
             messages = [{"role": "user",
-                         "content": f'{prompt} {term}'}]
+                         "content": f'{prompt_prefix} {term}'}]
             prompt = pipeline.tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
@@ -60,13 +60,13 @@ def clean_synonyms_file(csv_file: str, prompt_file: str):
         return result
 
     with open(args.prompt_file) as f:
-        prompt = f.read()
+        prompt_prefix = f.read()
 
     # Use LLM to drop non-relevant items, and drop rows where result is empty
     tqdm.pandas(desc='Filtering synonyms')
     df[SYN_COL] = df.progress_apply(filter_row,
                                     axis=1,
-                                    prompt=prompt)
+                                    prompt_prefix=prompt_prefix)
     df = df[df[SYN_COL].apply(len) > 0]
 
     df = df.reset_index(drop=True)
