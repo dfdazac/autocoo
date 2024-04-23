@@ -13,7 +13,7 @@ SYN_COL = 'Synonyms'
 def clean_synonyms_file(csv_file: str, prompt_file: str):
     directory = osp.dirname(csv_file)
     output_fname = 'synonyms_clean_results.csv'
-    df = pd.read_csv(csv_file).head(n=20)
+    df = pd.read_csv(csv_file)
 
     # The Synonyms columns contains a list of strings but it's read as a string
     # We convert it here.
