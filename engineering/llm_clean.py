@@ -13,20 +13,24 @@ SYN_COL = 'Synonyms'
 def clean_synonyms_file(csv_file: str, prompt_file: str):
     directory = osp.dirname(csv_file)
     output_fname = 'synonyms_clean_results.csv'
-    df = pd.read_csv(csv_file)
+    df = pd.read_csv(csv_file).head(n=20)
 
     # The Synonyms columns contains a list of strings but it's read as a string
     # We convert it here.
     df[SYN_COL] = df[SYN_COL].apply(eval)
 
     # LLM instantiation
-    # model = 'HuggingFaceM4/tiny-random-LlamaForCausalLM'
-    model = 'mistralai/Mixtral-8x7B-Instruct-v0.1'
+    model = 'meta-llama/Meta-Llama-3-8B-Instruct'
     pipeline = transformers.pipeline(
         "text-generation",
         model=model,
-        model_kwargs={"torch_dtype": torch.float16, "load_in_4bit": True}
+        model_kwargs={"torch_dtype": torch.float16},
+        device='cuda'
     )
+    terminators = [
+        pipeline.tokenizer.eos_token_id,
+        pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+    ]
 
     def filter_row(row: pd.Series, prompt: str) -> list[str]:
         """Filter rows based on the response of an LLM to the prompt."""
@@ -45,7 +49,8 @@ def clean_synonyms_file(csv_file: str, prompt_file: str):
                                do_sample=True,
                                temperature=0.7,
                                top_k=50,
-                               top_p=0.95)
+                               top_p=0.95,
+                               eos_token_id=terminators)
             outputs = outputs[0]['generated_text'].lower()
 
             print(prompt)
