@@ -1,0 +1,84 @@
+import os.path as osp
+from argparse import ArgumentParser
+
+import pandas as pd
+import torch
+import transformers
+from tqdm import tqdm
+
+
+SYN_COL = 'Synonyms'
+
+
+def clean_synonyms_file(csv_file: str, prompt_file: str):
+    directory = osp.dirname(csv_file)
+    output_fname = 'synonyms_clean_results.csv'
+    df = pd.read_csv(csv_file)
+
+    # The Synonyms columns contains a list of strings but it's read as a string
+    # We convert it here.
+    df[SYN_COL] = df[SYN_COL].apply(eval)
+
+    # LLM instantiation
+    # model = 'HuggingFaceM4/tiny-random-LlamaForCausalLM'
+    model = 'mistralai/Mixtral-8x7B-Instruct-v0.1'
+    pipeline = transformers.pipeline(
+        "text-generation",
+        model=model,
+        model_kwargs={"torch_dtype": torch.float16, "load_in_4bit": True}
+    )
+
+    def filter_row(row: pd.Series, prompt: str) -> list[str]:
+        """Filter rows based on the response of an LLM to the prompt."""
+        result = []
+        for term in row[SYN_COL]:
+            # Prompt LLM for relevance of the term
+            messages = [{"role": "user",
+                         "content": f'{prompt} {term}'}]
+            prompt = pipeline.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True)
+            outputs = pipeline(prompt,
+                               return_full_text=False,
+                               max_new_tokens=500,
+                               do_sample=True,
+                               temperature=0.7,
+                               top_k=50,
+                               top_p=0.95)
+            outputs = outputs[0]['generated_text'].lower()
+
+            print(prompt)
+            print(outputs)
+
+            if '[yes]' in outputs:
+                result.append(term)
+
+        return result
+
+    with open(args.prompt_file) as f:
+        prompt = f.read()
+
+    # Use LLM to drop non-relevant items, and drop rows where result is empty
+    tqdm.pandas(desc='Filtering synonyms')
+    df[SYN_COL] = df.progress_apply(filter_row,
+                                    axis=1,
+                                    prompt=prompt)
+    df = df[df[SYN_COL].apply(len) > 0]
+
+    df = df.reset_index(drop=True)
+    df.to_csv(osp.join(directory, output_fname), index=False)
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser('Cleans file with ')
+    parser.add_argument('--csv_file',
+                        help='Synonyms file with terms to filter')
+    parser.add_argument('--prompt_file',
+                        help='Plain text file with prompt to use')
+    args = parser.parse_args()
+
+    clean_synonyms_file(args.csv_file, args.prompt_file)
+
+
+
