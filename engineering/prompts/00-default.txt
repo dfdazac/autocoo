@@ -1,0 +1,7 @@
+Does the following term meet one of the following conditions?
+- It is the outcome measure of a clinical trial
+- It is a medical procedure
+- It is a measurement of some process in the human body
+- An acronym for a medical procedure or outcome of a medical procedure
+Only answer YES or NO.
+Term:
