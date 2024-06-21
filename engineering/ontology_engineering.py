@@ -56,6 +56,9 @@ def main():
     parser.add_argument('--resultfolder', 
                         help="absolute path to folder where NER and ontologies will be saved.",
                         default="git/autocoo/data/debuggin")
+    
+    parser.add_argument('--ontofilename',
+                        default="debugging.owl")
 
     parser.add_argument('--process', 
                         help="one of [syn,semi,auto]. Semi will return a list of entities detected in the csv file of clinical trials. Auto will return an ontology engineered from the csv file containing clinical trials.",
@@ -66,49 +69,67 @@ def main():
                         default=0.3)
 
     parser.add_argument('--ner', 
-                        help="hierarchical clustering cut-off value. 0 (default) means no hierarchichal clustering will be applied, 0.3 is the cutuff we used in our work in the automatic procedure. Ignored for semi.",
+                        help="wheather to use an existing ner file or not.",
                         default=False)
 
     parser.add_argument('--nerfile', 
-                        help="hierarchical clustering cut-off value. 0 (default) means no hierarchichal clustering will be applied, 0.3 is the cutuff we used in our work in the automatic procedure. Ignored for semi.",
+                        help="the file name if another NER file should be used. Ignored if --ner is set to false.",
                         default="git/autocoo/data/debugging/NER_results.csv")
+    
+    parser.add_argument('--syn', 
+                        help="wheather to use an existing synonyms file or not.",
+                        default=True)
+    
+    parser.add_argument('--synfile', 
+                        help="the file name if another synonyms file should be used. Ignored if --ner is set to false.",
+                        default="git/autocoo/data/debuggin/synonyms_clean_results.csv")
     
 
     args = parser.parse_args()
+    print(os.getcwd())
 
-    if args.ner:
-        ner_result = pd.read_csv(args.nerfile)
-        print(len(ner_result))
-        if len(ner_result)<10:
-            print("something is wrong, stopping...")
+    if args.syn:
+        outcome_measures = pd.read_csv(args.synfile)
+        print(len(outcome_measures))
+        if len(outcome_measures)<10:
+            print("something is wrong with Synonyms file, stopping...")
             return
+
     else:
-        # parse csv data
-        data = pd.read_csv(args.csv)
-    
-        # run NER
-        ner_result = ner_on_df(data)
+        if args.ner:
+            ner_result = pd.read_csv(args.nerfile)
+            print(len(ner_result))
+            if len(ner_result)<10:
+                print("something is wrong with NER file, stopping...")
+                return
+        else:
+            # parse csv data
+            data = pd.read_csv(args.csv)
+        
+            # run NER
+            ner_result = ner_on_df(data)
 
-        # save NER results
-        os.makedirs(args.resultfolder, exist_ok=True)
-        resfile = os.path.join(args.resultfolder,"NER_results.csv")
-        ner_result.to_csv(resfile)
+            # save NER results
+            os.makedirs(args.resultfolder, exist_ok=True)
+            resfile = os.path.join(args.resultfolder,"NER_results.csv")
+            ner_result.to_csv(resfile)
 
-    # extract only the values that we want to put into the ontology in the automatic procedures
-    outcome_measures = filter_ner_result(ner_result)
+        # extract only the values that we want to put into the ontology in the automatic procedures
+        outcome_measures = filter_ner_result(ner_result)
     
     
-    # run clustering for synonyms
-    synonyms = hierarchical_clustering(outcome_measures,cutoff=0.1)
-    # print(synonyms)
-    outcome_measures = synonym_categorization(synonyms)
-    outcome_measures = outcome_measures.drop(columns=['ID','Size'])
+        # run clustering for synonyms
+        synonyms = hierarchical_clustering(outcome_measures,cutoff=0.1)
+    
+        # print(synonyms)
+        outcome_measures = synonym_categorization(synonyms)
+        outcome_measures = outcome_measures.drop(columns=['ID','Size'])
 
-    if args.process == 'syn':
-        os.makedirs(args.resultfolder, exist_ok=True)
-        resfile = os.path.join(args.resultfolder,"synonyms_results.csv")
-        outcome_measures.to_csv(resfile)
-        return
+    # if args.process == 'syn':
+    #     os.makedirs(args.resultfolder, exist_ok=True)
+    #     resfile = os.path.join(args.resultfolder,"synonyms_results.csv")
+    #     outcome_measures.to_csv(resfile)
+    #     return
 
 
     # run clustering for categorisation
@@ -121,7 +142,7 @@ def main():
     result = topic_categorization(outcome_measures['Outcome Measure'],clustered)
     
     # # run engineering and save ontology
-    onto = ontology(result,outcome_measures,args.resultfolder,args.cutoff)
+    onto = ontology(result,outcome_measures,args.resultfolder,args.cutoff,filename=args.ontofilename)
 
 
 # iterates through a dataframe of outcome measure
@@ -275,7 +296,7 @@ def topic_categorization(data,clusters):
     return merged_clusters
 
 
-def ontology(data,synonyms,folder,cutoff):
+def ontology(data,synonyms,folder,cutoff,filename=""):
     print("Building ontology.")
     print(data)
     # Create a new ontology
@@ -319,7 +340,10 @@ def ontology(data,synonyms,folder,cutoff):
                         OutcomeClass.hasExactSynonym.append(syn)
 
     # Save the ontology to an OWL file
-    ontology.save(file = os.path.join(folder,"automatic_"+str(cutoff)+"_ontology_cl.owl"), format = "rdfxml")
+    if filename=="":
+        ontology.save(file = os.path.join(folder,"automatic_"+str(cutoff)+"_ontology_cl.owl"), format = "rdfxml")
+    else:
+        ontology.save(file=os.path.join(folder,filename))
 
 
 def filter_ner_result(ner_result):
