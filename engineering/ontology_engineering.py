@@ -22,6 +22,7 @@ import argparse
 import types
 import re
 import os
+import ast
 
 
 labels_default = ["Measure of quality of life",
@@ -333,11 +334,13 @@ def ontology(data,synonyms,folder,cutoff,filename=""):
                     # Append original outcome name as rdfs:label
                     OutcomeClass.label.append(outcome)
                     # Append sysnonsyms of this outcome measure as ...
-                    synlist = synonyms[synonyms['Outcome Measure'] == outcome]['Synonyms'].values[0]
+                    synlist = synonyms[synonyms['Outcome Measure'] == outcome]['Synonyms'].values[0]                    
+                    synl = ast.literal_eval(synlist)
                     
-                    for syn in synlist:
-                        # print(syn)
-                        OutcomeClass.hasExactSynonym.append(syn)
+                    for syn in synl:
+                        print(syn)
+                        if outcome != syn:
+                            OutcomeClass.hasExactSynonym.append(syn)
 
     # Save the ontology to an OWL file
     if filename=="":
