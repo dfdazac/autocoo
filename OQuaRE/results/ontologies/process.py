@@ -67,13 +67,24 @@ def process_xml(file_path):
             'main_tag': 'oquareModel',
             'main_attr': 'oquareValue',
             'submetrics': []
+        },
+        'oquaremetrics': {
+            'main_tag': 'oquareMetrics',
+            'main_attr': '',
+            'submetrics': [
+                'ANOnto', 'AROnto', 'CBOOnto', 'CBOnto2', 'CROnto', 'DITOnto', 'INROnto', 'LCOMOnto', 'NACOnto', 'NOCOnto',
+                'NOMOnto', 'POnto', 'PROnto', 'RFCOnto', 'RROnto', 'TMOnto', 'TMOnto2', 'WMCOnto', 'WMCOnto2'
+            ]
         }
     }
 
     parsed_metrics = {}
     for key, value in metrics.items():
         main_value, submetric_values = find_metrics(root, value['main_tag'], value['main_attr'], value['submetrics'])
-        parsed_metrics[key] = {'main': main_value, **submetric_values}
+        if key == 'oquaremetrics':
+            parsed_metrics[key] = submetric_values
+        else:
+            parsed_metrics[key] = {'main': main_value, **submetric_values}
 
     # latex_table = metrics_to_latex(parsed_metrics)
     results_df = metrics_to_pandas(parsed_metrics)
