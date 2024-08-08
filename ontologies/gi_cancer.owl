@@ -186,10 +186,587 @@
     
 
 
+    <!-- http://discoverylab.ai/ctoo/gicancer/AdenomaDetectionRate -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/AdenomaDetectionRate">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The adenoma detection rate is a measure that assesses the effectiveness of a colonoscopy procedure in detecting precancerous adenomas in the colon.</obo:IAO_0000115>
+        <oboInOwl:id rdf:resource="C:2855"/>
+        <rdfs:label>Adenoma detection rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/AntiDrugAntibodiesIncidence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/AntiDrugAntibodiesIncidence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Incidence"/>
+        <obo:IAO_0000115>An antibody that binds to an administered drug or therapeutic agent. Expression of these antibodies is thought to be induced by (repeated) administration.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ADA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-Drug Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:107495"/>
+        <rdfs:label>Anti-Drug antibodies incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/AppendicealNeoplasmIncidence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/AppendicealNeoplasmIncidence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Incidence"/>
+        <obo:IAO_0000115>The specific incidence of appendiceal neoplasms is variable and relatively rare, with rates varying depending on factors such as geographic location and tumor subtype.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Appendiceal neoplasm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="DOID:11240"/>
+        <rdfs:label>Appendiceal neoplasm incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/AreaUnderCurve -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/AreaUnderCurve">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
+        <obo:IAO_0000115>The area between the x-axis and the curve given by the integrand. It is equal to the definite integral of a function. In the field of pharmacokinetics, the area under the curve (AUC) is the area under the curve in a plot of concentration of a drug in plasma against time. AUC is usually given for the time interval zero to infinity, and other time intervals are indicated.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>AUC</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:64774"/>
+        <rdfs:label>Area under curve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/BloodHormoneLevel -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/BloodHormoneLevel">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>Measurement of the amount in blood of any complex chemical substance produced in one part or organ of the body that initiates or regulates the activity of an organ or a group of cells in another part of the body.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CMO:0001003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hormone in blood</oboInOwl:hasExactSynonym>
+        <rdfs:label>Blood hormone level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/ChangeInDailySteps -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/ChangeInDailySteps">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
+        <obo:IAO_0000115>This outcome measure will be the change in daily steps for participants before and after major oncologic surgery. Change in median (IQR) steps reported.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>C172479</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>Number of Steps Taken</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Change in Daily steps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/ChangeInFatFreeMass -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/ChangeInFatFreeMass">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfNutritionalStatus"/>
+        <rdfs:label>Change in fat free mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/CirculatingTumorCellsDetection -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/CirculatingTumorCellsDetection">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The detection of circulating tumor cells  is a measure that assesses the effectiveness of a diagnostic test in detecting the presence of tumor cells in the bloodstream of a patient with cancer.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Circulating Tumor Cell Count</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="C:96593"/>
+        <rdfs:label>Circulating tumor cells detection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/ColdPainThreshold -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/ColdPainThreshold">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/PainThreshold"/>
+        <obo:IAO_0000115>Cold pain threshold (CPT) is used to measure cold hyperalgesia and is defined as the temperature at which a sensation of cold changes to a sensation of cold-with-pain. In cold hyperalgesia, a patient&apos;s CPT is reached at a significantly warmer temperature than a healthy individual&apos;s CPT</obo:IAO_0000115>
+        <rdfs:label>Cold pain thresholds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/DecreaseOfTumorSize -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/DecreaseOfTumorSize">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
+        <oboInOwl:hasRelatedSynonym>Tumor shrinkage</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Decrease of tumor size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/DoseLimitingToxicity -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/DoseLimitingToxicity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000048"/>
+        <oboInOwl:hasDbXref>NCIT: C123282</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS: C4054080</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DLM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Regimen-Limiting Toxicity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>limiting toxicity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Dose limiting toxicities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dose-limiting toxicity</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Dose limiting toxicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/FrequenceOfPositiveCtDNA -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/FrequenceOfPositiveCtDNA">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>meassure of amount of small fragments of DNA released into the bloodstream by cancer cells.</obo:IAO_0000115>
+        <oboInOwl:id rdf:resource="C:177304"/>
+        <rdfs:label>Frequence of positive ctDNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/HPVVaccineSeriesStartAndCompletion -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/HPVVaccineSeriesStartAndCompletion">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
+        <oboInOwl:hasRelatedSynonym>HPV vaccination series duration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Human Papilloma Virus Vaccine series</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>C:1951</oboInOwl:id>
+        <rdfs:comment>The performance in time of conducting a HPV vaccine series</rdfs:comment>
+        <rdfs:label>HPV vaccine series start and completion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/HeatPainThresholds -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/HeatPainThresholds">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/PainThreshold"/>
+        <obo:IAO_0000115>Heat pain threshold (CPT) is used to measure heat hyperalgesia and is defined as the temperature at which a sensation of heat changes to a sensation of heat-with-pain.</obo:IAO_0000115>
+        <rdfs:label>Heat pain thresholds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/Incidence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/Incidence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>The relative frequency of occurrence of something.</obo:IAO_0000115>
+        <oboInOwl:id rdf:resource="C:16726"/>
+        <rdfs:label>Incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/InflammatoryResponse -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/InflammatoryResponse">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The inflammatory response (inflammation) occurs when tissues are injured by bacteria, trauma, toxins, heat, or any other cause.</obo:IAO_0000115>
+        <rdfs:label>Inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/KRASMutation -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/KRASMutation">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>Genetic alterations in the KRAS gene that result in abnormal activity of the K-Ras protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>KRAS Mutation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCI:C41361</oboInOwl:id>
+        <rdfs:label>K-RAS mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LesionLocation -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LesionLocation">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The anatomical location of the lesion that has been determined to be the primary lesion.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Anatomical Location of Primary Lesion</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C181315"/>
+        <rdfs:label>Lesion location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LesionSize -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LesionSize">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The size of a lesion in its greatest dimension.</obo:IAO_0000115>
+        <oboInOwl:id>C:171342</oboInOwl:id>
+        <rdfs:label>Lesion size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LiverPositionDifference -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LiverPositionDifference">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
+        <obo:IAO_0000115>The difference of position of the liver</obo:IAO_0000115>
+        <oboInOwl:id>OBA:0005267</oboInOwl:id>
+        <rdfs:label>Liver position difference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LocalPolypsRecurrence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LocalPolypsRecurrence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Recurrence"/>
+        <obo:IAO_0000115>reappearance of polyps in the gastrointestinal tract after they have been removed</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Polyps recurrence</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="http://purl.bioontology.org/ontology/MEDDRA/10036137"/>
+        <rdfs:label>Local polyps recurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LocalRecurrencesDifference -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LocalRecurrencesDifference">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Recurrence"/>
+        <rdfs:label>Local recurrences difference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/LongTermHealthRelatedQualityOfLife -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/LongTermHealthRelatedQualityOfLife">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife"/>
+        <obo:IAO_0000115>Questionnare on long term health of the quality based on EORTC</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>EORTC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EORTC QLQ-C30</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="C:142570"/>
+        <rdfs:label>Long Term Health-Related Quality of Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MRImageFindings -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MRImageFindings">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Radiomics"/>
+        <obo:IAO_0000115>Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Magnetic Resonance Image findings</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>magnetic resonance Image findings</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:16809"/>
+        <rdfs:label>MR image findings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MaximumToleratedDose -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MaximumToleratedDose">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>The highest dose of a drug or treatment that does not cause unacceptable side effects. The maximum tolerated dose is determined in clinical trials by testing increasing doses on different groups of people until the highest dose with acceptable side effects is found.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>MTD</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:94489"/>
+        <rdfs:label>Maximum tolerated dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfAdherence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfAdherence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The act of abiding by a stated treatment plan or protocol.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000045</oboInOwl:id>
+        <rdfs:label>Measure of adherence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Measure of concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The capacity to bring about a desired effect. Effectiveness. In medicine, the ability of an intervention (for example, a drug or surgery) to produce the desired beneficial effect.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000031</oboInOwl:id>
+        <rdfs:label>Measure of efficacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfNeurocognitiveFunction -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfNeurocognitiveFunction">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>A standardized assessment or tool utilized for the purpose of evaluating and quantifying diverse aspects of an individual&apos;s cognitive abilities, encompassing domains such as attention, memory, language skills, executive function, and processing speed, thereby yielding valuable insights into their overall cognitive performance.</obo:IAO_0000115>
+        <rdfs:label>Measure of neurocognitive function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfNutritionalStatus -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfNutritionalStatus">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The state of the body as influenced by the diet and the ability of the diet to maintain an overall healthy condition.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000033</oboInOwl:id>
+        <rdfs:label>Measure of nutritional status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfPatientPreference -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfPatientPreference">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The patient&apos;s decision about an intervention or a procedure offered</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000028</oboInOwl:id>
+        <rdfs:label>Measure of patient preference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfPatientSatisfaction -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfPatientSatisfaction">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>A standardized method or evaluation utilized to gauge the level of contentment or fulfillment experienced by patients in relation to the healthcare services they have received, typically encompassing aspects such as quality of care, communication with healthcare providers, accessibility, and overall patient experience.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000028</oboInOwl:id>
+        <rdfs:label>Measure of patient satisfaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>A measure of how well a patient is able to perform ordinary tasks and carry out daily activities.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000037</oboInOwl:id>
+        <rdfs:label>Measure of performance status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The subjective measurement of an individual&apos;s sense of well-being and ability to enjoy life. The concept holds varying meanings for different people and may evolve over time. For some individuals it implies autonomy, empowerment, capability, and choice; for others, security, social integration, or freedom from stress or illness.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000023</oboInOwl:id>
+        <rdfs:label>Measure of quality of life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>Relative freedom from harm. In clinical trials, this refers to an absence of harmful side effects resulting from use of the product and may be assessed by laboratory testing of biological samples, special tests and procedures, psychiatric evaluation, and/or physical examination of subjects.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000043</oboInOwl:id>
+        <rdfs:label>Measure of safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfSexualFunction -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfSexualFunction">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>The bodily processes that include arousal, erection, orgasm, and ejaculation.</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000039</oboInOwl:id>
+        <rdfs:label>Measure of sexual function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/MeasureOfTolerability -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/MeasureOfTolerability">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfConcept"/>
+        <obo:IAO_0000115>A type of safety measure that assesses the degree to which overt adverse effects can be tolerated by the subject</obo:IAO_0000115>
+        <oboInOwl:id>CCTO:000047</oboInOwl:id>
+        <rdfs:label>Measure of tolerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/NeuropathicPainSymptomInventoryScore -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/NeuropathicPainSymptomInventoryScore">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <oboInOwl:hasExactSynonym>Neuropathic Pain Symptom Inventory score</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>NPSI score</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Neuropathic Pain Symptom Inventory score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/NeutropeniaIncidence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/NeutropeniaIncidence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Incidence"/>
+        <obo:IAO_0000115>Neutropenia incidence refers to the rate at which individuals develop abnormally low levels of neutrophils (a type of white blood cell) in their bloodstream.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>agranulocytosis incidence</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL591170</oboInOwl:id>
+        <rdfs:label>Neutropenia incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/PainThreshold -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/PainThreshold">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfTolerability"/>
+        <oboInOwl:hasDbXref>NCIT:C21085</oboInOwl:hasDbXref>
+        <rdfs:label>Pain Threshold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/ProteinBalance -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/ProteinBalance">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfNutritionalStatus"/>
+        <obo:IAO_0000115>The balance of protein of the patient</obo:IAO_0000115>
+        <rdfs:label>Protein balance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/RTEJ4J6zE7DIrv0hhB5nQq -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/RTEJ4J6zE7DIrv0hhB5nQq">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
+        <rdfs:label>Pain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/Radiomics -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/Radiomics">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>MR image findings</obo:IAO_0000115>
+        <oboInOwl:id rdf:resource="http://ontology.lst.tfo.upm.es/BD2D/analytics/radsigCT#maastro_Rad_OS_HN"/>
+        <rdfs:label>Radiomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/RecommendedPhase2Dose -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/RecommendedPhase2Dose">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>dose level or treatment regimen identified during Phase 1 clinical trials as safe and effective for further evaluation in Phase 2 studies.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RP2D</oboInOwl:hasExactSynonym>
+        <rdfs:label>Recommended phase 2 dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/Recurrence -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/Recurrence">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <rdfs:label>Recurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/SevereAdverseEvent -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/SevereAdverseEvent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
+        <obo:IAO_0000115>An adverse event experience that requires intensive therapeutic intervention and interrupts usual daily activities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SAE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Severe adverse events</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Grade 3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Grade 3 Severe Adverse Event</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Number of participants experiencing Severe Adverse Events</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Serious AE</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="C:41340"/>
+        <rdfs:label>Severe adverse event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/StateTraitAnxietyInventory -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/StateTraitAnxietyInventory">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife"/>
+        <obo:IAO_0000115>The state anxiety component measures how a person feels at a particular moment in time, while the trait anxiety component measures the general level of anxiety that a person experiences.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>STAI</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:95491"/>
+        <rdfs:label>State-trait anxiety inventory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/TumorDiameter -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/TumorDiameter">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>The diameter of the portion of the tumor mass that is capable of growth, proliferation and metastasis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Viable Tumor Diameter</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:resource="C:96646"/>
+        <rdfs:label>Tumor diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/TumorGrowthRate -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/TumorGrowthRate">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>Primary objective is to determine if there is a difference in tumor growth rate</obo:IAO_0000115>
+        <rdfs:label>Tumor growth rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/TumorResponse -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/TumorResponse">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <obo:IAO_0000115>Response to a tumor cell</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Tumor response rate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:resource="http://www.phoc.org.cn/pmo/class/PMO_00071997"/>
+        <rdfs:label>Tumor response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://discoverylab.ai/ctoo/gicancer/WeightChange -->
+
+    <owl:Class rdf:about="http://discoverylab.ai/ctoo/gicancer/WeightChange">
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
+        <obo:IAO_0000115>An increase or decrease in the weight of an individual.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS: C0005911</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Weight change (observable entity)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Weight Change</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCTO_000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000032">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8pcPR9Z2OH6WVRa3WUm9WW"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfNutritionalStatus"/>
         <obo:IAO_0000115>The state of the body as influenced by the diet and the ability of the diet to maintain an overall healthy condition.</obo:IAO_0000115>
         <ccto:schema>event_t CCTO:000032(time_t t0) = EVENT_STATE(CCTO:000032, t0)</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C17993</oboInOwl:hasDbXref>
@@ -211,7 +788,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000048">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000009"/>
@@ -253,7 +830,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000062">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <obo:IAO_0000115>A measure of the time until death from any cause.</obo:IAO_0000115>
         <ccto:XSTOO_rule>CCTO:000062 = time-to-first CCTO:000114</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000062(time_t t0) = time_to_first_event(time_t t0, CCTO:000114)</ccto:schema>
@@ -289,7 +866,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000063">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <ccto:XSTOO_rule>CCTO:000063 = time-to-first CCTO:000114 CCTO:000064</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000063(time_t t0) = min( time_to_first_event(t0, CCTO:000114), time_to_first_event(t0, CCTO:000064) )</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C28234</oboInOwl:hasDbXref>
@@ -319,7 +896,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000065">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000009"/>
@@ -388,7 +965,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000066">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000012"/>
@@ -415,7 +992,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000067">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <ccto:XSTOO_rule>CCTO:000067 = time-to-first CCTO:000064</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000067(time_t t0) = time_to_first_event(CCTO:000064, t0)</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C93153</oboInOwl:hasDbXref>
@@ -447,7 +1024,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000068">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000009"/>
@@ -491,7 +1068,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000074">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <obo:IAO_0000115>represents the proportion of patients achieving either complete response, partial response, or stable disease in response to a specific treatment, providing an overall measure of disease management.</obo:IAO_0000115>
         <ccto:schema>probability_t CCTO:000074(time_t t0) = probability(CCTO:000073, t0)</ccto:schema>
         <oboInOwl:hasExactSynonym>DCR</oboInOwl:hasExactSynonym>
@@ -509,8 +1086,8 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000076">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
         <ccto:XSTOO_rule>CCTO:000076 = time-to-first CCTO:000075</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000076(time_t t0) = time_to_first_event(CCTO:000075, t0)</ccto:schema>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
@@ -525,10 +1102,11 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000079">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <ccto:schema>probability_t CCTO:000079(time_t t0) = probability(CCTO:000078, t0)</ccto:schema>
         <oboInOwl:hasDbXref>CCTO:000079</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Duration of Clinical Benefit</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Overall clinical benefit rate</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CCTO:000079</oboInOwl:id>
         <rdfs:label>Clinical benefit rate</rdfs:label>
@@ -540,7 +1118,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000085">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000011"/>
@@ -574,7 +1152,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000086">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Recurrence"/>
         <ccto:XSTOO_rule>CCTO:000086 = time-to-first CCTO:000114 CCTO:000087</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000086(time_t t0) = min( time_to_first_event(t0, CCTO:000114), time_to_first_event(t0, CCTO:000087) )</ccto:schema>
         <oboInOwl:hasExactSynonym>RFS</oboInOwl:hasExactSynonym>
@@ -589,7 +1167,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000089">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCTO_000009"/>
@@ -636,8 +1214,8 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000096">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
         <obo:IAO_0000115>The ratio of deaths in an area to the population of that area, expressed as deaths per 1000 per year.</obo:IAO_0000115>
         <ccto:XSTOO_rule>CCTO:000096 implies CCTO:000043</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000096 implies CCTO:000114</ccto:XSTOO_rule>
@@ -686,7 +1264,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000117">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
         <ccto:XSTOO_rule>CCTO:000117 = time-to-first CCTO:000116</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000117(time_t t0) = time_to_first_event(CCTO:000116, t0)</ccto:schema>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
@@ -715,7 +1293,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000123">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
         <obo:IAO_0000115>Morbidity; the relative incidence of a particular disease in a population.</obo:IAO_0000115>
         <ccto:schema>type_t CCTO:000123(time_t t0) = EVENT_STATE(CCTO:000123, t0)</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C16877</oboInOwl:hasDbXref>
@@ -755,7 +1333,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000131">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTEJ4J6zE7DIrv0hhB5nQq"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/RTEJ4J6zE7DIrv0hhB5nQq"/>
         <ccto:XSTOO_rule>CCTO:000131 = time-to-first CCTO:000130</ccto:XSTOO_rule>
         <ccto:schema>duration_t CCTO:000131(time_t t0) = time_to_first_event(CCTO:000130, t0)</ccto:schema>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
@@ -784,7 +1362,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000137">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfSafety"/>
         <obo:IAO_0000115>Any disease or disorder that occurs during the course of, or because of, another disease, treatment, or procedure.</obo:IAO_0000115>
         <ccto:XSTOO_rule>CCTO:000137 implies CCTO:001120</ccto:XSTOO_rule>
         <ccto:schema>event_t CCTO:000137(time_t t0) = EVENT_STATE(CCTO:000137, t0)</ccto:schema>
@@ -816,7 +1394,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000148">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <obo:IAO_0000115>An evaluation of the pathologic response of the disease to the therapy.</obo:IAO_0000115>
         <ccto:schema>event_t CCTO:000148(time_t t0, time_t assessed_at) = EVENT_COMPARISON(CCTO:000148, t0, assessed_at)</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C123626</oboInOwl:hasDbXref>
@@ -851,7 +1429,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000149">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <ccto:schema>probability_t CCTO:000149(time_t t0, time_t assessed_at) = probability(CCTO:000148(t0, assessed_at) == TRUE, assessed_at)</ccto:schema>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Major pathological response rate</oboInOwl:hasRelatedSynonym>
@@ -860,36 +1438,6 @@
         <rdfs:label>Pathological response rate</rdfs:label>
         <skos:notation>CCTO:000149</skos:notation>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CCTO_000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000150">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <obo:IAO_0000115>The condition of being treated as a patient in a hospital.</obo:IAO_0000115>
-        <ccto:schema>event_t CCTO:000150(time_t t0) = EVENT_STATE(CCTO:000150, t0)</ccto:schema>
-        <oboInOwl:hasDbXref>NCIT:C25179</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0019993</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C3489408</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Hospitalization</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>CCTO:000150</oboInOwl:id>
-        <rdfs:label>Hospital stay</rdfs:label>
-        <skos:notation>CCTO:000150</skos:notation>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCTO_000150"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The condition of being treated as a patient in a hospital.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C25179</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCTO_000150"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Hospitalization</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C25179</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -928,7 +1476,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000153">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Recurrence"/>
         <ccto:XSTOO_rule>CCTO:000153 implies CCTO:000056</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000153 implies CCTO:000087</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000153 implies CCTO:001131 </ccto:XSTOO_rule>
@@ -945,7 +1493,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000159">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <ccto:XSTOO_rule>CCTO:000159 implies NOT CCTO:000112</ccto:XSTOO_rule>
         <ccto:schema>event_t CCTO:000159(time_t t0, time_t assessed_at) = EVENT_COMPARISON(CCTO:000159, t0, assessed_at)</ccto:schema>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
@@ -1023,7 +1571,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000180">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife"/>
         <ccto:XSTOO_rule>CCTO:000180 implies CCTO:000043</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000180 implies CCTO:000118</ccto:XSTOO_rule>
         <ccto:schema>event_t CCTO:000180(time_t t0) = EVENT_STATE(CCTO:000180, t0)</ccto:schema>
@@ -1038,7 +1586,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000191">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
         <metadata:treeView rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
         <ccto:XSTOO_rule>CCTO:000191 implies CCTO:000098</ccto:XSTOO_rule>
         <ccto:schema>event_t NULL</ccto:schema>
@@ -1056,11 +1604,12 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000194">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfQualityOfLife"/>
         <ccto:XSTOO_rule>CCTO:000194 implies CCTO:000118</ccto:XSTOO_rule>
         <ccto:schema>event_t CCTO:000194(time_t t0) = EVENT_STATE(CCTO:000194, t0)</ccto:schema>
         <oboInOwl:hasDbXref>UMLS:C3476431</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>QoL questionnaire</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Quality of life score</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CCTO:000194</oboInOwl:id>
         <rdfs:label>Quality of life questionnaire</rdfs:label>
@@ -1072,7 +1621,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000215">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/Recurrence"/>
         <ccto:XSTOO_rule>CCTO:000215 implies CCTO:000058</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000215 implies CCTO:000087</ccto:XSTOO_rule>
         <ccto:XSTOO_rule>CCTO:000215 implies CCTO:000190</ccto:XSTOO_rule>
@@ -1100,21 +1649,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCTO_000245 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000245">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <metadata:treeView rdf:resource="http://purl.obolibrary.org/obo/CCTO_000048"/>
-        <ccto:schema>event_t CCTO:000245(time_t t0) = EVENT_STATE(CCTO:000245, t0)</ccto:schema>
-        <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Dose limiting toxicity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>CCTO:000245</oboInOwl:id>
-        <rdfs:label>Dose-limiting toxicities</rdfs:label>
-        <skos:notation>CCTO:000245</skos:notation>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCTO_000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000246">
@@ -1132,7 +1666,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000247">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
         <metadata:treeView rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
         <ccto:XSTOO_rule>CCTO:000247 implies CCTO:000098</ccto:XSTOO_rule>
         <ccto:schema>event_t CCTO:000247(time_t t0) = EVENT_STATE(CCTO:000247, t0)</ccto:schema>
@@ -1213,7 +1747,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000297">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfPerformanceStatus"/>
         <obo:IAO_0000115>The collection of PROMIS item scales that assess an individual&apos;s ability to carry out activities that require physical actions including more complex activities that require a combination of skills, often within a social context.</obo:IAO_0000115>
         <ccto:schema>event_t CCTO:000297(time_t t0) = EVENT_STATE(CCTO:000297, t0)</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C122356</oboInOwl:hasDbXref>
@@ -1277,21 +1811,6 @@
         <owl:annotatedTarget>Reaction, injection site</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C3508</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CCTO_000309 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000309">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <ccto:XSTOO_rule>CCTO:000309 implies CCTO:000049</ccto:XSTOO_rule>
-        <ccto:XSTOO_rule>CCTO:000309 implies CCTO:000150</ccto:XSTOO_rule>
-        <ccto:schema>event_t CCTO:000309(time_t t0) = EVENT_STATE(CCTO:000309, t0)</ccto:schema>
-        <oboInOwl:hasOBONamespace>cancer_care_treatment_outcome</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>CCTO:000309</oboInOwl:id>
-        <rdfs:label>Readmission</rdfs:label>
-        <skos:notation>CCTO:000309</skos:notation>
-    </owl:Class>
     
 
 
@@ -1387,7 +1906,7 @@
     <!-- http://purl.obolibrary.org/obo/CCTO_000349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCTO_000349">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
+        <rdfs:subClassOf rdf:resource="http://discoverylab.ai/ctoo/gicancer/MeasureOfEfficacy"/>
         <obo:IAO_0000115>Standard parameters to be used when documenting response of solid tumors to treatment; a set of published rules that define when cancer patients improve (&apos;&apos;respond&apos;&apos;), stay the same (&apos;&apos;stable&apos;&apos;), or worsen (&apos;&apos;progression&apos;&apos;) during treatments. (from www.recist.com)</obo:IAO_0000115>
         <ccto:schema>unknown_t NULL</ccto:schema>
         <oboInOwl:hasDbXref>NCIT:C49164</oboInOwl:hasDbXref>
@@ -1416,701 +1935,6 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7k5tX3CEDgC3oEEGkIo70S -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7k5tX3CEDgC3oEEGkIo70S">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The inflammatory response (inflammation) occurs when tissues are injured by bacteria, trauma, toxins, heat, or any other cause.</obo:IAO_0000115>
-        <rdfs:label>Inflammatory response</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7wT4t2sYSBYbvQJudutbMs -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wT4t2sYSBYbvQJudutbMs">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IOK7WXoGpHBoAenBhMnPP"/>
-        <obo:IAO_0000115>A cost-effectiveness analysis for the SMS protocol by measuring all direct medical costs</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Incremental cost ratio</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="C:19249"/>
-        <rdfs:label>Cost-effectiveness analysis of SMS protocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R84G3vmmANYS3lH4DuhX1lj -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R84G3vmmANYS3lH4DuhX1lj">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <obo:IAO_0000115>This is a measurement that quantifies the maximum concentration of an experimental substance or drug in the plasma or a target organ after dose administration.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Cmax</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:70918"/>
-        <rdfs:label>Maximum concentration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8DQWOYiQaZ0rYaBlhdjYu -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8DQWOYiQaZ0rYaBlhdjYu">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>meassure of amount of small fragments of DNA released into the bloodstream by cancer cells.</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="C:177304"/>
-        <rdfs:label>Frequence of positive ctDNA</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8FZjlmrXZqpoy6fhJ1ywDl -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FZjlmrXZqpoy6fhJ1ywDl">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko"/>
-        <obo:IAO_0000115>Questionnare on long term health of the quality based on EORTC</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>EORTC</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="C:142570"/>
-        <rdfs:label>Long Term Health-Related Quality of Life</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to healthcare resource utilization.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000035</oboInOwl:id>
-        <rdfs:label>Measure of healthcare resource utilization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8IOK7WXoGpHBoAenBhMnPP -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8IOK7WXoGpHBoAenBhMnPP">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The amount paid, charged, or engaged to be paid, for purchasing goods, services and financial instruments.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000041</oboInOwl:id>
-        <rdfs:label>Measure of costs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8pcPR9Z2OH6WVRa3WUm9WW -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pcPR9Z2OH6WVRa3WUm9WW">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The state of the body as influenced by the diet and the ability of the diet to maintain an overall healthy condition.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000033</oboInOwl:id>
-        <rdfs:label>Measure of nutritional status</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8xlfICamAmgSc8mayIMmqT -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xlfICamAmgSc8mayIMmqT">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IOK7WXoGpHBoAenBhMnPP"/>
-        <obo:IAO_0000115>Cost of the services rendered for the benefit of a patient.</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="C:15239"/>
-        <rdfs:label>Cost of patient care</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9NdTFaSBre7vG7quQ5oETq -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NdTFaSBre7vG7quQ5oETq">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZStjXNMpobLEbuJfoWfMF"/>
-        <obo:IAO_0000115>Cold pain threshold (CPT) is used to measure cold hyperalgesia and is defined as the temperature at which a sensation of cold changes to a sensation of cold-with-pain. In cold hyperalgesia, a patient&apos;s CPT is reached at a significantly warmer temperature than a healthy individual&apos;s CPT</obo:IAO_0000115>
-        <rdfs:label>Cold pain thresholds</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9PM8x5tm9JtSG5vfov08bW -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9PM8x5tm9JtSG5vfov08bW">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <oboInOwl:hasExactSynonym>Neuropathic Pain Symptom Inventory score</oboInOwl:hasExactSynonym>
-        <rdfs:label>NPSI score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9mDThU1QrAWCU9rhDxiNU6 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mDThU1QrAWCU9rhDxiNU6">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
-        <obo:IAO_0000115>An adverse event experience that requires intensive therapeutic intervention and interrupts usual daily activities.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>SAE</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Severe adverse events</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Grade 3</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Grade 3 Severe Adverse Event</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Number of participants experiencing Severe Adverse Events</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="C:41340"/>
-        <rdfs:label>Severe adverse event</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9rVWWaN9MfByHjmMOy9lcq -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rVWWaN9MfByHjmMOy9lcq">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>Primary objective is to determine if there is a difference in tumor growth rate</obo:IAO_0000115>
-        <rdfs:label>Tumor growth rate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB2eVYbYrsY6urBvcCyCUzd -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2eVYbYrsY6urBvcCyCUzd">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>Measurement of the amount in blood of any complex chemical substance produced in one part or organ of the body that initiates or regulates the activity of an organ or a group of cells in another part of the body.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>CMO:0001003</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>hormone in blood</oboInOwl:hasExactSynonym>
-        <rdfs:label>Blood hormone level</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB4L8aNOduiKHSA5292oD8R -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RB4L8aNOduiKHSA5292oD8R">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The diameter of the portion of the tumor mass that is capable of growth, proliferation and metastasis.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Viable Tumor Diameter</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:96646"/>
-        <rdfs:label>Tumor diameter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB60SBehJvqlVmaIfS350UW -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RB60SBehJvqlVmaIfS350UW">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IOK7WXoGpHBoAenBhMnPP"/>
-        <obo:IAO_0000115>Total cost of EUS guided fiducial placement in the pancreas to facilitate SBRT treatment of pancreatic cancer</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="C:49156"/>
-        <rdfs:label>Total cost comparison</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBCNSvwG50v4NibRFiJle6P -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCNSvwG50v4NibRFiJle6P">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>Genetic alterations in the KRAS gene that result in abnormal activity of the K-Ras protein.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>KRAS Mutation</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>NCI:C41361</oboInOwl:id>
-        <rdfs:label>K-RAS mutation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBTjvPToHQ6Sw07xVdO461t -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTjvPToHQ6Sw07xVdO461t">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>A standardized method or evaluation utilized to gauge the level of contentment or fulfillment experienced by patients in relation to the healthcare services they have received, typically encompassing aspects such as quality of care, communication with healthcare providers, accessibility, and overall patient experience.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000028</oboInOwl:id>
-        <rdfs:label>Measure of patient satisfaction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBUxRhVzKroSNyEkptUdULR -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUxRhVzKroSNyEkptUdULR">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h"/>
-        <obo:IAO_0000115>reappearance of polyps in the gastrointestinal tract after they have been removed</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Polyps recurrence</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="http://purl.bioontology.org/ontology/MEDDRA/10036137"/>
-        <rdfs:label>Local polyps recurrence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBafHtp8F2rR5sD6o15Tznq -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBafHtp8F2rR5sD6o15Tznq">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The act of abiding by a stated treatment plan or protocol.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000045</oboInOwl:id>
-        <rdfs:label>Measure of adherence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <rdfs:label>Recurrence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBgSIygLHP2wTiY0DNzSikT -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBgSIygLHP2wTiY0DNzSikT">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8pcPR9Z2OH6WVRa3WUm9WW"/>
-        <obo:IAO_0000115>The balance of protein of the patient</obo:IAO_0000115>
-        <rdfs:label>Protein balance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBiXC4wmccy54LsyuNujojm -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiXC4wmccy54LsyuNujojm">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>An increase or decrease in the weight of an individual.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>UMLS: C0005911</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Weight change (observable entity)</oboInOwl:hasExactSynonym>
-        <rdfs:label>Weight Change</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label>Measure of concept</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCF6QSKCUGmG5PMYhAUO8S4 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCF6QSKCUGmG5PMYhAUO8S4">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>A type of safety measure that assesses the degree to which overt adverse effects can be tolerated by the subject</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000047</oboInOwl:id>
-        <rdfs:label>Measure of tolerability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCI6gZiGnVAmHswxJBI8Prr -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCI6gZiGnVAmHswxJBI8Prr">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The patient&apos;s decision about an intervention or a procedure offered</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000028</oboInOwl:id>
-        <rdfs:label>Measure of patient preference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCJiJDzuZcfYo26Epk7RNMl -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJiJDzuZcfYo26Epk7RNMl">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVlWE7BcaGbVUZkbxw0fov"/>
-        <obo:IAO_0000115>Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Magnetic Resonance Image findings</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>magnetic resonance Image findings</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:16809"/>
-        <rdfs:label>MR image findings</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The capacity to bring about a desired effect. Effectiveness. In medicine, the ability of an intervention (for example, a drug or surgery) to produce the desired beneficial effect.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000031</oboInOwl:id>
-        <rdfs:label>Measure of efficacy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCKrOnf6iOTeXX5kU3Vu6Cc -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKrOnf6iOTeXX5kU3Vu6Cc">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The bodily processes that include arousal, erection, orgasm, and ejaculation.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000039</oboInOwl:id>
-        <rdfs:label>Measure of sexual function</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>The subjective measurement of an individual&apos;s sense of well-being and ability to enjoy life. The concept holds varying meanings for different people and may evolve over time. For some individuals it implies autonomy, empowerment, capability, and choice; for others, security, social integration, or freedom from stress or illness.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000023</oboInOwl:id>
-        <rdfs:label>Measure of quality of life</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCMDAi0HHABbfVbIsy3E63K -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMDAi0HHABbfVbIsy3E63K">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <obo:IAO_0000115>Comparison between conventional CT scan and porto-scanner</obo:IAO_0000115>
-        <rdfs:label>CT versus porto-scanner</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCSbTXfzBYQUPEI17MHvmmr -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSbTXfzBYQUPEI17MHvmmr">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The adenoma detection rate is a measure that assesses the effectiveness of a colonoscopy procedure in detecting precancerous adenomas in the colon.</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="C:2855"/>
-        <rdfs:label>Adenoma detection rate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCVlWE7BcaGbVUZkbxw0fov -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVlWE7BcaGbVUZkbxw0fov">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>MR image findings</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="http://ontology.lst.tfo.upm.es/BD2D/analytics/radsigCT#maastro_Rad_OS_HN"/>
-        <rdfs:label>Radiomics</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCZTGTZFjq6dl0sQ5RecGjK -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZTGTZFjq6dl0sQ5RecGjK">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>Response to a tumor cell</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Tumor response rate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="http://www.phoc.org.cn/pmo/class/PMO_00071997"/>
-        <rdfs:label>Tumor response</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCmXo3SlLEdgZBVcBNHk6s9 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmXo3SlLEdgZBVcBNHk6s9">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>A standardized assessment or tool utilized for the purpose of evaluating and quantifying diverse aspects of an individual&apos;s cognitive abilities, encompassing domains such as attention, memory, language skills, executive function, and processing speed, thereby yielding valuable insights into their overall cognitive performance.</obo:IAO_0000115>
-        <rdfs:label>Measure of neurocognitive function</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCoEP3KehUSuDc14qyuMGwt -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCoEP3KehUSuDc14qyuMGwt">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ru1CjToBJ2g7EYTXndSqMo"/>
-        <obo:IAO_0000115>The specific incidence of appendiceal neoplasms is variable and relatively rare, with rates varying depending on factors such as geographic location and tumor subtype.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Appendiceal neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="DOID:11240"/>
-        <rdfs:label>Appendiceal neoplasm incidence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCqq73VYJG3Skahw2TviRla -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqq73VYJG3Skahw2TviRla">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000048"/>
-        <oboInOwl:hasDbXref>NCIT: C123282</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS: C4054080</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>DLM</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Regimen-Limiting Toxicity</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>limiting toxicity</oboInOwl:hasExactSynonym>
-        <rdfs:label>Dose limiting toxicity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCtZZ32gettoPuZSoUL76OM -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtZZ32gettoPuZSoUL76OM">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
-        <obo:IAO_0000115>This outcome measure will be the change in daily steps for participants before and after major oncologic surgery. Change in median (IQR) steps reported.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>C172479</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>Number of Steps Taken</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Change in Daily steps</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDFgLwku1LlZiZMgEANIiVQ -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFgLwku1LlZiZMgEANIiVQ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The percentage of people in a study or treatment group who have a partial response or complete response to the treatment within a certain period of time.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>ORR</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Response rate per lesion</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="C:94502"/>
-        <rdfs:label>Objective response rate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDXmpwHQk6j3yh9EE4lEcth -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDXmpwHQk6j3yh9EE4lEcth">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ru1CjToBJ2g7EYTXndSqMo"/>
-        <obo:IAO_0000115>Neutropenia incidence refers to the rate at which individuals develop abnormally low levels of neutrophils (a type of white blood cell) in their bloodstream.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>agranulocytosis incidence</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>CL591170</oboInOwl:id>
-        <rdfs:label>Neutropenia incidence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDZStjXNMpobLEbuJfoWfMF -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZStjXNMpobLEbuJfoWfMF">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCF6QSKCUGmG5PMYhAUO8S4"/>
-        <oboInOwl:hasDbXref>NCIT:C21085</oboInOwl:hasDbXref>
-        <rdfs:label>Pain Threshold</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDe4UMqsSy8OBp1pQwGdFPI -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDe4UMqsSy8OBp1pQwGdFPI">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM23q2ZjrErzJqN4ot7ko"/>
-        <obo:IAO_0000115>The state anxiety component measures how a person feels at a particular moment in time, while the trait anxiety component measures the general level of anxiety that a person experiences.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>STAI</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:95491"/>
-        <rdfs:label>State-trait anxiety inventory</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>A measure of how well a patient is able to perform ordinary tasks and carry out daily activities.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000037</oboInOwl:id>
-        <rdfs:label>Measure of performance status</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDwaXdsSpl6sdB7FFpo3ZwO -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDwaXdsSpl6sdB7FFpo3ZwO">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The size of a lesion in its greatest dimension.</obo:IAO_0000115>
-        <oboInOwl:id>C:171342</oboInOwl:id>
-        <rdfs:label>Lesion size</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RGczwMHfhPk0ikga9dZXuR -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RGczwMHfhPk0ikga9dZXuR">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBbjR0iKwtoALzcCkL00Y7h"/>
-        <rdfs:label>Local recurrences difference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RN541Z23Vl2cq7YDI2Jc4J -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RN541Z23Vl2cq7YDI2Jc4J">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>dose level or treatment regimen identified during Phase 1 clinical trials as safe and effective for further evaluation in Phase 2 studies.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>RP2D</oboInOwl:hasExactSynonym>
-        <rdfs:label>Recommended phase 2 dose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/ROigARomkVfdE16j7bEaOI -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/ROigARomkVfdE16j7bEaOI">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <obo:IAO_0000115>The time it takes to reach the maximum concentration (Cmax) of an exogenous compound or drug in the plasma or a tissue after a dose is administered.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>TMAX</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Time to Cmax</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:70919"/>
-        <rdfs:label>Tmax</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RSCryzk92tf8P5sYhYrCTO -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RSCryzk92tf8P5sYhYrCTO">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <rdfs:label>Porto-scanner feasibility</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RTEJ4J6zE7DIrv0hhB5nQq -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RTEJ4J6zE7DIrv0hhB5nQq">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCTO_000098"/>
-        <rdfs:label>Pain</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RXP6xWIp4F8nmeNhbRmPjH -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RXP6xWIp4F8nmeNhbRmPjH">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The detection of circulating tumor cells  is a measure that assesses the effectiveness of a diagnostic test in detecting the presence of tumor cells in the bloodstream of a patient with cancer.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Circulating Tumor Cell Count</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="C:96593"/>
-        <rdfs:label>Circulating tumor cells detection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Raug2ywycNMKv5tKFt9jmC -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Raug2ywycNMKv5tKFt9jmC">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>The highest dose of a drug or treatment that does not cause unacceptable side effects. The maximum tolerated dose is determined in clinical trials by testing increasing doses on different groups of people until the highest dose with acceptable side effects is found.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>MTD</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:94489"/>
-        <rdfs:label>Maximum tolerated dose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RbL8e9zakhLvvXbYIfD0FJ -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RbL8e9zakhLvvXbYIfD0FJ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
-        <rdfs:label>Decrease of tumor size</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE89kyFRYpbJAfQ2KCg62W"/>
-        <obo:IAO_0000115>Relative freedom from harm. In clinical trials, this refers to an absence of harmful side effects resulting from use of the product and may be assessed by laboratory testing of biological samples, special tests and procedures, psychiatric evaluation, and/or physical examination of subjects.</obo:IAO_0000115>
-        <oboInOwl:id>CCTO:000043</oboInOwl:id>
-        <rdfs:label>Measure of safety</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Rd2o4kVe55qYORHTj8jm4N -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Rd2o4kVe55qYORHTj8jm4N">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZStjXNMpobLEbuJfoWfMF"/>
-        <obo:IAO_0000115>Heat pain threshold (CPT) is used to measure heat hyperalgesia and is defined as the temperature at which a sensation of heat changes to a sensation of heat-with-pain.</obo:IAO_0000115>
-        <rdfs:label>Heat pain thresholds</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RlNezcyTrnVxjaF0XZjjls -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RlNezcyTrnVxjaF0XZjjls">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8pcPR9Z2OH6WVRa3WUm9WW"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <rdfs:label>Change in fat free mass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RsTPeA0MJ0IJ8p3yKWwoK4 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RsTPeA0MJ0IJ8p3yKWwoK4">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ru1CjToBJ2g7EYTXndSqMo"/>
-        <obo:IAO_0000115>An antibody that binds to an administered drug or therapeutic agent. Expression of these antibodies is thought to be induced by (repeated) administration.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>ADA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Anti-Drug Antibody</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:107495"/>
-        <rdfs:label>Anti-Drug antibodies incidence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RsTPeA0MJ0IJ8pEtugAW3q -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RsTPeA0MJ0IJ8pEtugAW3q">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
-        <oboInOwl:hasRelatedSynonym>HPV vaccination series duration</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Human Papilloma Virus Vaccine series</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>C:1951</oboInOwl:id>
-        <rdfs:comment>The performance in time of conducting a HPV vaccine series</rdfs:comment>
-        <rdfs:label>HPV vaccine series start and completion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Ru1CjToBJ2g7EYTXndSqMo -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru1CjToBJ2g7EYTXndSqMo">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RctnpyFF63tBVQusu4omhD"/>
-        <obo:IAO_0000115>The relative frequency of occurrence of something.</obo:IAO_0000115>
-        <oboInOwl:id rdf:resource="C:16726"/>
-        <rdfs:label>Incidence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Ru6EG2VMDy6rOFErsQwTyo -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru6EG2VMDy6rOFErsQwTyo">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
-        <obo:IAO_0000115>The difference of position of the liver</obo:IAO_0000115>
-        <oboInOwl:id>OBA:0005267</oboInOwl:id>
-        <rdfs:label>Liver position difference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Ru6EG2VMDy6rWOkiAoulOz -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru6EG2VMDy6rWOkiAoulOz">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKNSqcdEV22TJsGTiPeoiu"/>
-        <obo:IAO_0000115>The anatomical location of the lesion that has been determined to be the primary lesion.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Anatomical Location of Primary Lesion</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:resource="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C181315"/>
-        <rdfs:label>Lesion location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RxQtyD7pFD1dp1urLPJmeS -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RxQtyD7pFD1dp1urLPJmeS">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GSzTmXDvnt4lrPCyCJBID"/>
-        <oboInOwl:hasExactSynonym>t1/2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Apparent terminal half life</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Terminal elimination half-life</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Ryup9Flr5GOxnnvgOBFEgC -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Ryup9Flr5GOxnnvgOBFEgC">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfPgLjhaWOBJJhc6r5P5g3"/>
-        <obo:IAO_0000115>The area between the x-axis and the curve given by the integrand. It is equal to the definite integral of a function. In the field of pharmacokinetics, the area under the curve (AUC) is the area under the curve in a plot of concentration of a drug in plasma against time. AUC is usually given for the time interval zero to infinity, and other time intervals are indicated.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>AUC</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:resource="C:64774"/>
-        <rdfs:label>Area under curve</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2126,5 +1950,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
